@@ -1,0 +1,9 @@
+Manufacturer=Xicon
+PartNumber=42TM026-RC
+PartCategory=Transformer
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2021-02-08 11:53:05
+Downloaded=2024-04-18 23:34:00
+3D=Y

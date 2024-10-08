@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA0372BDWR2G
+D ON SEMICONDUCTOR - TCA0372BDWR2G - OP-AMP, DUAL, 1.4MHZ, 1.4V/US, WSOIC-16
+K
+F http://www.onsemi.com/pub_link/Collateral/TCA0372-D.PDF
+$ENDCMP
+#
+#End Doc Library
