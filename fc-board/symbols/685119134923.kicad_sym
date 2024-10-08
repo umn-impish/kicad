@@ -1,0 +1,497 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "685119134923" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at 0.0 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "685119134923" (id 1) (at 0.0 -38.1 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "685119134923:685119134923" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUNT" "SMT" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "685119134923" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PART-NUMBER" "685119134923" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/685119134923?ae" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "WORKING-VOLTAGE" "40VDC" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PINS" "19" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "RATED-CURRENT" "0.5A" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "TYPE" "Horizontal" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "GERDER" "Receptacle" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "685119134923_0_0"
+      (polyline
+        (pts (xy -15.24 25.4) (xy -15.24 -33.02)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 -25.4) (xy 17.78 -25.4)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.78 -25.4) (xy 17.78 25.4)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.78 25.4) (xy -15.24 25.4)) (stroke (width 0.254))
+      )
+      (text "TMDS 2+" (at -12.7 22.86 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 2 Shield" (at -12.7 20.32 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 2-" (at -12.7 17.78 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 1+" (at -12.7 15.24 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 1 Shield" (at -12.7 12.7 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 1-" (at -12.7 10.16 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 0+" (at -12.7 7.62 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 0 Shield" (at -12.7 5.08 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS 0-" (at -12.7 2.54 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS Clock+" (at -12.7 0.0 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS Clock Shield" (at -12.7 -2.54 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "TMDS Clock-" (at -12.7 -5.08 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "CEC" (at -12.7 -7.62 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "HEC-" (at -12.7 -10.16 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "SCL" (at -12.7 -12.7 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "SDA" (at -12.7 -15.24 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "Ground" (at -12.7 -17.78 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "Power" (at -12.7 -20.32 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (text "Hot Plug/HEC+" (at -12.7 -22.86 0)
+        (effects (font (size 1.4224 1.4224)) (justify left))
+      )
+      (polyline
+        (pts (xy -15.24 26.67) (xy -13.8579 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -13.335 26.67) (xy -11.9529 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -11.43 26.67) (xy -10.0479 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -9.525 26.67) (xy -8.14294 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 26.67) (xy -6.23794 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.715 26.67) (xy -4.33294 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 26.67) (xy -2.42794 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 26.67) (xy -0.522941 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 26.67) (xy 1.38206 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 26.67) (xy 3.28706 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 26.67) (xy 5.19206 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.715 26.67) (xy 7.09706 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 26.67) (xy 9.00206 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.525 26.67) (xy 10.9071 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 11.43 26.67) (xy 12.8121 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 13.335 26.67) (xy 14.7171 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 15.24 26.67) (xy 16.6221 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.145 26.67) (xy 18.5271 26.67)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 26.67) (xy 19.05 25.4)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 24.765) (xy 19.05 23.495)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 22.86) (xy 19.05 21.59)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 20.955) (xy 19.05 19.685)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 19.05) (xy 19.05 17.78)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 17.145) (xy 19.05 15.875)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 15.24) (xy 19.05 13.97)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 13.335) (xy 19.05 12.065)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 11.43) (xy 19.05 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 9.525) (xy 19.05 8.255)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 7.62) (xy 19.05 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 5.715) (xy 19.05 4.445)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 3.81) (xy 19.05 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 1.905) (xy 19.05 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 0.0) (xy 19.05 -8.89)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -9.525) (xy 19.05 -10.795)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -11.43) (xy 19.05 -12.7)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -13.335) (xy 19.05 -14.605)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -15.24) (xy 19.05 -16.51)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -17.145) (xy 19.05 -18.415)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -19.05) (xy 19.05 -20.32)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -20.955) (xy 19.05 -22.225)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -22.86) (xy 19.05 -24.13)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -24.765) (xy 19.05 -26.035)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -26.67) (xy 19.05 -27.94)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -28.575) (xy 19.05 -29.845)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -30.48) (xy 19.05 -31.75)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -32.385) (xy 19.05 -33.655)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -34.29) (xy 19.05 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 19.05 -34.29) (xy 17.6679 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 17.145 -34.29) (xy 15.7629 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 15.24 -34.29) (xy 13.8579 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 13.335 -34.29) (xy 11.9529 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 11.43 -34.29) (xy 10.0479 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.525 -34.29) (xy 8.14294 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 -34.29) (xy 6.23794 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.715 -34.29) (xy 4.33294 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -34.29) (xy 2.42794 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 -34.29) (xy 0.522941 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -34.29) (xy -1.38206 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 -34.29) (xy -3.28706 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 -34.29) (xy -5.19206 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.715 -34.29) (xy -7.09706 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -34.29) (xy -9.00206 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -9.525 -34.29) (xy -10.9071 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -11.43 -34.29) (xy -12.8121 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -13.335 -34.29) (xy -14.7171 -34.29)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 -34.29) (xy -15.24 -34.925)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 -36.195) (xy -15.24 -35.56)) (stroke (width 0.254))
+      )
+      (pin passive line (at -20.32 22.86 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 20.32 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 17.78 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 15.24 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 12.7 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 10.16 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 7.62 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -7.62 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -10.16 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -12.7 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -15.24 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -17.78 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 -20.32 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -22.86 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -27.94 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -30.48 0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -33.02 0) (length 5.08)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -35.56 0) (length 5.08)
+        (name "SHIELD__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
