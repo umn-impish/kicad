@@ -1,0 +1,100 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LTC6268HS8-10_PBF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -7.62198 12.7033 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LTC6268HS8-10_PBF" (id 1) (at -5.0827 -15.2481 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LTC6268HS8-10_PBF:SOIC127P599X175-8N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "LINEAR TECHNOLOGY" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LTC6268HS8-10_PBF_0_0"
+      (polyline
+        (pts (xy -6.35 10.795) (xy -6.35 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.35 5.08) (xy -6.35 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.35 -5.08) (xy -6.35 -10.795)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.35 -10.795) (xy 12.7 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 12.7 0.0) (xy -6.35 10.795)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 5.08) (xy -6.35 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -6.35 -5.08) (xy -8.255 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 7.62) (xy 2.54 5.842)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 7.62) (xy 0.0 7.112)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -7.366) (xy 0.0 -7.874)) (stroke (width 0.1524))
+      )
+      (pin input line (at -10.16 5.08 0) (length 2.54)
+        (name "-IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -10.16 -5.08 0) (length 2.54)
+        (name "+IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -10.16 90.0) (length 2.54)
+        (name "V-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 10.16 270.0) (length 2.54)
+        (name "V+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 15.24 0.0 180.0) (length 2.54)
+        (name "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 10.16 270.0) (length 2.54)
+        (name "~{SHDN}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,258 @@
+(footprint "XDCR_MICROFC-60035-SMT-TR1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.768 -4.2064 0)
+		(layer "F.SilkS")
+		(uuid "f3675ffb-a19d-47ca-9066-b821142ab1d2")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_MICROFC-60035-SMT-TR1"
+		(at 6.7664 4.1936 0)
+		(layer "F.Fab")
+		(uuid "62af7717-9244-4abe-923d-227ec94250d6")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7a18cb5-dd01-4eb3-acf5-36778e5c53ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b41ff01-130d-4e8b-b9fa-feddce9267c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20031bf0-672e-4704-8ac2-0411626603cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 2.23 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc2ca8c-f42d-4f85-a938-50be05ce9efe")
+	)
+	(fp_line
+		(start -3.5 -2.23)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a1270cc-9590-4b3e-ab51-9609ed0adf38")
+	)
+	(fp_line
+		(start -2.23 3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6af5ea13-c51b-4cc5-82ae-4bf1bf0858d3")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 2.23)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4862a30-e1db-4820-9f2c-cea2efde2866")
+	)
+	(fp_circle
+		(center -4.1 2.9)
+		(end -4 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "873ac30e-0993-4735-a6dd-b17b5ea8b557")
+	)
+	(fp_line
+		(start -3.8 -3.8)
+		(end 3.8 -3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01d16cfc-d14f-4b7e-97ef-e14b4e8ee5e7")
+	)
+	(fp_line
+		(start -3.8 3.8)
+		(end -3.8 -3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1747134-b865-4af7-9292-6912857ba390")
+	)
+	(fp_line
+		(start 3.8 -3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54947c98-2ccf-4c0c-bbcf-8858fdb72fa6")
+	)
+	(fp_line
+		(start 3.8 3.8)
+		(end -3.8 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0b541c4-d1e9-4aed-9aa6-b9984c26fd2f")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b858ac6-5d88-484c-b4d5-406ac010dbe0")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa02ec71-8f2f-48b7-a01c-2a309c4424db")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2fb44e5-bfc3-416d-9319-c3c6b3f65803")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c91087df-c74e-4d5e-b487-580267d35b60")
+	)
+	(fp_circle
+		(center -4.1 2.9)
+		(end -4 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "be4ce4d4-9c04-4da9-a2a9-4da40aee0d44")
+	)
+	(fp_text user "Please refer notes in  datasheet for the soldering of Pad 5"
+		(at -3.8 6.8 0)
+		(layer "F.Fab")
+		(uuid "b7677334-e128-4e31-b2fc-a220372acfa4")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9 3 90)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "22f3a939-1a28-406d-8e3e-d164d676a53e")
+	)
+	(pad "2" smd roundrect
+		(at 2.975 2.9 180)
+		(size 1.05 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "b8b2fe3e-ca20-4cce-bb55-d0008b11c862")
+	)
+	(pad "3" smd roundrect
+		(at 2.9 -3 270)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "533c805e-aab1-4772-ae54-92df006a08f5")
+	)
+	(pad "5" smd roundrect
+		(at -0.4 -0.4)
+		(size 3.2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f7d10bcf-b090-40c8-b54b-7f8af6a922ce")
+	)
+	(model "${KIPRJMOD}/components/onsemi-cseries-6mm2/MICROFC-60035-SMT-TR1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
