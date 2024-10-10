@@ -1,0 +1,54 @@
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]'
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.1-8.0.1-1~ubuntu22.04.1
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x78d5e4453760>
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with Cf1 as a reference
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'Cf1'
+Located on: ['driven TIA']
+With filenames: ['driven-tia.kicad_sch']
+With sheet_id:['driven TIA']
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('Cf2', ['driven TIA1']), ('Cf1', ['driven TIA'])]
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'driven TIA', file:'driven-tia.kicad_sch'
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['driven TIA1']]
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['driven TIA']
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1221, 165)
+04-25 10:33:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(782, 165)
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'driven TIA', file:'driven-tia.kicad_sch'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['driven TIA1']]
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['driven TIA1']]
+on level: ['driven TIA']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+04-25 10:33:17 root 332:updating GUI message: 'Preparing for replication'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+04-25 10:33:17 root 337:updating GUI with: 0
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+04-25 10:33:17 root 337:updating GUI with: 16
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+04-25 10:33:17 root 332:updating GUI message: 'Replicating footprints'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['driven TIA1']
+04-25 10:33:17 root 332:updating GUI message: 'Replicating tracks'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['driven TIA1']
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['driven TIA1'] :[('Net-(Rlf2-Pad2)', 'Net-(Rlf4-Pad2)'), ('unconnected-(U4-NC-Pad5)', 'unconnected-(U6-NC-Pad5)'), ('/SiPM/fast output', '/SiPM/anode (slow output)'), ('+2V5', '+2V5'), ('', ''), ('Net-(U4--)', 'Net-(U6--)'), ('+6V', '+6V'), ('Net-(U4-+)', 'Net-(U6-+)'), ('unconnected-(U4-NC-Pad1)', 'unconnected-(U6-NC-Pad1)'), ('-6V', '-6V'), ('unconnected-(U4-NC-Pad8)', 'unconnected-(U6-NC-Pad8)'), ('-2V5', '-2V5'), ('/driven TIA/amp_out', '/driven TIA1/amp_out'), ('GND', 'GND')]
+04-25 10:33:17 root 332:updating GUI message: 'Replicating zones'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['driven TIA1']
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['driven TIA1'] :[('Net-(Rlf2-Pad2)', 'Net-(Rlf4-Pad2)'), ('unconnected-(U4-NC-Pad5)', 'unconnected-(U6-NC-Pad5)'), ('/SiPM/fast output', '/SiPM/anode (slow output)'), ('+2V5', '+2V5'), ('', ''), ('Net-(U4--)', 'Net-(U6--)'), ('+6V', '+6V'), ('Net-(U4-+)', 'Net-(U6-+)'), ('unconnected-(U4-NC-Pad1)', 'unconnected-(U6-NC-Pad1)'), ('-6V', '-6V'), ('unconnected-(U4-NC-Pad8)', 'unconnected-(U6-NC-Pad8)'), ('-2V5', '-2V5'), ('/driven TIA/amp_out', '/driven TIA1/amp_out'), ('GND', 'GND')]
+04-25 10:33:17 root 332:updating GUI message: 'Replicating text'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['driven TIA1']
+04-25 10:33:17 root 332:updating GUI message: 'Replicating drawings'
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['driven TIA1']
+04-25 10:33:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

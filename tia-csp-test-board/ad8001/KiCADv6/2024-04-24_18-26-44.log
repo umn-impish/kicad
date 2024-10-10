@@ -1,0 +1,4 @@
+LTspice 24.0.9 for Windows
+Circuit: (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+Start Time: Wed Apr 24 13:28:34 2024
+Fatal Error: Unknown SPICE device type "(" in "(symbol "ad8001arz" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)"
