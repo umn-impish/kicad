@@ -5,6 +5,108 @@
 	(uuid "14bbabed-904f-4efc-8ba4-be00e59385c4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -1817,6 +1919,18 @@
 		(uuid "19b831f0-3275-4cda-a374-1de0879060ab")
 	)
 	(junction
+		(at 106.68 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c167611-eb66-4c83-adf3-31db64f0be65")
+	)
+	(junction
+		(at 105.41 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f168b1d-b419-4232-b0c9-d6d74fa9e614")
+	)
+	(junction
 		(at 176.53 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2060,6 +2174,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 54.61) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9aab96-3f4d-4c5b-bf60-070771ca4bac")
+	)
+	(wire
+		(pts
 			(xy 177.8 124.46) (xy 163.83 124.46)
 		)
 		(stroke
@@ -2197,6 +2321,16 @@
 			(type default)
 		)
 		(uuid "3de2f64e-9d07-46c8-b256-95c43980e829")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2b5db1-500e-471e-9fc7-a0274775c7f3")
 	)
 	(wire
 		(pts
@@ -2360,6 +2494,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 54.61) (xy 105.41 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c20316-28e5-4a7b-a572-5b1ba10e53e9")
+	)
+	(wire
+		(pts
 			(xy 201.93 109.22) (xy 201.93 121.92)
 		)
 		(stroke
@@ -2390,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 45.72) (xy 105.41 72.39)
+			(xy 105.41 45.72) (xy 105.41 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +2621,16 @@
 			(type default)
 		)
 		(uuid "7d0335e3-ed03-4c2d-94be-1585bdb63125")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5c64ce-9fe9-4a82-bc25-257e2205bb29")
 	)
 	(wire
 		(pts
@@ -3010,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 106.68 48.26)
+			(xy 106.68 69.85) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4407,6 +4561,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a980d0-aa9c-40ef-a558-37d9d0ef3f4e")
+		(property "Reference" "TP4"
+			(at 100.838 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCL"
+			(at 100.838 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fc-board:TestPoint_THTPad_D2.0mm_Drill1.0mm_JLCrules"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc688af-83a2-4d6a-bc77-a5f1e9b3b194")
+		)
+		(instances
+			(project "fc-board"
+				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 173.99 0)
 		(unit 1)
@@ -4875,6 +5093,72 @@
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 54.61 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe73d17f-e71b-456d-be71-02e0b6b42966")
+		(property "Reference" "TP3"
+			(at 100.838 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDA"
+			(at 100.838 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fc-board:TestPoint_THTPad_D2.0mm_Drill1.0mm_JLCrules"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc43f44f-8736-4b0f-890c-2d31b5cfae6c")
+		)
+		(instances
+			(project "fc-board"
+				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
