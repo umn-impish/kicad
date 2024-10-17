@@ -1675,6 +1675,12 @@
 		(uuid "723c5397-093e-43bd-9f7e-cdf8d66f99a5")
 	)
 	(junction
+		(at 67.31 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7962dd62-a707-48b6-a014-c553bcf5d193")
+	)
+	(junction
 		(at 97.79 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1691,12 +1697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4e29a7f-cc49-4bf9-a57f-c2e30a27bb15")
-	)
-	(junction
-		(at 67.31 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b49a4f57-fe34-47f2-b88e-1025847d1c8d")
 	)
 	(junction
 		(at 81.28 162.56)
@@ -2376,7 +2376,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 67.31 40.64 90)
+		(at 76.2 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2385,7 +2385,7 @@
 		(fields_autoplaced yes)
 		(uuid "21535c11-b865-4967-b8db-7f745b70e1a0")
 		(property "Reference" "#PWR08"
-			(at 71.12 40.64 0)
+			(at 76.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,16 +2394,15 @@
 			)
 		)
 		(property "Value" "+6V"
-			(at 63.5 40.6399 90)
+			(at 76.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 40.64 0)
+			(at 76.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 40.64 0)
+			(at 76.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 67.31 40.64 0)
+			(at 76.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "output"
 			(at 198.12 63.7931 0)
 			(effects
 				(font
@@ -3287,7 +3286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:CONN_73251-1150_MOL"
+		(property "Footprint" "Library:TE_CONSMA020.062-G"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -3597,7 +3596,7 @@
 	)
 	(symbol
 		(lib_id "power:-6V")
-		(at 76.2 34.29 0)
+		(at 67.31 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3606,7 +3605,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc762229-b9cc-4fb7-8eda-5169ba72478d")
 		(property "Reference" "#PWR012"
-			(at 76.2 38.1 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,15 +3614,16 @@
 			)
 		)
 		(property "Value" "-6V"
-			(at 76.2 29.21 0)
+			(at 63.5 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 34.29 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 34.29 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 76.2 34.29 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
