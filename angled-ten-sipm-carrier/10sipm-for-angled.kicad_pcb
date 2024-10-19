@@ -1534,7 +1534,7 @@
 			(pintype "passive")
 			(uuid "edbc8b3b-cf5f-40f0-b650-433da114d82e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.wrl"
+		(model "${KIPRJMOD}/components/MAL218697001E3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3268,7 +3268,7 @@
 			(pintype "passive")
 			(uuid "22005582-0b7f-4947-99a3-4e8ba1359dd6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.wrl"
+		(model "${KIPRJMOD}/components/MAL218697001E3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9661,7 +9661,7 @@
 			)
 		)
 		(property "Value" "1.5Meg"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "160c2fe9-4f77-4d3f-8bbb-308637da4d67")
 			(effects
@@ -9820,7 +9820,7 @@
 			(uuid "30961ed2-e68c-4e0c-af29-8eca05c459d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "313ced35-de11-40c4-a577-abb74b84a1b1")
 			(effects
@@ -11797,7 +11797,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C26"
-			(at 1.12 1.73 360)
+			(at 1.12 1.73 0)
 			(layer "B.SilkS")
 			(uuid "5cf6b32c-411a-43be-85e1-681762d63a34")
 			(effects
@@ -11809,7 +11809,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "B.Fab")
 			(uuid "87d305ea-1f3f-4e8b-9615-8e8590a9e984")
 			(effects
@@ -11968,7 +11968,7 @@
 			(uuid "1e88d977-6554-42a0-9034-5c8c0aecef28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f6c9399c-e174-4f40-901c-533395430306")
 			(effects
