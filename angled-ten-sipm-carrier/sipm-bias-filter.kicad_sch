@@ -698,6 +698,18 @@
 		)
 		(uuid "ed9fe120-3a5a-4ebf-b448-de420cad09c5")
 	)
+	(text "Very small RC helps with \"added\" ferrite bead noise\nhttps://www.analog.com/en/resources/analog-dialogue/articles/ferrite-beads-demystified.html"
+		(exclude_from_sim no)
+		(at 39.116 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "135b973a-6267-4887-a25c-748fa2b0946b")
+	)
 	(hierarchical_label "bias_raw"
 		(shape input)
 		(at 31.75 25.4 180)
