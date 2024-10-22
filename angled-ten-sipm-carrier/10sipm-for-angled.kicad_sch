@@ -1675,6 +1675,12 @@
 		(uuid "614d1ecc-330d-48f6-ac8b-a996c78529a0")
 	)
 	(junction
+		(at 78.74 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61515d6f-b63c-41f7-844f-5002964aed4b")
+	)
+	(junction
 		(at 203.2 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1697,12 +1703,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4e29a7f-cc49-4bf9-a57f-c2e30a27bb15")
-	)
-	(junction
-		(at 78.74 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be66fe70-889b-41ee-8ae3-521a0dd1e556")
 	)
 	(junction
 		(at 81.28 162.56)
@@ -2588,7 +2588,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
-		(at 76.2 53.34 90)
+		(at 76.2 50.8 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2596,7 +2597,7 @@
 		(dnp no)
 		(uuid "6df3c90f-7812-435e-85be-0d125f849dd7")
 		(property "Reference" "J1"
-			(at 81.28 50.7999 90)
+			(at 81.28 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2606,7 @@
 			)
 		)
 		(property "Value" "M80-5000642"
-			(at 55.88 53.594 90)
+			(at 55.88 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" "Library:M80-5T106YYMC"
-			(at 76.2 53.34 0)
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 53.34 0)
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2633,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 53.34 0)
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0acbe13-3db9-42e4-9074-912fe10ea84f")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 106.68 24.1299 0)
 			(effects
 				(font
@@ -3464,7 +3465,7 @@
 		(instances
 			(project "10sipm-for-angled"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3750,7 +3751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d792886b-a664-4493-9af8-8cd6b120444b")
-		(property "Reference" "H8"
+		(property "Reference" "H1"
 			(at 106.68 17.7799 0)
 			(effects
 				(font
@@ -3798,7 +3799,7 @@
 		(instances
 			(project "10sipm-for-angled"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "H8")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34a19c6-fbbf-4077-bccd-5f9afa1bb59f")
-		(property "Reference" "H9"
+		(property "Reference" "H3"
 			(at 215.9 146.0499 90)
 			(effects
 				(font
@@ -4340,7 +4341,7 @@
 		(instances
 			(project ""
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "H9")
+					(reference "H3")
 					(unit 1)
 				)
 			)
