@@ -924,8 +924,8 @@
 		(uuid "f511ba19-5e46-4e32-ae0e-e2a8c1a01505")
 	)
 	(no_connect
-		(at 91.44 81.28)
-		(uuid "2b7a9557-44d9-4e7a-bcc7-e091adc1a190")
+		(at 91.44 96.52)
+		(uuid "218a576d-4b6f-4da6-a130-fcc82090e1f8")
 	)
 	(no_connect
 		(at 133.35 96.52)
@@ -1271,6 +1271,18 @@
 		)
 		(uuid "f080a7ce-997d-4691-8a4d-633beb711878")
 	)
+	(text "THIS SYMBOL IS FLIPPED BE CAREFUL ABOUT\nINVERTING VS NONINVERTING INPUT"
+		(exclude_from_sim no)
+		(at 56.642 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "41aca9fe-2059-4332-9647-36f7f6e2c333")
+	)
 	(hierarchical_label "hiz_in"
 		(shape input)
 		(at 68.58 86.36 180)
@@ -1285,13 +1297,13 @@
 	)
 	(hierarchical_label "+v_tia"
 		(shape input)
-		(at 88.9 58.42 90)
+		(at 88.9 101.6 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6582ad3e-03a5-400b-b1cd-82ad1369532b")
 	)
@@ -1321,13 +1333,13 @@
 	)
 	(hierarchical_label "-v_tia"
 		(shape input)
-		(at 88.9 101.6 270)
+		(at 88.9 58.42 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b59b1025-fe77-42b5-ad9a-ec1e44113539")
 	)
@@ -1545,87 +1557,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 114.3 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40793281-f04e-4d8c-a173-4a27e86a0129")
-		(property "Reference" "Rt1"
-			(at 116.84 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 116.84 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 115.316 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57ae366a-7561-476b-97dc-ddfa3f41b54d")
-		)
-		(pin "1"
-			(uuid "d7e1eb74-a78f-4e41-95c5-75b091bfa9e7")
-		)
-		(instances
-			(project "10sipm-for-angled"
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/194eec80-0520-4697-81fd-cbb835549087"
-					(reference "Rt1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LTC6268xS8-10")
 		(at 91.44 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48645678-78fa-45e8-ba6a-7e77daade5f9")
 		(property "Reference" "U1"
-			(at 105.41 82.5814 0)
+			(at 100.33 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1575,7 @@
 			)
 		)
 		(property "Value" "LTC6268xS8-10"
-			(at 105.41 85.1214 0)
+			(at 100.33 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1583,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 91.44 102.235 0)
+			(at 91.44 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/626810f.pdf"
-			(at 41.275 70.485 0)
+			(at 41.275 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,73 +2264,6 @@
 			(project "10sipm-for-angled"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/194eec80-0520-4697-81fd-cbb835549087"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "def5a969-40d8-4e62-89c7-5f0d8cd9fc8a")
-		(property "Reference" "#PWR09"
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c89d1585-f41a-4cf9-aae2-f1d58ba73df5")
-		)
-		(instances
-			(project "10sipm-for-angled"
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/194eec80-0520-4697-81fd-cbb835549087"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
