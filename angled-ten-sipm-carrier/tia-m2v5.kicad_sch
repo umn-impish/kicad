@@ -886,6 +886,12 @@
 		(uuid "7c490836-603f-4bf3-ad0b-dec57f83e552")
 	)
 	(junction
+		(at 33.02 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6fc7a62-d9b5-4f2c-b5bc-ecc0d226fbbd")
+	)
+	(junction
 		(at 49.53 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -902,12 +908,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0bdf9c0-5719-4800-b015-0cfe3aeb5616")
-	)
-	(junction
-		(at 33.02 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c25739be-ca63-45aa-b4fe-232650f1ef62")
 	)
 	(junction
 		(at 105.41 29.21)
@@ -1098,6 +1098,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 33.02 34.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1105,7 +1106,7 @@
 		(dnp no)
 		(uuid "0040f8a8-a2d9-4c5a-8532-0d362d913186")
 		(property "Reference" "C23"
-			(at 29.21 32.1309 0)
+			(at 29.21 36.4491 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1115,7 @@
 			)
 		)
 		(property "Value" "10u alum poly"
-			(at 29.21 34.6709 0)
+			(at 29.21 33.9091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1124,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 33.9852 38.1 0)
+			(at 33.9852 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
