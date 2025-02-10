@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a4b67d7e-8d46-445d-8691-e807e9614b3d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "preamp_pulse"
+		(shape input)
+		(at 72.39 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19b5b9ad-1633-4860-ad5f-eebfe82fda32")
+	)
+	(hierarchical_label "reset"
+		(shape input)
+		(at 72.39 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1db3ab19-fc67-4e69-8b11-3cdd618ed66b")
+	)
+	(hierarchical_label "integrated_pulse"
+		(shape output)
+		(at 140.97 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "791d9410-aead-4b6b-82ba-5ff0aca4fc06")
+	)
+)
