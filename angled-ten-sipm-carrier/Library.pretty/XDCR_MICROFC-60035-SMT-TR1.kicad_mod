@@ -9,7 +9,7 @@
 		(uuid "f3675ffb-a19d-47ca-9066-b821142ab1d2")
 		(effects
 			(font
-				(size 0.64 0.64)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -222,13 +222,6 @@
 		(roundrect_rratio 0.15)
 		(uuid "22f3a939-1a28-406d-8e3e-d164d676a53e")
 	)
-	(pad "2" smd roundrect
-		(at 2.8 2.9 180)
-		(size 0.75 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.15)
-		(uuid "b8b2fe3e-ca20-4cce-bb55-d0008b11c862")
-	)
 	(pad "3" smd roundrect
 		(at 2.8 -2.9 270)
 		(size 0.85 0.9)
@@ -237,8 +230,8 @@
 		(uuid "533c805e-aab1-4772-ae54-92df006a08f5")
 	)
 	(pad "5" smd roundrect
-		(at -0.2 -0.8)
-		(size 3.4 3.4)
+		(at 0 0)
+		(size 2.7 2.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
