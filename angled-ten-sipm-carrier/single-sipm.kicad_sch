@@ -148,22 +148,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 7.874 0)
+			(property "Reference" "U3"
+				(at -11.43 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Value" "MICROFC-60035-SMT-TR1"
-				(at 5.588 16.764 0)
+				(at -11.43 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Library:XDCR_MICROFC-60035-SMT-TR1"
@@ -554,24 +554,6 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 10.16 270)
 					(length 5.08)
 					(name "~"
@@ -714,10 +696,6 @@
 		(color 0 0 0 0)
 		(uuid "02304f28-7e25-4672-b7d2-bd0afe50cc52")
 	)
-	(no_connect
-		(at 64.77 40.64)
-		(uuid "5e909e71-25d9-4c6c-8ef9-27677b7aa4a1")
-	)
 	(wire
 		(pts
 			(xy 52.07 55.88) (xy 54.61 55.88)
@@ -761,7 +739,6 @@
 	(hierarchical_label "bias"
 		(shape input)
 		(at 45.72 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -773,7 +750,6 @@
 	(hierarchical_label "anode (out)"
 		(shape output)
 		(at 54.61 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1186,9 +1162,6 @@
 		)
 		(pin "3"
 			(uuid "3acf4f86-0e16-4b98-b35c-6ed1f85552a9")
-		)
-		(pin "2"
-			(uuid "9f3cb880-1567-421f-99ac-5696d9af370c")
 		)
 		(instances
 			(project "10sipm-for-angled"
