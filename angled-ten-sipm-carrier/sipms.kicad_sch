@@ -342,7 +342,6 @@
 	(hierarchical_label "bias"
 		(shape input)
 		(at 35.56 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -354,7 +353,6 @@
 	(hierarchical_label "anode-sum"
 		(shape output)
 		(at 62.23 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

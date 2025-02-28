@@ -241,8 +241,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 10.795 0)
+			(property "Reference" "U1"
+				(at 8.89 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -250,7 +250,7 @@
 				)
 			)
 			(property "Value" "LTC6268xS8-10"
-				(at 0 13.335 0)
+				(at 8.89 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -315,10 +315,10 @@
 						(type background)
 					)
 				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 5.08) hide
-					(name "NC"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 5.08)
+					(name "guard"
 						(effects
 							(font
 								(size 0.508 0.508)
@@ -894,6 +894,12 @@
 		(uuid "833f4d4b-9256-4cfa-a5df-4e56e7869ef5")
 	)
 	(junction
+		(at 93.98 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a079bd2c-9508-4c39-9222-0dbcaeb13370")
+	)
+	(junction
 		(at 73.66 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1263,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 78.74) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf6cba2-8a46-43fc-a670-20baf93f5015")
+	)
+	(wire
+		(pts
 			(xy 88.9 96.52) (xy 88.9 100.33)
 		)
 		(stroke
@@ -1286,7 +1302,6 @@
 	(hierarchical_label "hiz_in"
 		(shape input)
 		(at 68.58 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1313,6 @@
 	(hierarchical_label "+v_tia"
 		(shape input)
 		(at 88.9 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1310,7 +1324,6 @@
 	(hierarchical_label "+v_driver"
 		(shape input)
 		(at 130.81 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1322,7 +1335,6 @@
 	(hierarchical_label "-v_driver"
 		(shape input)
 		(at 130.81 130.81 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,7 +1346,6 @@
 	(hierarchical_label "-v_tia"
 		(shape input)
 		(at 88.9 58.42 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,7 +1357,6 @@
 	(hierarchical_label "amp_out"
 		(shape output)
 		(at 170.18 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
