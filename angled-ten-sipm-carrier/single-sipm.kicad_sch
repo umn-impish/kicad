@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8d383354-6b14-406f-84b8-598d67b9a80d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,44 +142,52 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Library:MICROFC-60035-SMT-TR1"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Library:AFBR-S4N66P014M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at -11.43 1.2701 0)
+			(property "Reference" "D"
+				(at 36.83 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
-			(property "Value" "MICROFC-60035-SMT-TR1"
-				(at -11.43 -1.2699 0)
+			(property "Value" "AFBR-S4N66P014M"
+				(at 36.83 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Library:XDCR_MICROFC-60035-SMT-TR1"
-				(at 21.844 9.144 0)
+			(property "Footprint" "Library:AFBRS4N66P014M"
+				(at 36.83 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N66P014M-NUV-MT-Silicon-Photomultiplier"
+				(at 36.83 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photodiode 420nm Array - 8 Element"
+				(at 4.826 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -185,49 +195,86 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Height" "1.23"
+				(at 36.83 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "31 JUL 2018"
-				(at 12.192 13.208 0)
+			(property "Mouser Part Number" "630-AFBR-S4N66P014M"
+				(at 36.83 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 21.082 11.43 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N66P014M?qs=OcgtsXO%252B3gs5Z5K%252B7xDivg%3D%3D"
+				(at 36.83 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "ONSEMI"
-				(at 9.144 14.986 0)
+			(property "Manufacturer_Name" "Avago Technologies"
+				(at 36.83 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "MICROFC-60035-SMT-TR1_0_0"
+			(property "Manufacturer_Part_Number" "AFBR-S4N66P014M"
+				(at 36.83 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AFBR-S4N66P014M_0_1"
+				(polyline
+					(pts
+						(xy 19.05 -2.54) (xy 19.05 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -2.54) (xy 21.59 -5.08) (xy 19.05 -3.81) (xy 21.59 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AFBR-S4N66P014M_1_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
+					(start 5.08 2.54)
+					(end 35.56 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -238,11 +285,11 @@
 				)
 				(polyline
 					(pts
-						(xy -3.7592 1.8542) (xy -3.2766 2.413)
+						(xy 19.05 -3.81) (xy 15.24 -3.81)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -250,354 +297,172 @@
 				)
 				(polyline
 					(pts
-						(xy -3.7592 1.8542) (xy -3.0226 1.8288)
+						(xy 25.4 -3.81) (xy 21.59 -3.81)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.6576 3.0988) (xy -3.175 3.6576)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.6576 3.0988) (xy -2.921 3.0734)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3528 2.2352) (xy -3.2004 2.0066)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.2766 2.413) (xy -2.794 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.2512 3.4798) (xy -3.0988 3.2512)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 3.6576) (xy -2.6924 2.7686)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.0226 1.8288) (xy -3.0226 1.9558)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.921 3.0734) (xy -2.921 3.2004)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 1.524) (xy -4.826 3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 1.524) (xy -3.7592 1.8542)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.6924 2.7686) (xy -4.7244 4.5466)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.6924 2.7686) (xy -3.6576 3.0988)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.524 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.524 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.524 -1.27) (xy 1.524 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
+					(at 0 0 0)
 					(length 5.08)
-					(name "~"
+					(name "cathode"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "A1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-			)
-			(symbol "MICROFC-60035-SMT-TR1_1_0"
 				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "EP"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "cathode"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "A4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "cathode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "cathode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "anode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 5.08)
+					(name "anode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -5.08 180)
+					(length 5.08)
+					(name "anode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -7.62 180)
+					(length 5.08)
+					(name "anode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -688,6 +553,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -696,15 +562,111 @@
 		(color 0 0 0 0)
 		(uuid "02304f28-7e25-4672-b7d2-bd0afe50cc52")
 	)
+	(junction
+		(at 92.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee2fd2e-3279-477b-a57f-caf87d5766ee")
+	)
+	(junction
+		(at 52.07 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "236cccf8-34e9-4d6b-9bc0-0df3a557908b")
+	)
+	(junction
+		(at 52.07 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d9cdece-035c-46fc-8ab1-529c4d74db57")
+	)
+	(junction
+		(at 92.71 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c10a36-5bc8-4cab-bea9-720bc8cd9482")
+	)
+	(junction
+		(at 92.71 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af70f470-6e88-4ed6-8195-6afd8a646723")
+	)
+	(junction
+		(at 52.07 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8f25edd-dc64-45cc-a397-4cff616aa3c0")
+	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 54.61 55.88)
+			(xy 92.71 40.64) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075acf5a-ff4a-4f20-aa13-76698f1dc4f7")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcc0f72-0735-4fb4-8094-2b27a31ce426")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d53dfa8-c757-4fb8-a9b0-ad048d9f90c6")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281d1634-bd3e-44da-acf3-48e09c8261e1")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 92.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d0b8c9-f39d-4d21-a4cf-51fe1b73ffcd")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "87f20b99-329c-40d1-a2e0-e075cd9a2742")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 92.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2051f7-260d-44b0-8ad2-cacd74bb9ed3")
 	)
 	(wire
 		(pts
@@ -718,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 25.4) (xy 52.07 30.48)
+			(xy 52.07 25.4) (xy 52.07 38.1)
 		)
 		(stroke
 			(width 0)
@@ -728,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 50.8) (xy 52.07 55.88)
+			(xy 92.71 38.1) (xy 92.71 40.64)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +711,7 @@
 	)
 	(hierarchical_label "anode (out)"
 		(shape output)
-		(at 54.61 55.88 0)
+		(at 95.25 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -768,7 +730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b08ae53-ec34-4d28-9bf3-156372b19d7c")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 55.88 17.78 90)
 			(effects
 				(font
@@ -872,7 +834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6538bf26-614b-4e28-beac-e09aa62dc344")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 66.04 25.4 0)
 			(effects
 				(font
@@ -966,17 +928,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 64.77 45.72 90)
+		(lib_id "Library:AFBR-S4N66P014M")
+		(at 52.07 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3087122-f883-4730-80a4-441627355f26")
-		(property "Reference" "#PWR024"
-			(at 71.12 45.72 0)
+		(uuid "dfcb3f11-b3ba-4e01-b42b-1001abbc5df4")
+		(property "Reference" "D1"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AFBR-S4N66P014M"
+			(at 72.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:AFBRS4N66P014M"
+			(at 88.9 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N66P014M-NUV-MT-Silicon-Photomultiplier"
+			(at 88.9 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiode 420nm Array - 8 Element"
+			(at 56.896 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,225 +982,120 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 68.58 45.7199 90)
+		(property "Height" "1.23"
+			(at 88.9 433.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 64.77 45.72 0)
+		(property "Mouser Part Number" "630-AFBR-S4N66P014M"
+			(at 88.9 533.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 45.72 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N66P014M?qs=OcgtsXO%252B3gs5Z5K%252B7xDivg%3D%3D"
+			(at 88.9 633.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "bd6e98c9-bdd7-4210-9320-bdd3a5ddb507")
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 88.9 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AFBR-S4N66P014M"
+			(at 88.9 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "d192f054-e07b-432f-beb0-87b4b0c62baf")
+		)
+		(pin "D1"
+			(uuid "5179f464-6c7c-43d4-b828-38d92370f46e")
+		)
+		(pin "B3"
+			(uuid "53a34378-a9ef-4ae6-bb54-39c1ea1caa5f")
+		)
+		(pin "A4"
+			(uuid "2700209f-6de0-4b99-91c5-7104a8d70b3c")
+		)
+		(pin "D4"
+			(uuid "9ac289ae-e627-47b8-bb7e-73931e3a1ea1")
+		)
+		(pin "C2"
+			(uuid "e4f6270b-96ee-45e4-b3f7-7d7199dc23f8")
+		)
+		(pin "C3"
+			(uuid "2be42559-b584-46db-a62e-00b60edbf868")
+		)
+		(pin "B2"
+			(uuid "6bfb782f-7131-4c5e-a1b9-478382e65ffd")
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project ""
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/000c6149-85ad-4330-a3b6-69b3fb993101"
-					(reference "#PWR024")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/13b9ecbf-a2f2-43b2-9afc-6798ea294c0d"
-					(reference "#PWR028")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/5875f7f7-f118-469a-b99c-ebafae8b3937"
-					(reference "#PWR018")
+					(reference "D1")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/6f3057b3-609b-4865-96c4-2aab7db6a46c"
-					(reference "#PWR022")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/7bced872-2407-4e58-8d53-262d8dffe308"
-					(reference "#PWR020")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/8320d274-72a1-4b71-8661-ac218bb0d748"
-					(reference "#PWR026")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/8f303d6d-2d78-4f75-a2fe-072aff4a0444"
-					(reference "#PWR032")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/915479fd-f051-4721-9a77-8b6f5044a277"
-					(reference "#PWR030")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/cd9fe45f-30e0-417f-b8a6-a8a9a706fb50"
-					(reference "#PWR036")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/e8c54c3a-4001-4a4d-994b-78da1912da2c"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:MICROFC-60035-SMT-TR1")
-		(at 52.07 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa77aa0b-ac50-460d-adfe-7c0bf7585d09")
-		(property "Reference" "U6"
-			(at 40.64 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MICROFC-60035-SMT-TR1"
-			(at 40.64 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:XDCR_MICROFC-60035-SMT-TR1"
-			(at 73.914 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "31 JUL 2018"
-			(at 64.262 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 73.152 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "ONSEMI"
-			(at 61.214 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "6c449774-b245-4c88-9a78-bf0fabd3761a")
-		)
-		(pin "1"
-			(uuid "3a678096-5b41-4773-8bb0-472c8b10275d")
-		)
-		(pin "3"
-			(uuid "3acf4f86-0e16-4b98-b35c-6ed1f85552a9")
-		)
-		(instances
-			(project "10sipm-for-angled"
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/000c6149-85ad-4330-a3b6-69b3fb993101"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/13b9ecbf-a2f2-43b2-9afc-6798ea294c0d"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/5875f7f7-f118-469a-b99c-ebafae8b3937"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/6f3057b3-609b-4865-96c4-2aab7db6a46c"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/7bced872-2407-4e58-8d53-262d8dffe308"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/8320d274-72a1-4b71-8661-ac218bb0d748"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/8f303d6d-2d78-4f75-a2fe-072aff4a0444"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/915479fd-f051-4721-9a77-8b6f5044a277"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/cd9fe45f-30e0-417f-b8a6-a8a9a706fb50"
-					(reference "U12")
-					(unit 1)
-				)
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4/e8c54c3a-4001-4a4d-994b-78da1912da2c"
-					(reference "U11")
+					(reference "D9")
 					(unit 1)
 				)
 			)
