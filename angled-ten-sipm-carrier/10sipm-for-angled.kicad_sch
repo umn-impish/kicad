@@ -1587,6 +1587,12 @@
 		(uuid "eb5de95a-7a57-4f62-8354-8a868b35809b")
 	)
 	(junction
+		(at 78.74 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40fb8a7d-eff4-4015-8e8d-32e6ee07f96f")
+	)
+	(junction
 		(at 76.2 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1597,12 +1603,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "614d1ecc-330d-48f6-ac8b-a996c78529a0")
-	)
-	(junction
-		(at 78.74 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61515d6f-b63c-41f7-844f-5002964aed4b")
 	)
 	(junction
 		(at 203.2 119.38)
@@ -1710,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 78.74 40.64)
+			(xy 78.74 40.64) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2253,8 +2253,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
-		(at 76.2 50.8 90)
-		(mirror x)
+		(at 76.2 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2262,7 +2261,7 @@
 		(dnp no)
 		(uuid "6df3c90f-7812-435e-85be-0d125f849dd7")
 		(property "Reference" "J1"
-			(at 81.28 53.3401 90)
+			(at 81.28 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2270,7 @@
 			)
 		)
 		(property "Value" "M80-5000642"
-			(at 55.88 50.546 90)
+			(at 55.88 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2279,7 @@
 			)
 		)
 		(property "Footprint" "Library:M80-5T106YYMC"
-			(at 76.2 50.8 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 50.8 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2297,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 50.8 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
