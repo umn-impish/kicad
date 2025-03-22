@@ -1011,7 +1011,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+6V"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1032,7 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+6V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1058,7 +1058,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1076,7 +1076,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+6V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1114,7 +1114,7 @@
 					)
 				)
 			)
-			(symbol "+6V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1237,7 +1237,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-6V"
+		(symbol "power:-5V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1258,7 +1258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-6V"
+			(property "Value" "-5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1284,7 +1284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-6V\""
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1302,7 +1302,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-6V_0_0"
+			(symbol "-5V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1322,7 +1322,7 @@
 					)
 				)
 			)
-			(symbol "-6V_0_1"
+			(symbol "-5V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -1587,6 +1587,12 @@
 		(uuid "eb5de95a-7a57-4f62-8354-8a868b35809b")
 	)
 	(junction
+		(at 85.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07f76d32-22cb-4ee8-9c77-f3ac5b4c14b4")
+	)
+	(junction
 		(at 78.74 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1609,12 +1615,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "723c5397-093e-43bd-9f7e-cdf8d66f99a5")
-	)
-	(junction
-		(at 85.09 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7962dd62-a707-48b6-a014-c553bcf5d193")
 	)
 	(junction
 		(at 201.93 147.32)
@@ -1985,72 +1985,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 177.8 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fe74ba2-52cc-4416-8ac9-64060fbe3096")
-		(property "Reference" "#PWR013"
-			(at 177.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6V"
-			(at 177.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 177.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "326d09a1-4ae1-4250-b35e-3c938a0a5cd5")
-		)
-		(instances
-			(project "10sipm-for-angled"
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 45.72 270)
 		(mirror x)
@@ -2119,73 +2053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 76.2 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21535c11-b865-4967-b8db-7f745b70e1a0")
-		(property "Reference" "#PWR08"
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6V"
-			(at 76.2 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 76.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "575232b5-8b79-46bc-9e4a-d8f4d15f2dbc")
-		)
-		(instances
-			(project ""
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-6V")
+		(lib_id "power:-5V")
 		(at 179.07 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2193,7 +2061,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f7ad8af-aa1e-4eaf-b16c-03266f12dde4")
+		(uuid "3f3ad602-20d2-4caa-aacd-3ec1df1f50b3")
 		(property "Reference" "#PWR014"
 			(at 175.26 46.99 0)
 			(effects
@@ -2203,7 +2071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-6V"
+		(property "Value" "-5V"
 			(at 182.88 46.9899 90)
 			(effects
 				(font
@@ -2230,7 +2098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-6V\""
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
 			(at 179.07 46.99 0)
 			(effects
 				(font
@@ -2240,12 +2108,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5b2b90a-1c77-4d81-a6bb-2447b07554df")
+			(uuid "6bd7a136-25e3-4edb-8787-d46a3841264b")
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project ""
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 177.8 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620d4935-c4db-4c6d-98d1-a479840589d9")
+		(property "Reference" "#PWR013"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 177.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44bbeec1-ab6f-4f1f-af70-0fee03c2a0c6")
+		)
+		(instances
+			(project ""
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2532,6 +2466,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ea4867-9c84-4737-9f60-583e35e3542c")
+		(property "Reference" "#PWR09"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4801bf8-4f38-47af-8e1d-72de4d7a9a36")
+		)
+		(instances
+			(project ""
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 213.36 119.38 270)
 		(unit 1)
@@ -2659,6 +2659,73 @@
 			(project "10sipm-for-angled"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 85.09 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2d2be78-83d7-4edb-a88d-1264960697aa")
+		(property "Reference" "#PWR08"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 88.9 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc67eed1-c877-4020-8dea-9eeaa73c6837")
+		)
+		(instances
+			(project ""
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2998,74 +3065,6 @@
 			(project ""
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-6V")
-		(at 85.09 40.64 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc762229-b9cc-4fb7-8eda-5169ba72478d")
-		(property "Reference" "#PWR012"
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-6V"
-			(at 88.9 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 85.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1bcd3c1-2beb-4503-b0a1-a8e9fda537f8")
-		)
-		(instances
-			(project ""
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
