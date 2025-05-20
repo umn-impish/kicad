@@ -1615,10 +1615,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "DC offset power (Dsub15)"
 		(exclude_from_sim no)
-		(at 236.22 72.39 0)
+		(at 229.87 77.47 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1646,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 43.18) (xy 257.81 43.18)
+			(xy 256.54 48.26) (xy 251.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 53.34) (xy 43.18 53.34)
+			(xy 35.56 59.69) (xy 40.64 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 33.02) (xy 175.26 66.04)
+			(xy 168.91 38.1) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 33.02) (xy 193.04 50.8)
+			(xy 186.69 38.1) (xy 186.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1686,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 48.26) (xy 195.58 33.02)
+			(xy 189.23 53.34) (xy 189.23 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.26) (xy 195.58 48.26)
+			(xy 215.9 53.34) (xy 189.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 63.5) (xy 177.8 63.5)
+			(xy 215.9 68.58) (xy 171.45 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 55.88) (xy 212.09 55.88)
+			(xy 200.66 60.96) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1726,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 53.34) (xy 257.81 53.34)
+			(xy 256.54 58.42) (xy 251.46 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 50.8) (xy 222.25 50.8)
+			(xy 186.69 55.88) (xy 215.9 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 48.26) (xy 273.05 33.02)
+			(xy 266.7 53.34) (xy 266.7 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 43.18) (xy 212.09 43.18)
+			(xy 200.66 48.26) (xy 205.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 177.8 33.02)
+			(xy 171.45 68.58) (xy 171.45 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 48.26) (xy 273.05 48.26)
+			(xy 241.3 53.34) (xy 266.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1786,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 53.34) (xy 74.93 53.34)
+			(xy 66.04 59.69) (xy 72.39 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1796,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 222.25 66.04)
+			(xy 168.91 71.12) (xy 215.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1906,7 @@
 		(uuid "d01a0ccd-f927-48d9-a24e-ac6318b6e9c5")
 	)
 	(label "+7B"
-		(at 212.09 53.34 180)
+		(at 205.74 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1815,7 +1916,7 @@
 		(uuid "02221f38-4fe4-48f4-a48c-646db4577254")
 	)
 	(label "-7A"
-		(at 66.04 45.72 90)
+		(at 63.5 52.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1825,7 +1926,7 @@
 		(uuid "02b17140-293c-4dc3-ab22-c8580aa90247")
 	)
 	(label "+7A"
-		(at 212.09 40.64 180)
+		(at 205.74 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1835,7 +1936,7 @@
 		(uuid "2057d6bf-249d-4a54-adea-9dfd0cc4f3f7")
 	)
 	(label "-7A"
-		(at 212.09 45.72 180)
+		(at 205.74 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1845,7 +1946,7 @@
 		(uuid "24e27819-360b-4874-8a98-b20aef8299e8")
 	)
 	(label "+7C"
-		(at 257.81 40.64 0)
+		(at 251.46 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1855,7 +1956,7 @@
 		(uuid "5b3a8361-7a85-4848-a7a1-8f9aeddbfee7")
 	)
 	(label "-7C"
-		(at 257.81 45.72 0)
+		(at 251.46 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1865,7 +1966,7 @@
 		(uuid "6c617c22-1d85-410a-ad76-5e1d4c63702e")
 	)
 	(label "-7B"
-		(at 212.09 58.42 180)
+		(at 205.74 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1875,7 +1976,7 @@
 		(uuid "af1939d7-689e-42d5-829e-81630d5af7e6")
 	)
 	(label "-7D"
-		(at 257.81 55.88 0)
+		(at 251.46 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1885,7 +1986,7 @@
 		(uuid "cbe7968a-a4f6-4be0-b284-b94c5f944601")
 	)
 	(label "+7D"
-		(at 257.81 50.8 0)
+		(at 251.46 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1895,7 +1996,7 @@
 		(uuid "f2766726-e80e-4f36-9c5a-f4751c4d83dc")
 	)
 	(label "+7A"
-		(at 63.5 45.72 90)
+		(at 60.96 52.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1906,7 +2007,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 80.01 53.34 0)
+		(at 77.47 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1914,7 +2015,7 @@
 		(dnp no)
 		(uuid "0232588e-1d0f-42a7-80a7-f0d0c3874d62")
 		(property "Reference" "J2"
-			(at 79.6926 46.99 0)
+			(at 77.1526 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +2023,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 79.6926 49.53 0)
+			(at 77.1526 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2031,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
-			(at 80.01 53.34 0)
+			(at 77.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +2040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 53.34 0)
+			(at 77.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +2049,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 80.01 53.34 0)
+			(at 77.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 25.4 180)
+		(at 168.91 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2048,8 +2149,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0670de30-4ef1-48b1-a9e8-89cda344b189")
-		(property "Reference" "#PWR033"
-			(at 175.26 19.05 0)
+		(property "Reference" "#PWR03"
+			(at 168.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2159,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.2601 21.59 90)
+			(at 168.9101 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 25.4 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 25.4 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 25.4 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2200,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR033")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2107,7 +2208,7 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_LLL")
-		(at 252.73 43.18 0)
+		(at 246.38 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2115,7 +2216,7 @@
 		(dnp no)
 		(uuid "0d1e77b3-4ce3-4f4c-b95e-4a3fc89adabb")
 		(property "Reference" "FL3"
-			(at 252.8685 34.29 0)
+			(at 246.5185 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2224,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 252.8685 36.83 0)
+			(at 246.5185 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2232,7 @@
 			)
 		)
 		(property "Footprint" "Library:WE-SL3_744252XXX"
-			(at 252.73 43.18 0)
+			(at 246.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2241,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744253200.pdf"
-			(at 252.73 43.18 0)
+			(at 246.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2250,7 @@
 			)
 		)
 		(property "Description" "EMI 3-inductor filter"
-			(at 252.73 43.18 0)
+			(at 246.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2287,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 177.8 29.21 270)
+		(at 171.45 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2194,8 +2295,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ecbf2d-bc26-4b58-9758-80a541758342")
-		(property "Reference" "JP5"
-			(at 184.15 29.21 0)
+		(property "Reference" "JP2"
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2304,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 181.61 29.21 0)
+			(at 175.26 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 29.21 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 29.21 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2330,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 177.8 29.21 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2347,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP5")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2254,7 +2355,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 25.4 180)
+		(at 171.45 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2262,8 +2363,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d27b52-55b3-475b-8e0b-be4f49bdab9c")
-		(property "Reference" "#PWR034"
-			(at 177.8 19.05 0)
+		(property "Reference" "#PWR04"
+			(at 171.45 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8001 21.59 90)
+			(at 171.4501 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 25.4 0)
+			(at 171.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 25.4 0)
+			(at 171.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 25.4 0)
+			(at 171.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2414,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR034")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2321,15 +2422,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 175.26 29.21 270)
+		(at 168.91 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "19d539de-0bb9-40bb-b275-b76c1077c250")
-		(property "Reference" "JP4"
-			(at 168.91 29.21 0)
+		(property "Reference" "JP1"
+			(at 162.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2438,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 171.45 29.21 0)
+			(at 165.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 29.21 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 29.21 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2464,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 175.26 29.21 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2481,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP4")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2455,7 +2556,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 53.34 90)
+		(at 256.54 58.42 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2464,8 +2565,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f2725e-5cf6-4bf7-b68d-aba4fbd3466e")
-		(property "Reference" "#PWR031"
-			(at 269.24 53.34 0)
+		(property "Reference" "#PWR010"
+			(at 262.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 53.3399 90)
+			(at 260.35 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 53.34 0)
+			(at 256.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 53.34 0)
+			(at 256.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 53.34 0)
+			(at 256.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2616,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR031")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 58.42 0)
+		(at 30.48 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2531,8 +2632,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564a1d24-ebf0-4eb0-b63b-440b1481a4d6")
-		(property "Reference" "#PWR04"
-			(at 33.02 64.77 0)
+		(property "Reference" "#PWR01"
+			(at 30.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 63.5 0)
+			(at 30.48 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 58.42 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 58.42 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 58.42 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2682,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2589,7 +2690,7 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_LLL")
-		(at 252.73 53.34 0)
+		(at 246.38 58.42 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2598,7 +2699,7 @@
 		(dnp no)
 		(uuid "569ae974-9b4f-48f8-bdd6-13e18fea39ac")
 		(property "Reference" "FL4"
-			(at 252.8685 62.23 0)
+			(at 246.5185 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2707,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 252.8685 59.69 0)
+			(at 246.5185 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" "Library:WE-SL3_744252XXX"
-			(at 252.73 53.34 0)
+			(at 246.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2724,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744253200.pdf"
-			(at 252.73 53.34 0)
+			(at 246.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2733,7 @@
 			)
 		)
 		(property "Description" "EMI 3-inductor filter"
-			(at 252.73 53.34 0)
+			(at 246.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 43.18 270)
+		(at 200.66 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2677,8 +2778,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e712c81-6a75-4da4-8ec1-9d4faa6f8140")
-		(property "Reference" "#PWR09"
-			(at 200.66 43.18 0)
+		(property "Reference" "#PWR07"
+			(at 194.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 43.1799 90)
+			(at 196.85 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 43.18 0)
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 43.18 0)
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 43.18 0)
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2829,7 @@
 		(instances
 			(project ""
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2736,7 +2837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 55.88 270)
+		(at 200.66 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2744,8 +2845,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a00dbbe-e8aa-44c9-a1cc-8ac06edf46e7")
-		(property "Reference" "#PWR029"
-			(at 200.66 55.88 0)
+		(property "Reference" "#PWR08"
+			(at 194.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 55.8799 90)
+			(at 196.85 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 55.88 0)
+			(at 200.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 55.88 0)
+			(at 200.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2882,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 55.88 0)
+			(at 200.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2896,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR029")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2904,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 273.05 29.21 270)
+		(at 266.7 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2811,8 +2912,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b233ae6-f727-40df-bd2c-cc8e67a38b35")
-		(property "Reference" "JP3"
-			(at 279.4 29.21 0)
+		(property "Reference" "JP5"
+			(at 273.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2921,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 276.86 29.21 0)
+			(at 270.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 29.21 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 29.21 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2947,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 273.05 29.21 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2964,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP3")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2972,7 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_LLL")
-		(at 217.17 55.88 180)
+		(at 210.82 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2879,7 +2980,7 @@
 		(dnp no)
 		(uuid "86601038-c5d9-4d8b-ac70-0ee13d4e976c")
 		(property "Reference" "FL2"
-			(at 212.09 62.738 0)
+			(at 205.74 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2988,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 212.09 60.198 0)
+			(at 205.74 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2996,7 @@
 			)
 		)
 		(property "Footprint" "Library:WE-SL3_744252XXX"
-			(at 217.17 55.88 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744253200.pdf"
-			(at 217.17 55.88 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +3014,7 @@
 			)
 		)
 		(property "Description" "EMI 3-inductor filter"
-			(at 217.17 55.88 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +3051,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 58.42 0)
+		(at 83.82 25.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2958,9 +3059,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91b3134f-0996-4b6b-9b2a-16cc9a789727")
-		(property "Reference" "#PWR05"
-			(at 80.01 64.77 0)
+		(uuid "896cecc2-282e-4f59-bced-70621671d253")
+		(property "Reference" "#PWR027"
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 63.5 0)
+			(at 83.82 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 58.42 0)
+			(at 83.82 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 58.42 0)
+			(at 83.82 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3096,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 58.42 0)
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aae353f-cdba-491a-916c-6b31239acc39")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91b3134f-0996-4b6b-9b2a-16cc9a789727")
+		(property "Reference" "#PWR02"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3177,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 195.58 29.21 270)
+		(at 189.23 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3025,8 +3193,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92282fbb-db0d-4a3d-b188-3585818411c6")
-		(property "Reference" "JP1"
-			(at 201.93 29.21 0)
+		(property "Reference" "JP4"
+			(at 195.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3202,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 199.39 29.21 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 29.21 0)
+			(at 189.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 29.21 0)
+			(at 189.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3228,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 195.58 29.21 0)
+			(at 189.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3245,73 @@
 		(instances
 			(project ""
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP1")
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 83.82 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b60ec7-c3ad-4bef-ac1b-1ca6a9ace45b")
+		(property "Reference" "#FLG01"
+			(at 83.82 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86910f0c-5f87-4327-8333-d0dabda6bc06")
+		)
+		(instances
+			(project ""
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9937cad5-190b-41da-a8dc-a93f3bb91745")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 30.48 27.9399 0)
 			(effects
 				(font
@@ -3144,7 +3378,7 @@
 		(instances
 			(project "cubesat"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3386,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 43.18 90)
+		(at 256.54 48.26 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3161,8 +3395,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c0a240-59f6-4d04-ac26-2b7c8024835c")
-		(property "Reference" "#PWR030"
-			(at 269.24 43.18 0)
+		(property "Reference" "#PWR09"
+			(at 262.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 43.1799 90)
+			(at 260.35 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 43.18 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 43.18 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3432,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 43.18 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3446,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR030")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3220,7 +3454,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 33.02 53.34 0)
+		(at 30.48 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3230,7 +3464,7 @@
 		(fields_autoplaced yes)
 		(uuid "be48178e-dca7-44db-83ee-74473641f3a0")
 		(property "Reference" "J1"
-			(at 33.3374 46.99 0)
+			(at 30.7974 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3472,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 33.3374 49.53 0)
+			(at 30.7974 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3480,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
-			(at 33.02 53.34 0)
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 53.34 0)
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3498,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 33.02 53.34 0)
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3523,7 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_LLL")
-		(at 217.17 43.18 0)
+		(at 210.82 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3298,7 +3532,7 @@
 		(dnp no)
 		(uuid "c1cab8ae-1c74-482c-9458-442cc6763e3a")
 		(property "Reference" "FL1"
-			(at 217.0315 34.29 0)
+			(at 210.6815 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3540,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 217.0315 36.83 0)
+			(at 210.6815 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3548,7 @@
 			)
 		)
 		(property "Footprint" "Library:WE-SL3_744252XXX"
-			(at 217.17 43.18 0)
+			(at 210.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3557,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744253200.pdf"
-			(at 217.17 43.18 0)
+			(at 210.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3566,7 @@
 			)
 		)
 		(property "Description" "EMI 3-inductor filter"
-			(at 217.17 43.18 0)
+			(at 210.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c42856a7-2b0d-4222-80eb-34c95eee6a25")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 57.15 19.0499 0)
 			(effects
 				(font
@@ -3428,7 +3662,7 @@
 		(instances
 			(project "cubesat"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 25.4 180)
+		(at 189.23 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3444,8 +3678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b302d0-47f2-437f-85e1-4d185c35a4cb")
-		(property "Reference" "#PWR010"
-			(at 195.58 19.05 0)
+		(property "Reference" "#PWR06"
+			(at 189.23 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.5801 21.59 90)
+			(at 189.2301 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 25.4 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 25.4 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 25.4 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3729,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3503,15 +3737,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 193.04 29.21 270)
+		(at 186.69 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cf855b39-1d37-4f9d-8c5f-9185103c5bc9")
-		(property "Reference" "JP2"
-			(at 186.69 29.21 0)
+		(property "Reference" "JP3"
+			(at 180.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3753,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 189.23 29.21 0)
+			(at 182.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 29.21 0)
+			(at 186.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 29.21 0)
+			(at 186.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3779,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 193.04 29.21 0)
+			(at 186.69 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3796,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3570,7 +3804,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 25.4 180)
+		(at 266.7 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3578,8 +3812,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8fc408-82f7-4888-bbc2-e002307c4f1c")
-		(property "Reference" "#PWR032"
-			(at 273.05 19.05 0)
+		(property "Reference" "#PWR011"
+			(at 266.7 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.0501 21.59 90)
+			(at 266.7001 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 25.4 0)
+			(at 266.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 25.4 0)
+			(at 266.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 25.4 0)
+			(at 266.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3863,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR032")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3637,7 +3871,7 @@
 	)
 	(symbol
 		(lib_id "Library:LD15P24A4GV00LF")
-		(at 234.95 50.8 0)
+		(at 228.6 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3645,8 +3879,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45793bc-7dcc-4303-a2ba-cd0a40330674")
-		(property "Reference" "J9"
-			(at 234.95 33.02 0)
+		(property "Reference" "J3"
+			(at 228.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3888,7 @@
 			)
 		)
 		(property "Value" "LD15P24A4GV00LF"
-			(at 234.95 35.56 0)
+			(at 228.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3896,7 @@
 			)
 		)
 		(property "Footprint" "Library:AMPHENOL_LD15P24A4GV00LF"
-			(at 234.95 33.528 0)
+			(at 228.6 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 50.8 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 50.8 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3924,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 234.95 33.528 0)
+			(at 228.6 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3934,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 234.95 33.528 0)
+			(at 228.6 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3944,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "12.35mm"
-			(at 234.95 33.528 0)
+			(at 228.6 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3954,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 234.95 33.528 0)
+			(at 228.6 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4017,7 @@
 		(instances
 			(project ""
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3791,7 +4025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 25.4 180)
+		(at 186.69 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3799,8 +4033,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bd3eea-a6de-4862-b024-646337b76c4d")
-		(property "Reference" "#PWR012"
-			(at 193.04 19.05 0)
+		(property "Reference" "#PWR05"
+			(at 186.69 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +4043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.0401 21.59 90)
+			(at 186.6901 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 25.4 0)
+			(at 186.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 25.4 0)
+			(at 186.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +4070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 25.4 0)
+			(at 186.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,14 +4084,14 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR012")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 43.18 45.72)
+		(at 40.64 52.07)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3873,7 +4107,7 @@
 		)
 		(uuid "1b18f307-80db-4299-90a6-261d7c0be15c")
 		(property "Sheetname" "offset module"
-			(at 43.18 45.0084 0)
+			(at 40.64 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4116,7 @@
 			)
 		)
 		(property "Sheetfile" "offset module.kicad_sch"
-			(at 43.18 56.4646 0)
+			(at 40.64 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +4125,7 @@
 			)
 		)
 		(pin "offset out" output
-			(at 68.58 53.34 0)
+			(at 66.04 59.69 0)
 			(uuid "b5894dec-f3b5-49b4-86f5-899f5393a453")
 			(effects
 				(font
@@ -3901,7 +4135,7 @@
 			)
 		)
 		(pin "preamp in" input
-			(at 43.18 53.34 180)
+			(at 40.64 59.69 180)
 			(uuid "8278ce0b-2e0b-4c04-845e-082ea57573eb")
 			(effects
 				(font
@@ -3911,7 +4145,7 @@
 			)
 		)
 		(pin "+Vp" input
-			(at 63.5 45.72 90)
+			(at 60.96 52.07 90)
 			(uuid "0e296a92-0380-48a5-b922-cb948ce7fd9b")
 			(effects
 				(font
@@ -3921,7 +4155,7 @@
 			)
 		)
 		(pin "-Vp" input
-			(at 66.04 45.72 90)
+			(at 63.5 52.07 90)
 			(uuid "3489d7ce-8a1c-437e-99c6-52b9fe2ab01b")
 			(effects
 				(font
@@ -3931,7 +4165,7 @@
 			)
 		)
 		(instances
-			(project "dc-offsetter"
+			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
 					(page "2")
 				)
