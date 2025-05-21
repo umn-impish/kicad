@@ -346,4 +346,15 @@
 		(uuid "bb366708-aabc-44b4-a544-12e9b40e07f7")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/amphenol power connector/LD15P24A4GV00LF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

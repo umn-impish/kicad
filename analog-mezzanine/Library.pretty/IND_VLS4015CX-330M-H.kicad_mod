@@ -1,0 +1,179 @@
+(footprint "IND_VLS4015CX-330M-H"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.718 -2.9064 0)
+		(layer "F.SilkS")
+		(uuid "7de63144-253b-4df4-967d-eb42cca92f06")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_VLS4015CX-330M-H"
+		(at 5.378 2.9064 0)
+		(layer "F.Fab")
+		(uuid "cb9b7f6d-5566-43e4-ab3a-18bdd9cdf97a")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ed9910a-a661-4f65-8586-dfe94b1e3fd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d648056-64da-4e92-bc88-89e90bfb8862")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.28 -2)
+		(end 0.28 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a03a47a9-feeb-47c3-bceb-91e1289cbbc5")
+	)
+	(fp_line
+		(start -0.28 2)
+		(end 0.28 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9645fda-72cd-45df-91e2-ec5878bdfb92")
+	)
+	(fp_line
+		(start -2.75 -2.25)
+		(end -2.75 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04dcce48-3b68-4b98-9ba9-bdebfe23b0a2")
+	)
+	(fp_line
+		(start -2.75 2.25)
+		(end 2.75 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f59ff298-2488-4ef6-806e-535425848e85")
+	)
+	(fp_line
+		(start 2.75 -2.25)
+		(end -2.75 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "defd4bb4-3a57-49f2-a9ab-6f189fd95678")
+	)
+	(fp_line
+		(start 2.75 2.25)
+		(end 2.75 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7a79cdf-1dba-465a-834b-0f3557aa1ca8")
+	)
+	(fp_line
+		(start -2 -2)
+		(end -2 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0dc18eb9-74c8-4902-8d65-09cc7183ea2a")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37dafedc-f86e-45cc-9b75-621f27cf7c92")
+	)
+	(fp_line
+		(start -2 2)
+		(end 2 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5507d005-d3d0-43a8-9199-854d49270750")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "505388f2-8c4f-4d54-b2e0-0c18a4f75da4")
+	)
+	(pad "1" smd rect
+		(at -1.55 0)
+		(size 1.9 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bae3e877-0b03-42b9-b617-cef3ce822471")
+	)
+	(pad "2" smd rect
+		(at 1.55 0)
+		(size 1.9 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dd34d4c5-92f5-4d49-bb8d-3b4a0516fe2f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/lowpass inductor/vls4015cx-h.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

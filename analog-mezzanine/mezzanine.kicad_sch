@@ -1767,6 +1767,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 120.65) (xy 72.39 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150aa39c-3acf-4ebf-b89a-7fbb8a78ee8b")
+	)
+	(wire
+		(pts
+			(xy 35.56 100.33) (xy 40.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c619c1-40f2-427f-a3a0-fef7f4f7c89e")
+	)
+	(wire
+		(pts
 			(xy 168.91 38.1) (xy 168.91 71.12)
 		)
 		(stroke
@@ -1794,6 +1814,16 @@
 			(type default)
 		)
 		(uuid "62f017f1-9516-48e3-98e9-3fb2b39e9a2c")
+	)
+	(wire
+		(pts
+			(xy 35.56 120.65) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6860b471-4e4b-47c3-8add-722b17b1c25d")
 	)
 	(wire
 		(pts
@@ -1847,6 +1877,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 80.01) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a250ff-7902-4f25-a1c2-86260d5ddaed")
+	)
+	(wire
+		(pts
 			(xy 266.7 53.34) (xy 266.7 38.1)
 		)
 		(stroke
@@ -1854,6 +1894,16 @@
 			(type default)
 		)
 		(uuid "989aecbb-36b0-4384-b8a6-07a1eaeee22a")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca4970b-2695-47c0-9d7b-3c74158b3ae4")
 	)
 	(wire
 		(pts
@@ -1905,6 +1955,16 @@
 		)
 		(uuid "d01a0ccd-f927-48d9-a24e-ac6318b6e9c5")
 	)
+	(wire
+		(pts
+			(xy 66.04 100.33) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dfa0b6-a557-4183-be1f-55f1f8323cbc")
+	)
 	(label "+7B"
 		(at 205.74 58.42 180)
 		(effects
@@ -1924,6 +1984,36 @@
 			(justify left bottom)
 		)
 		(uuid "02b17140-293c-4dc3-ab22-c8580aa90247")
+	)
+	(label "-7B"
+		(at 63.5 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04317426-61fa-4af7-a988-bad9886ec9f2")
+	)
+	(label "+7C"
+		(at 60.96 92.71 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ec8829a-516f-466e-8c49-d52e0a3db5ce")
+	)
+	(label "+7D"
+		(at 60.96 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f2022cd-9ebc-4b1f-b680-a56be7fea5ef")
 	)
 	(label "+7A"
 		(at 205.74 45.72 180)
@@ -1945,6 +2035,16 @@
 		)
 		(uuid "24e27819-360b-4874-8a98-b20aef8299e8")
 	)
+	(label "-7C"
+		(at 63.5 92.71 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d6fefe4-ffa6-4f7c-b66e-0d94182aa13e")
+	)
 	(label "+7C"
 		(at 251.46 45.72 0)
 		(effects
@@ -1965,6 +2065,16 @@
 		)
 		(uuid "6c617c22-1d85-410a-ad76-5e1d4c63702e")
 	)
+	(label "+7B"
+		(at 60.96 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8328974c-2711-45e7-89f3-e4fc9a51e494")
+	)
 	(label "-7B"
 		(at 205.74 63.5 180)
 		(effects
@@ -1984,6 +2094,16 @@
 			(justify left bottom)
 		)
 		(uuid "cbe7968a-a4f6-4be0-b284-b94c5f944601")
+	)
+	(label "-7D"
+		(at 63.5 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea55d978-78fc-46a7-b959-c8c0daf6cd26")
 	)
 	(label "+7D"
 		(at 251.46 55.88 0)
@@ -2014,7 +2134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0232588e-1d0f-42a7-80a7-f0d0c3874d62")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 77.1526 53.34 0)
 			(effects
 				(font
@@ -2030,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
 			(at 77.47 59.69 0)
 			(effects
 				(font
@@ -2066,7 +2186,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0670de30-4ef1-48b1-a9e8-89cda344b189")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 168.91 24.13 0)
 			(effects
 				(font
@@ -2200,7 +2320,75 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR03")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 189.23 34.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "09a7e812-5a58-4bed-94c0-d9b34f5208b0")
+		(property "Reference" "JP4"
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8555d6c2-f424-4858-8aa1-cb4ee6565636")
+		)
+		(pin "2"
+			(uuid "8d95f036-d888-4c6c-a1d5-d51dab036dad")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -2209,6 +2397,7 @@
 	(symbol
 		(lib_id "Device:Filter_EMI_LLL")
 		(at 246.38 48.26 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2216,7 +2405,7 @@
 		(dnp no)
 		(uuid "0d1e77b3-4ce3-4f4c-b95e-4a3fc89adabb")
 		(property "Reference" "FL3"
-			(at 246.5185 39.37 0)
+			(at 246.634 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2413,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 246.5185 41.91 0)
+			(at 246.634 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,74 +2475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 171.45 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10ecbf2d-bc26-4b58-9758-80a541758342")
-		(property "Reference" "JP2"
-			(at 177.8 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 171.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df1d1a6c-2e76-4310-9ecb-a030f4732e67")
-		)
-		(pin "2"
-			(uuid "847945a5-dceb-4fc6-935d-791b903fc361")
-		)
-		(instances
-			(project "dc-offsetter"
-				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 30.48 180)
 		(unit 1)
@@ -2363,7 +2484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d27b52-55b3-475b-8e0b-be4f49bdab9c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 171.45 24.13 0)
 			(effects
 				(font
@@ -2414,7 +2535,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 168.91 34.29 0)
 			(effects
 				(font
@@ -2482,6 +2603,139 @@
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 77.47 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2215fa49-4459-47e7-8a48-53435bbb2946")
+		(property "Reference" "J7"
+			(at 77.1526 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 77.1526 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c512330-44e8-4869-8b53-2c7ba6715776")
+		)
+		(pin "2"
+			(uuid "f220540f-1dc4-47b2-bd03-0c8d3305d026")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311a333c-a1c6-47c5-8ead-6a217fe05d99")
+		(property "Reference" "#PWR04"
+			(at 30.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d894f339-b125-4317-aa9b-7573c9620645")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2565,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f2725e-5cf6-4bf7-b68d-aba4fbd3466e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 262.89 58.42 0)
 			(effects
 				(font
@@ -2616,7 +2870,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2699,7 +2953,7 @@
 		(dnp no)
 		(uuid "569ae974-9b4f-48f8-bdd6-13e18fea39ac")
 		(property "Reference" "FL4"
-			(at 246.5185 67.31 0)
+			(at 246.126 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2961,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 246.5185 64.77 0)
+			(at 246.126 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,6 +3024,140 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 77.47 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a1de74-d5c4-499a-8382-fa13f80b1163")
+		(property "Reference" "#PWR08"
+			(at 77.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56dabf3c-fbf0-403e-b35e-6373eb733588")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 77.47 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a65660c-8bed-4eda-a39b-3f1189a5f53c")
+		(property "Reference" "J6"
+			(at 77.1526 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 77.1526 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0341e627-ceb5-4a1f-ab25-ea858a28f61f")
+		)
+		(pin "2"
+			(uuid "c6d25a7b-66c4-42f8-9621-b923255614fe")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 200.66 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2778,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e712c81-6a75-4da4-8ec1-9d4faa6f8140")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR014"
 			(at 194.31 48.26 0)
 			(effects
 				(font
@@ -2829,7 +3217,76 @@
 		(instances
 			(project ""
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR07")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 30.48 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68676572-80cc-4859-a0a5-f987a6b62167")
+		(property "Reference" "J4"
+			(at 30.7974 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 30.7974 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cbf79af-7767-4075-8265-91f51c59425a")
+		)
+		(pin "2"
+			(uuid "5cbb5240-598d-422f-b791-dd8bb51eddd4")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2845,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a00dbbe-e8aa-44c9-a1cc-8ac06edf46e7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR015"
 			(at 194.31 60.96 0)
 			(effects
 				(font
@@ -2896,75 +3353,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 266.7 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b233ae6-f727-40df-bd2c-cc8e67a38b35")
-		(property "Reference" "JP5"
-			(at 273.05 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 270.51 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b5a6eff-941a-49a0-8911-5cb97b15b893")
-		)
-		(pin "2"
-			(uuid "21e6fc44-5744-43cd-a27d-544be15daf71")
-		)
-		(instances
-			(project "dc-offsetter"
-				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP5")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2972,7 +3361,8 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_LLL")
-		(at 210.82 60.96 180)
+		(at 210.82 60.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2980,7 +3370,7 @@
 		(dnp no)
 		(uuid "86601038-c5d9-4d8b-ac70-0ee13d4e976c")
 		(property "Reference" "FL2"
-			(at 205.74 67.818 0)
+			(at 205.486 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3378,7 @@
 			)
 		)
 		(property "Value" "Filter_EMI_LLL"
-			(at 205.74 65.278 0)
+			(at 205.486 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "896cecc2-282e-4f59-bced-70621671d253")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR09"
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -3110,7 +3500,74 @@
 		(instances
 			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR027")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 186.69 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "908efc78-1d12-41c3-842c-6b0c46aa9a1d")
+		(property "Reference" "JP3"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0648d18d-74ea-497a-a81c-3fb16a05915f")
+		)
+		(pin "2"
+			(uuid "b3aac841-eb7f-4661-bf2a-4305205b2309")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b3134f-0996-4b6b-9b2a-16cc9a789727")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -3177,7 +3634,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3185,16 +3642,16 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 189.23 34.29 270)
+		(at 171.45 34.29 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92282fbb-db0d-4a3d-b188-3585818411c6")
-		(property "Reference" "JP4"
-			(at 195.58 34.29 0)
+		(uuid "96ee1539-5465-4250-aa55-41358170d2ad")
+		(property "Reference" "JP2"
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,15 +3659,15 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 193.04 34.29 0)
+			(at 175.26 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 34.29 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 34.29 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3685,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 189.23 34.29 0)
+			(at 171.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,15 +3694,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1672393b-d158-4403-8cff-449a919bbc89")
+			(uuid "6021bbc8-554e-44b7-a72d-aa46e0772a98")
 		)
 		(pin "2"
-			(uuid "55c52859-b433-4109-8901-209f4fcd50c3")
+			(uuid "fec39a66-8fe3-486d-9320-ee155cf3d53a")
 		)
 		(instances
-			(project ""
+			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP4")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -3395,7 +3852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c0a240-59f6-4d04-ac26-2b7c8024835c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR016"
 			(at 262.89 48.26 0)
 			(effects
 				(font
@@ -3446,7 +3903,211 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR09")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 266.7 34.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aac2e000-fd68-4ac1-a11d-f52c1277affb")
+		(property "Reference" "JP5"
+			(at 273.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 270.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fac2a94-8080-4b08-9595-bbc8a03091be")
+		)
+		(pin "2"
+			(uuid "cdffcfb0-e258-416d-9a22-fd08af299507")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 30.48 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3faba06-d0b7-485d-9b87-bc060d7d2e14")
+		(property "Reference" "J2"
+			(at 30.7974 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 30.7974 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
+			(at 30.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 30.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f1748d-3b2a-4885-a7a9-3cf39ad10158")
+		)
+		(pin "2"
+			(uuid "7c667153-cacd-456e-a0d4-f5728140c965")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5224737-3f88-4ce2-8ced-f07ef6f605c1")
+		(property "Reference" "#PWR07"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bdf8747-1e33-48ce-9b88-424d16b6912f")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3678,7 +4339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b302d0-47f2-437f-85e1-4d185c35a4cb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 189.23 24.13 0)
 			(effects
 				(font
@@ -3729,39 +4390,41 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 186.69 34.29 270)
+		(lib_id "Connector:Conn_Coaxial")
+		(at 30.48 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf855b39-1d37-4f9d-8c5f-9185103c5bc9")
-		(property "Reference" "JP3"
-			(at 180.34 34.29 0)
+		(fields_autoplaced yes)
+		(uuid "d7e59385-8fba-4a82-a9ae-c432f790bcb2")
+		(property "Reference" "J3"
+			(at 30.7974 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 182.88 34.29 0)
+		(property "Value" "Conn_Coaxial"
+			(at 30.7974 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 186.69 34.29 0)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +4433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 34.29 0)
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,8 +4441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 186.69 34.29 0)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,15 +4451,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "924063d6-e6f0-45b2-8216-42dc2beff21b")
+			(uuid "3cbcd2ba-cc9c-40a8-bb60-0096b480f87d")
 		)
 		(pin "2"
-			(uuid "61903314-9f3b-4df0-8fee-e2b7f642a9b9")
+			(uuid "1267178f-00b6-4441-8009-c6886e854308")
 		)
 		(instances
-			(project "dc-offsetter"
+			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "JP3")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3812,7 +4475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8fc408-82f7-4888-bbc2-e002307c4f1c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 266.7 24.13 0)
 			(effects
 				(font
@@ -3863,7 +4526,7 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3879,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45793bc-7dcc-4303-a2ba-cd0a40330674")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 228.6 38.1 0)
 			(effects
 				(font
@@ -4017,7 +4680,7 @@
 		(instances
 			(project ""
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4033,7 +4696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bd3eea-a6de-4862-b024-646337b76c4d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 186.69 24.13 0)
 			(effects
 				(font
@@ -4084,7 +4747,273 @@
 		(instances
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "#PWR05")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed2235a7-403c-452c-a82f-f3545f83e50c")
+		(property "Reference" "#PWR02"
+			(at 30.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "414a4d27-d6b2-4e8e-b871-4b9f7c28a117")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f14dbf1b-d413-4bb2-9c8d-c4c8debe2843")
+		(property "Reference" "#PWR06"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d80ae132-01c7-4a7b-9f9b-e1628772094a")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 77.47 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f248e331-b3dc-47b9-8aca-10812f455a30")
+		(property "Reference" "J8"
+			(at 77.1526 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 77.1526 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d6e3e0-a4c9-4ca6-a5a4-7c08b3f89b06")
+		)
+		(pin "2"
+			(uuid "e56c8ba1-453f-40dc-9913-fec21c9c5e85")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f98957ba-1e9e-4031-a90f-6425eab76776")
+		(property "Reference" "#PWR03"
+			(at 30.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7fbe423-0b20-40ff-b91e-232eae677cd3")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4168,6 +5097,252 @@
 			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 113.03)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e9fd940-3993-445a-8e79-35d1a69b297f")
+		(property "Sheetname" "offset module3"
+			(at 40.64 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "offset module.kicad_sch"
+			(at 40.64 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "offset out" output
+			(at 66.04 120.65 0)
+			(uuid "a3c7ad19-0831-458e-bbad-12b4028dfdd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "preamp in" input
+			(at 40.64 120.65 180)
+			(uuid "1f1b3b13-2733-4e2a-8533-668bf836a723")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+Vp" input
+			(at 60.96 113.03 90)
+			(uuid "1a765cd1-2749-48f9-a2cb-9315626c551b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-Vp" input
+			(at 63.5 113.03 90)
+			(uuid "3f914323-0e63-4550-b3ac-e24e2a7a8b39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 72.39)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "240c3563-7b7d-43c7-9f22-649e861cd111")
+		(property "Sheetname" "offset module1"
+			(at 40.64 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "offset module.kicad_sch"
+			(at 40.64 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "offset out" output
+			(at 66.04 80.01 0)
+			(uuid "602a9b62-6627-4400-b709-a6d1bdba5f44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "preamp in" input
+			(at 40.64 80.01 180)
+			(uuid "48dd7c08-6483-49c8-bb3e-c9e1050c5b9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+Vp" input
+			(at 60.96 72.39 90)
+			(uuid "8e189a2d-0ce3-4308-913c-f8531754601d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-Vp" input
+			(at 63.5 72.39 90)
+			(uuid "6337ffe1-a5da-46fb-bb07-717ad4189210")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 92.71)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a614b7e2-442e-4b1e-a2c3-ded48613e4ea")
+		(property "Sheetname" "offset module2"
+			(at 40.64 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "offset module.kicad_sch"
+			(at 40.64 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "offset out" output
+			(at 66.04 100.33 0)
+			(uuid "bba14605-1ed0-4f5c-8623-82988bd06c80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "preamp in" input
+			(at 40.64 100.33 180)
+			(uuid "a9a25db3-b2de-485e-8216-9705b326411d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+Vp" input
+			(at 60.96 92.71 90)
+			(uuid "f926e51d-169f-47e6-91fd-d0e6a1344c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-Vp" input
+			(at 63.5 92.71 90)
+			(uuid "6a2482d1-7b1b-4dd7-9bd6-82b47f25a8cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(page "4")
 				)
 			)
 		)
