@@ -2327,6 +2327,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 30.48 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0706d806-f047-424a-918a-4252fab0a78f")
+		(property "Reference" "J4"
+			(at 30.7974 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 30.7974 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 30.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4358b9d6-11f5-49f3-ae97-95591cbba782")
+		)
+		(pin "2"
+			(uuid "ce1ef51d-ff9d-48e6-8ad1-2855cb497048")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 189.23 34.29 90)
 		(mirror x)
@@ -3224,75 +3292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 30.48 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68676572-80cc-4859-a0a5-f987a6b62167")
-		(property "Reference" "J4"
-			(at 30.7974 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 30.7974 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cbf79af-7767-4075-8265-91f51c59425a")
-		)
-		(pin "2"
-			(uuid "5cbb5240-598d-422f-b791-dd8bb51eddd4")
-		)
-		(instances
-			(project "mezzanine"
-				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 200.66 60.96 270)
 		(unit 1)
@@ -3354,6 +3353,74 @@
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 30.48 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76385a39-6ec6-4350-b640-40e3d77249d5")
+		(property "Reference" "J3"
+			(at 30.7974 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 30.7974 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9610b587-f1fa-47cb-a7b9-7dce0dc6b14a")
+		)
+		(pin "2"
+			(uuid "484201bd-6d0c-40ac-aa2e-0eac8ce743b9")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3434,6 +3501,74 @@
 			(project "dc-offsetter"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
 					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 30.48 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f9fe40-5f2c-4823-a2f3-08424d7053b4")
+		(property "Reference" "J1"
+			(at 30.7974 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 30.7974 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25844164-64d6-4809-925c-84ac19956fa4")
+		)
+		(pin "2"
+			(uuid "06c7bd4c-f66c-47e7-bf07-ed592b1f5091")
+		)
+		(instances
+			(project "mezzanine"
+				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3978,75 +4113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 30.48 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3faba06-d0b7-485d-9b87-bc060d7d2e14")
-		(property "Reference" "J2"
-			(at 30.7974 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 30.7974 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
-			(at 30.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 30.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61f1748d-3b2a-4885-a7a9-3cf39ad10158")
-		)
-		(pin "2"
-			(uuid "7c667153-cacd-456e-a0d4-f5728140c965")
-		)
-		(instances
-			(project "mezzanine"
-				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 77.47 105.41 0)
 		(mirror y)
@@ -4108,75 +4174,6 @@
 			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 30.48 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be48178e-dca7-44db-83ee-74473641f3a0")
-		(property "Reference" "J1"
-			(at 30.7974 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 30.7974 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e60b5e22-21b9-4978-aad1-0ac07a664b75")
-		)
-		(pin "2"
-			(uuid "f04019bb-2e5c-4356-9e66-4f6dff6cf6a8")
-		)
-		(instances
-			(project ""
-				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4398,17 +4395,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 30.48 100.33 0)
+		(at 30.48 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7e59385-8fba-4a82-a9ae-c432f790bcb2")
-		(property "Reference" "J3"
-			(at 30.7974 93.98 0)
+		(uuid "d16842ab-7d9b-4bf9-b360-adbe4898c7c0")
+		(property "Reference" "J2"
+			(at 30.7974 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,15 +4412,15 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 30.7974 96.52 0)
+			(at 30.7974 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.0mm-PCB"
-			(at 30.48 100.33 0)
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 100.33 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4438,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 30.48 100.33 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,15 +4447,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cbcd2ba-cc9c-40a8-bb60-0096b480f87d")
+			(uuid "5822d39e-286e-413d-8492-7078bc73cfe0")
 		)
 		(pin "2"
-			(uuid "1267178f-00b6-4441-8009-c6886e854308")
+			(uuid "1c943c55-2a47-4bc5-81c3-2f29c685a234")
 		)
 		(instances
 			(project "mezzanine"
 				(path "/beaf6512-ab3f-4084-8005-c7f9afb6bef5"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
