@@ -1,5 +1,5 @@
 
-(footprint SOP65P490X110-9N (layer F.Cu) (tedit 682CCA5D)
+(footprint SOP65P490X110-9N (layer F.Cu) (tedit 6831F6B6)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 0.155 -2.362 0) (layer F.SilkS)
