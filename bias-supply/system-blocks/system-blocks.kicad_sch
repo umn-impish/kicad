@@ -1,0 +1,122 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "367d8385-dc2c-4149-af5b-db5693eafd0a")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 59.69 34.29)
+		(end 67.31 43.18)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 36ff01ec-d03b-45bc-b481-40520a37c268)
+	)
+	(rectangle
+		(start 109.22 20.32)
+		(end 134.62 40.64)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 8b6ed312-fff6-4916-b359-31dd31d0fc2e)
+	)
+	(rectangle
+		(start 43.18 31.75)
+		(end 68.58 82.55)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid a13e2694-cdf5-4fb0-a037-6ed40bde02ee)
+	)
+	(text "Flight computer board"
+		(exclude_from_sim no)
+		(at 121.92 21.59 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+				(bold yes)
+			)
+		)
+		(uuid "488f9559-d727-4d6a-b1e8-229c9c6591bb")
+	)
+	(text "+5V reg."
+		(exclude_from_sim no)
+		(at 63.5 35.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+				(bold yes)
+			)
+		)
+		(uuid "72e021d4-b371-403e-ac26-14ee6a6f7fa2")
+	)
+	(text "SwRI power board"
+		(exclude_from_sim no)
+		(at 55.88 30.48 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+				(bold yes)
+			)
+		)
+		(uuid "fe778896-73b4-407b-8ff2-9f3e7f602013")
+	)
+	(polyline
+		(pts
+			(xy 92.71 24.13) (xy 109.22 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fd4aa8-1d25-48b9-b725-59fd13d4d12d")
+	)
+	(polyline
+		(pts
+			(xy 67.31 35.56) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b40ebea-4955-4a28-bec6-51b1dfc56585")
+	)
+	(polyline
+		(pts
+			(xy 92.71 35.56) (xy 92.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89007e6d-3847-402b-ae12-1e2b5841f267")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

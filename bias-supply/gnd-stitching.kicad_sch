@@ -1,15 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "040aff4e-5fbb-435e-ade0-bc9f80f8c167")
 	(paper "A4")
+	(title_block
+		(title "Ground stitching")
+		(date "2025-03-28")
+		(rev "1.0")
+	)
 	(lib_symbols
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
+		(symbol "SolderJumper_2_Open_1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -73,31 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "SolderJumper_2_Open_1_0_1"
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -108,6 +93,54 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -122,32 +155,8 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Open_1_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -185,12 +194,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -281,87 +295,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 59.69 63.5 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "166f3a8f-8fde-4e7d-949f-b52699ceae24")
-		(property "Reference" "JP19"
-			(at 59.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 59.69 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 59.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 59.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abf0f30f-03fb-4465-b120-378687347969")
-		)
-		(pin "2"
-			(uuid "6aee5404-25cc-4181-9d10-8ac5170d12d6")
-		)
-		(instances
-			(project "bias-supply"
-				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SolderJumper_2_Open_1")
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 34.29 63.5 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "205401c2-4a1c-4a57-95f1-a5beb71681b9")
-		(property "Reference" "JP17"
+		(uuid "0a8b5df9-9c5d-4d9e-bec0-74cf62982016")
+		(property "Reference" "JP12"
 			(at 34.29 57.15 0)
 			(effects
 				(font
@@ -405,15 +353,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c25ffe38-6db8-4fb6-bd22-7fccd49d6b04")
+			(uuid "e6acae9b-2c02-4d09-85c3-34615e12f587")
 		)
 		(pin "2"
-			(uuid "3a42c7b6-361e-4786-b4c9-61460d071a7f")
+			(uuid "ef9149fd-4b48-4592-bcae-5162ca25ba1a")
 		)
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP17")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -480,74 +428,6 @@
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 59.69 53.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "394ab870-3dd2-453c-ad65-8e6310470867")
-		(property "Reference" "JP18"
-			(at 59.69 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fc0d7fa-b9da-4f02-a114-81f434c4df8b")
-		)
-		(pin "2"
-			(uuid "d616f599-b2b9-47ae-8ca3-4152aab434a1")
-		)
-		(instances
-			(project "bias-supply"
-				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -686,6 +566,144 @@
 		)
 	)
 	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 34.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dae0418-bfda-42f4-b9ef-4ecc3a0e38c3")
+		(property "Reference" "JP11"
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "896ce94c-25dc-4556-9ca5-e62154a362a7")
+		)
+		(pin "2"
+			(uuid "c3c39017-6596-43b0-8767-ffda9eef256b")
+		)
+		(instances
+			(project "bias-supply"
+				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 34.29 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de709a7-4e09-46f4-a8c3-2459dc3c3059")
+		(property "Reference" "JP8"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 34.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 34.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc63de3-18c6-4b76-bcac-2399b87f33ad")
+		)
+		(pin "2"
+			(uuid "3016a917-7678-4bdf-bc46-092f7a8520a6")
+		)
+		(instances
+			(project "bias-supply"
+				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 36.83 90)
 		(unit 1)
@@ -752,17 +770,18 @@
 		)
 	)
 	(symbol
+		(lib_name "SolderJumper_2_Open_1")
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 34.29 36.83 0)
+		(at 59.69 36.83 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "914b3704-45ee-4a8d-8761-2200d6ce0af0")
-		(property "Reference" "JP13"
-			(at 34.29 30.48 0)
+		(uuid "8f8e2e62-4c2f-49fd-abe9-3db661776d7f")
+		(property "Reference" "JP10"
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +789,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 34.29 33.02 0)
+			(at 59.69 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +797,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 34.29 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,7 +815,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 34.29 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,15 +824,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "27dd7526-7f7f-4255-ba13-029184d50d97")
+			(uuid "8cc5419f-2860-4224-98e9-596a874469ed")
 		)
 		(pin "2"
-			(uuid "b3c512e8-ff96-4d28-b710-6330ed9c480d")
+			(uuid "961e728e-4a54-4800-9865-6fb8e10fba11")
 		)
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP13")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -886,6 +905,75 @@
 		)
 	)
 	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 59.69 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "967cd4fa-3bf0-45bc-9dfe-63fe98aea7a9")
+		(property "Reference" "JP9"
+			(at 59.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 59.69 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 59.69 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb9bdfdd-a53c-412b-84ff-3a45f2091a94")
+		)
+		(pin "2"
+			(uuid "d45a3ecc-cfbd-4681-8e0e-9e670a0f43ec")
+		)
+		(instances
+			(project "bias-supply"
+				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 36.83 270)
 		(unit 1)
@@ -946,74 +1034,6 @@
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 59.69 26.67 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98b175ed-2b95-4386-b104-6692dc7c7a60")
-		(property "Reference" "JP14"
-			(at 59.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 59.69 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f5acc12-f37a-471a-b111-2395d27916bf")
-		)
-		(pin "2"
-			(uuid "95e0f496-a640-436e-b8f1-0d9903d3357a")
-		)
-		(instances
-			(project "bias-supply"
-				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -1152,6 +1172,75 @@
 		)
 	)
 	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 34.29 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aebec473-5677-4b1b-976b-7732a68f8804")
+		(property "Reference" "JP7"
+			(at 34.29 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 34.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 34.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 34.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b32117-01d8-4e49-b795-f849d9375844")
+		)
+		(pin "2"
+			(uuid "b2265122-70c2-46b7-b767-c1aa0670f11c")
+		)
+		(instances
+			(project ""
+				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 26.67 270)
 		(unit 1)
@@ -1278,74 +1367,6 @@
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 34.29 26.67 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcfd8832-7552-4648-bc6f-be057a244d9d")
-		(property "Reference" "JP12"
-			(at 34.29 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 34.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 34.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 34.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91ee0fba-ac65-4c77-85b2-5cf2c9768883")
-		)
-		(pin "2"
-			(uuid "154f73dd-497d-4fc8-bc85-4649f623d701")
-		)
-		(instances
-			(project "bias-supply"
-				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -1550,17 +1571,18 @@
 		)
 	)
 	(symbol
+		(lib_name "SolderJumper_2_Open_1")
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 59.69 36.83 0)
+		(at 59.69 63.5 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9f4cff2-b5ee-450f-a5d4-03f2695ecbca")
-		(property "Reference" "JP15"
-			(at 59.69 30.48 0)
+		(uuid "d977e5e9-b8f6-49a3-ba2d-23e1165fbb2d")
+		(property "Reference" "JP14"
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1590,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 59.69 33.02 0)
+			(at 59.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1598,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 59.69 36.83 0)
+			(at 59.69 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 36.83 0)
+			(at 59.69 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1616,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 59.69 36.83 0)
+			(at 59.69 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,15 +1625,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "bef3017a-42a6-4293-beef-b23676eba065")
+			(uuid "c4b4701a-1c4d-4888-a0c5-61f14c578220")
 		)
 		(pin "2"
-			(uuid "3e908460-98a7-4e02-83e6-b77af316ab08")
+			(uuid "2fa875f9-59a7-4314-a21d-7efd45874d60")
 		)
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP15")
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SolderJumper_2_Open_1")
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 59.69 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de5efc2a-30f4-4c95-bc5b-58a8c3a355a5")
+		(property "Reference" "JP13"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0f37d53-230e-4341-9020-96fb31f48bfa")
+		)
+		(pin "2"
+			(uuid "1b341e59-27dc-4b21-bf76-9f1e2ccca2b5")
+		)
+		(instances
+			(project "bias-supply"
+				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -1810,74 +1901,6 @@
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 34.29 53.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8899c62-c0c8-4672-9f72-eb8e9137580e")
-		(property "Reference" "JP16"
-			(at 34.29 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 34.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43a38717-6ad6-47d1-9127-f5e27f923e6b")
-		)
-		(pin "2"
-			(uuid "76729e5d-0bb7-4e31-a139-e838b9ef04cc")
-		)
-		(instances
-			(project "bias-supply"
-				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/2946e9e0-97c7-47f2-899e-bbb1d0cbea92"
-					(reference "JP16")
 					(unit 1)
 				)
 			)
