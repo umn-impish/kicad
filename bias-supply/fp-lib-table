@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "TestPoint_THTPad_D2.0mm_Drill1.0mm_JLCrules")(type "KiCad")(uri "${KIPRJMOD}/components/test-point/test-point.pretty")(options "")(descr ""))
   (lib (name "bias-supply")(type "KiCad")(uri "${KIPRJMOD}/bias-supply.pretty")(options "")(descr ""))
 )
