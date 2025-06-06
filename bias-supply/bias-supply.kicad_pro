@@ -61,15 +61,15 @@
       "drc_exclusions": [
         [
           "unconnected_items|42500000|48156451|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
-          "They have optional jumpers to connect"
+          "Optional jumpers allow connection"
         ],
         [
-          "unconnected_items|42500000|62411264|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
-          "They have optional jumpers to connect"
+          "unconnected_items|42500000|55748999|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
+          "Optional jumpers allow connection"
         ],
         [
-          "unconnected_items|84400259|47000000|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
-          "They have optional jumpers to connect"
+          "unconnected_items|84400259|45000000|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
+          "Optional jumpers allow connection"
         ]
       ],
       "meta": {
@@ -521,7 +521,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "pdfs/",
+      "plot": "gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -563,7 +563,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -581,7 +581,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -651,7 +651,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
