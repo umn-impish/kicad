@@ -1,0 +1,260 @@
+(footprint "DTDG14GPT100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "DTDG14GPT100 ")
+	(property "Reference" "REF**"
+		(at 0 -3.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0b948444-4476-43c1-b799-d9e1823ed3d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRANS_2SA2071P_ROM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "857aa5c1-5cef-4e75-be83-ee931ccea713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf4ac3c6-29a9-4466-ad32-691f168eca8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fef21546-ac13-48fc-823b-f6c590ccf08e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.36 1.22)
+		(end -2.36 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "736a52af-3473-4ee2-a677-8d2540d993f3")
+	)
+	(fp_line
+		(start -1.38 -1.36)
+		(end -2.36 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee40fa90-e7d1-400b-a37d-f0d5f14d45cb")
+	)
+	(fp_line
+		(start 1.38 -1.36)
+		(end 2.36 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd2539c4-119d-4c3f-9e47-d7db57b9731b")
+	)
+	(fp_line
+		(start 2.36 -1.36)
+		(end 2.36 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "064def82-5e35-4e3e-ae21-5c3036cf4fb5")
+	)
+	(fp_poly
+		(pts
+			(xy -2.21 1.77) (xy -2.54 2.01) (xy -2.54 1.53) (xy -2.21 1.77)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "41ef0531-19c6-49ba-b72f-7e90b53e9adc")
+	)
+	(fp_line
+		(start -2.5 -2.75)
+		(end -2.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d00b513a-9d86-4f73-b3b9-02121caa5841")
+	)
+	(fp_line
+		(start -2.5 -2.75)
+		(end 2.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ace8005f-2533-4728-a852-e8ed617eb76e")
+	)
+	(fp_line
+		(start 2.5 3)
+		(end -2.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9d8c4a1-8de5-45f1-95b9-b6aabd74df4d")
+	)
+	(fp_line
+		(start 2.5 3)
+		(end 2.5 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6a38154-b3bf-43cc-8541-0f8d270307db")
+	)
+	(fp_line
+		(start -2.25 -1.25)
+		(end 2.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe09d8ef-1f2d-4abd-9410-535a8dc13bf2")
+	)
+	(fp_line
+		(start -2.25 0.25)
+		(end -2.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b856aad7-37e9-44a7-bfe3-53a66f575318")
+	)
+	(fp_line
+		(start -1.25 1.25)
+		(end -2.25 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c510681-bbab-4c99-b14f-cb86ae617d76")
+	)
+	(fp_line
+		(start 2.25 -1.25)
+		(end 2.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "304e2f6f-e53d-4bd2-83aa-0b38e09bea58")
+	)
+	(fp_line
+		(start 2.25 1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acef46d3-7f0f-4a1e-bad3-d4bdda91af39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.2 180)
+		(layer "F.Fab")
+		(uuid "8b8f527b-bfae-433a-89d9-9f2e55601866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 2.025 90)
+		(size 1.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9a347d93-21e3-4630-a7aa-efc013102424")
+	)
+	(pad "2" smd custom
+		(at 0 1.5 90)
+		(size 2.575 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 3.8625 0.8665) (xy 0.7375 0.8665) (xy 0.7375 -0.8665) (xy 3.8625 -0.8665)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "77e1920d-6a18-42dd-9db3-a47ecbef3c75")
+	)
+	(pad "3" smd roundrect
+		(at 1.5 2.025 90)
+		(size 1.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "992027b2-b464-41f2-892e-317570b06527")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/DTDG14GPT100/DTDG14GPT100.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
