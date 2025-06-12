@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bubba oscillator")
-		(date "2025-03-28")
-		(rev "1.0")
+		(date "2025-06-12")
+		(rev "2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

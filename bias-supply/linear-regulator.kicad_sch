@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "b11b4acc-073f-4223-864d-0a28b9f0eee4")
 	(paper "A4")
+	(title_block
+		(title "Linear regulator with controllable gain")
+		(date "2025-06-12")
+		(rev "2.0")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -3693,20 +3698,6 @@
 		)
 		(uuid af5360f7-e7b0-497e-97d5-7f5d508d7f58)
 	)
-	(text "DOUBLE CHECK DATASHEET RECOMMENDATIONS"
-		(exclude_from_sim no)
-		(at 119.38 36.83 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-				(color 255 0 17 1)
-			)
-			(justify left)
-		)
-		(uuid "00013883-4ded-4b78-a9aa-c33df4fb690b")
-	)
 	(text "In rheostat mode, RH\nshould be unconnected."
 		(exclude_from_sim no)
 		(at 196.342 116.332 0)
@@ -3745,20 +3736,6 @@
 			(justify left)
 		)
 		(uuid "42df6148-660c-4d4b-8ac6-e235dbeab605")
-	)
-	(text "DOUBLE CHECK DATASHEET RECOMMENDATIONS"
-		(exclude_from_sim no)
-		(at 29.718 95.25 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-				(color 255 0 17 1)
-			)
-			(justify left)
-		)
-		(uuid "49df9be0-470f-4f95-96db-e44741cbdca1")
 	)
 	(text "Datasheet claims pull-up resistors\nare needed, so I've included them"
 		(exclude_from_sim no)

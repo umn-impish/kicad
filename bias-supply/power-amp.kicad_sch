@@ -5,9 +5,9 @@
 	(uuid "cac5c669-df74-49d2-af79-1dd631d6c64c")
 	(paper "A4")
 	(title_block
-		(title "Power amp with controllable gain")
-		(date "2025-03-28")
-		(rev "1.0")
+		(title "Power amp")
+		(date "2025-06-12")
+		(rev "2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

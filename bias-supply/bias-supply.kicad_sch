@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Bubba bias supply")
-		(date "2025-03-28")
+		(date "2025-06-12")
 		(rev "2.0")
 	)
 	(lib_symbols
