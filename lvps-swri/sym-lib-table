@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IMPISH Library")(type "KiCad")(uri "${KIPRJMOD}/IMPISH Library.kicad_sym")(options "")(descr ""))
+)
