@@ -890,6 +890,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -927,6 +933,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -955,6 +969,10 @@
     [
       "0aa104ef-7cea-4dd8-97e1-47ea7b9eb5ed",
       "i2c-hub"
+    ],
+    [
+      "11d9cd03-29fa-40fa-a963-f5f11b91a482",
+      "spi-hub"
     ],
     [
       "8fd07369-1c3f-41cf-a32e-88b0d98439a9",

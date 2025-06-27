@@ -383,6 +383,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -515,21 +524,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -638,7 +645,7 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -1228,57 +1235,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "749023310_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -33.02)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -33.02) (xy 33.02 -33.02)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -33.02) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "749023310_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 33.02 -33.02)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 0 0)
 					(length 7.62)
@@ -2100,57 +2068,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "RT9742GGJ5_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 20.32 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -10.16) (xy 20.32 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "RT9742GGJ5_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin power_out line
 					(at 0 0 0)
 					(length 7.62)
@@ -2319,14 +2248,14 @@
 			)
 			(symbol "rpi-cm4_1_1"
 				(rectangle
-					(start -30.48 -71.12)
-					(end 25.4 58.42)
+					(start -30.48 58.42)
+					(end 25.4 -71.12)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(text "600mA Max"
@@ -6435,6 +6364,17 @@
 		)
 		(uuid "2e068a69-1f54-4289-a6de-0f489d2a04ef")
 	)
+	(text "Datasheet suggests SD_VDD_OVERRIDE\ntypically used with external eMMCs\nto use 1.8 V logic; need to evaluate\nwhether we need this"
+		(exclude_from_sim no)
+		(at 127.254 130.81 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "37b7f580-5ec4-4d79-a296-1d6602ee92cb")
+	)
 	(text "Power sensing"
 		(exclude_from_sim no)
 		(at 207.01 101.854 0)
@@ -6522,6 +6462,17 @@
 			(justify left bottom)
 		)
 		(uuid "7f24e751-3216-41c7-8377-e680dfb910fa")
+	)
+	(text "Are these SD0 or SD1?"
+		(exclude_from_sim no)
+		(at 118.872 116.332 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8536359e-e2f5-410d-989b-3bf89df9fe22")
 	)
 	(text "Copied from IO board"
 		(exclude_from_sim no)
@@ -6868,10 +6819,6 @@
 		(uuid "201548a5-148b-4684-b680-0f52526d95fc")
 	)
 	(no_connect
-		(at 105.41 127)
-		(uuid "53fa3f6c-ce06-402e-b4ab-068474c4223f")
-	)
-	(no_connect
 		(at 105.41 58.42)
 		(uuid "5da5441a-15e0-4f6f-86b8-5d02a30e43a2")
 	)
@@ -7058,6 +7005,16 @@
 			(type default)
 		)
 		(uuid "0fc0dfd0-fb38-49b6-9677-0398119dfe99")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129d640e-c7c8-477e-9f69-14eec80dde8b")
 	)
 	(wire
 		(pts
@@ -9031,7 +8988,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 129.54) (xy 118.11 129.54)
+			(xy 105.41 129.54) (xy 125.73 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9330,12 +9287,12 @@
 		(uuid "5f85fd3f-1a52-49f9-9b8f-a37b42e8bf78")
 	)
 	(label "PWR_SENSE"
-		(at 31.75 81.28 0)
+		(at 118.11 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6273f836-1b8c-42a6-968c-fd0188e575bc")
 	)
@@ -9551,6 +9508,16 @@
 		)
 		(uuid "dbe3fabe-4610-4639-83a3-b27e32d6d0c6")
 	)
+	(label "SD_VDD_OVERRIDE"
+		(at 125.73 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc885b0f-c958-4f79-a8ca-3f759fabb051")
+	)
 	(label "SD1_DAT3"
 		(at 31.75 93.98 0)
 		(effects
@@ -9644,7 +9611,7 @@
 		(uuid "e8d14952-840a-4b0d-a4fe-a9d6c073361b")
 	)
 	(label "SD_PWR_ON"
-		(at 118.11 129.54 180)
+		(at 125.73 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9683,7 +9650,7 @@
 		)
 		(uuid "f91d89fa-9fd0-44d3-98fb-c8c73f97e33c")
 	)
-	(hierarchical_label "ID_SC"
+	(hierarchical_label "I2C0_SCL"
 		(shape output)
 		(at 118.11 78.74 0)
 		(effects
@@ -9704,17 +9671,6 @@
 			(justify right)
 		)
 		(uuid "18a6b42f-e997-4ee9-b1dc-06ffae4f4d08")
-	)
-	(hierarchical_label "GPIO17"
-		(shape bidirectional)
-		(at 31.75 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19feed5d-4b34-4dfa-9f78-14cd56bd755c")
 	)
 	(hierarchical_label "PELTIER_TGL"
 		(shape output)
@@ -9737,6 +9693,28 @@
 			(justify left)
 		)
 		(uuid "1ec06c30-3733-4009-87df-7e06ca361ea5")
+	)
+	(hierarchical_label "SPI0_CLK"
+		(shape output)
+		(at 31.75 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1efc130e-1cb3-4e10-9eef-95b31fb3dbb2")
+	)
+	(hierarchical_label "SPI0_MISO"
+		(shape input)
+		(at 31.75 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "209f64d4-0c79-41af-acc9-5bb3f2886e5d")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
@@ -9782,7 +9760,7 @@
 		)
 		(uuid "404c8c3f-c8b0-47e9-883d-7652530d2dd1")
 	)
-	(hierarchical_label "ID_SD"
+	(hierarchical_label "I2C0_SDA"
 		(shape output)
 		(at 31.75 78.74 180)
 		(effects
@@ -9803,17 +9781,6 @@
 			(justify right)
 		)
 		(uuid "4bd60620-5af5-42b0-a189-966959efb384")
-	)
-	(hierarchical_label "GPIO10"
-		(shape bidirectional)
-		(at 31.75 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5041571f-dfc8-451b-bf3c-e80edc79dba0")
 	)
 	(hierarchical_label "1.8V"
 		(shape output)
@@ -9858,17 +9825,6 @@
 			(justify left)
 		)
 		(uuid "5ec0ae5e-bad4-4c7a-9869-ec635316cadc")
-	)
-	(hierarchical_label "GPIO18"
-		(shape bidirectional)
-		(at 118.11 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69647b33-328c-44ff-94a9-b2277c2b7f95")
 	)
 	(hierarchical_label "HEATER_TGL"
 		(shape output)
@@ -9947,6 +9903,17 @@
 		)
 		(uuid "8050569e-a557-4ad9-b206-19886fe3793e")
 	)
+	(hierarchical_label "SPI0_MOSI"
+		(shape output)
+		(at 31.75 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81ecc086-c071-473a-94e6-4c55cbb0e862")
+	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 31.75 106.68 180)
@@ -9957,6 +9924,17 @@
 			(justify right)
 		)
 		(uuid "83131fe6-4c36-496c-b4cf-de29ab5d886c")
+	)
+	(hierarchical_label "SPI0_CE0"
+		(shape output)
+		(at 118.11 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "897bc470-2e29-47ad-86a5-f3288cb31aab")
 	)
 	(hierarchical_label "GPIO7"
 		(shape bidirectional)
@@ -9971,7 +9949,7 @@
 	)
 	(hierarchical_label "PPS_SENSE"
 		(shape input)
-		(at 31.75 83.82 180)
+		(at 31.75 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9993,7 +9971,7 @@
 	)
 	(hierarchical_label "UPS_TGL"
 		(shape output)
-		(at 31.75 76.2 180)
+		(at 29.21 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10056,17 +10034,6 @@
 			(justify right)
 		)
 		(uuid "e0343b1b-b6c2-4b86-8c23-f1c65f1490a8")
-	)
-	(hierarchical_label "GPIO8"
-		(shape bidirectional)
-		(at 118.11 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eed26059-85cf-47b3-84bd-00343fa0743f")
 	)
 	(hierarchical_label "nRPIBOOT"
 		(shape output)
@@ -10619,6 +10586,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04898a9b-2df5-4d08-a796-5ec515edfe12")
 		)
@@ -10946,6 +10922,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 252.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 252.73 80.01 0)
 			(effects
 				(font
@@ -12105,7 +12090,7 @@
 	)
 	(symbol
 		(lib_id "microsd:microSD_Card")
-		(at 151.13 181.61 0)
+		(at 143.51 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12114,7 +12099,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b0cb595-4c50-4131-a336-2102c8f1608b")
 		(property "Reference" "X1"
-			(at 168.91 180.3399 0)
+			(at 161.29 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12108,7 @@
 			)
 		)
 		(property "Value" "microSD_Card"
-			(at 168.91 182.8799 0)
+			(at 161.29 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12117,7 @@
 			)
 		)
 		(property "Footprint" "fc-board:microSD_Card"
-			(at 156.21 172.72 0)
+			(at 148.59 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +12125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 181.61 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12148,7 +12133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 181.61 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,7 +12250,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abe9c621-e8d2-4f74-9f78-e28854ee3640")
 		(property "Reference" "Module1"
 			(at 74.93 22.86 0)
@@ -13353,7 +13337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e074f0fe-ef58-4291-9253-951336057bfd")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -13416,7 +13400,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -13466,6 +13450,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 252.73 85.09 0)
 			(effects
 				(font
@@ -13667,6 +13660,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 267.97 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 151.13 0)
 			(effects
 				(font
