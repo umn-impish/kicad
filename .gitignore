@@ -32,6 +32,3 @@ fp-info-cache
 
 # Large files
 *.zip
-*.stl
-*.stp
-*.step
