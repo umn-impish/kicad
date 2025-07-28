@@ -432,7 +432,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "8")
 				)
@@ -494,7 +494,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "10")
 				)
@@ -556,7 +556,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "5")
 				)
@@ -618,7 +618,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "7")
 				)
@@ -680,7 +680,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "6")
 				)
@@ -742,7 +742,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "9")
 				)
@@ -804,7 +804,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "12")
 				)
@@ -866,7 +866,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "11")
 				)
@@ -928,7 +928,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "17")
 				)
@@ -990,7 +990,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "14")
 				)
@@ -1052,7 +1052,7 @@
 			)
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37/3c074e82-70e4-413f-9404-27bc853217d4"
 					(page "13")
 				)
