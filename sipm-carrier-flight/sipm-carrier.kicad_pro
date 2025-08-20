@@ -576,7 +576,7 @@
       "plot": "plots",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "10sipm-for-angled.step",
+      "step": "sipm-carrier.step",
       "svg": "",
       "vrml": ""
     },

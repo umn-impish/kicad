@@ -799,6 +799,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Filter_EMI_LLL_2"
 			(pin_names
 				(hide yes)
@@ -2012,7 +2185,7 @@
 	)
 	(rectangle
 		(start 13.97 106.68)
-		(end 54.61 157.48)
+		(end 54.61 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -2056,10 +2229,10 @@
 		(uuid "eb5de95a-7a57-4f62-8354-8a868b35809b")
 	)
 	(junction
-		(at 27.94 146.05)
+		(at 29.21 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "614d1ecc-330d-48f6-ac8b-a996c78529a0")
+		(uuid "4e74fc1a-a2e6-4cbf-acc7-8a191ce46518")
 	)
 	(junction
 		(at 21.59 118.11)
@@ -2074,10 +2247,10 @@
 		(uuid "8faa99a4-3761-4245-a807-a7b12bc8a1d9")
 	)
 	(junction
-		(at 20.32 146.05)
+		(at 19.05 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1e85e4d-6427-49f4-8ace-76ad4d70a423")
+		(uuid "ac5662fe-07fb-441d-a314-f7ebfe97d439")
 	)
 	(junction
 		(at 29.21 118.11)
@@ -2147,13 +2320,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 27.94 146.05)
+			(xy 19.05 146.05) (xy 19.05 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2311990c-626e-4ca7-92b0-efc66a058236")
+		(uuid "20a2beee-0c94-4bc5-8df3-7beed34070d0")
 	)
 	(wire
 		(pts
@@ -2197,6 +2370,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 146.05) (xy 29.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65551b05-bb8e-459a-a795-e1fd4f2bc7a0")
+	)
+	(wire
+		(pts
 			(xy 93.98 45.72) (xy 93.98 52.07)
 		)
 		(stroke
@@ -2227,6 +2410,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 146.05) (xy 29.21 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3e7c51-88c0-4345-8159-88d93c032552")
+	)
+	(wire
+		(pts
 			(xy 82.55 128.27) (xy 92.71 128.27)
 		)
 		(stroke
@@ -2237,16 +2430,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 149.86) (xy 17.78 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ebd61d-d00f-4b40-aab5-f5f988555fe2")
-	)
-	(wire
-		(pts
 			(xy 176.53 113.03) (xy 176.53 118.11)
 		)
 		(stroke
@@ -2254,26 +2437,6 @@
 			(type default)
 		)
 		(uuid "90c5ac9b-7e6a-49ad-9055-f41cb8a4f709")
-	)
-	(wire
-		(pts
-			(xy 27.94 146.05) (xy 27.94 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "944f3380-75ef-4dc3-951c-66c23fd9a8af")
-	)
-	(wire
-		(pts
-			(xy 20.32 143.51) (xy 20.32 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bff2a49-5591-4e6a-bf67-330d074b35cc")
 	)
 	(wire
 		(pts
@@ -2317,26 +2480,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 146.05) (xy 20.32 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27c0855-149d-47b4-b2b2-15435fadd24f")
-	)
-	(wire
-		(pts
-			(xy 17.78 146.05) (xy 20.32 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e44d07-d443-49f7-910f-c80f44dfc186")
-	)
-	(wire
-		(pts
 			(xy 88.9 45.72) (xy 88.9 52.07)
 		)
 		(stroke
@@ -2364,6 +2507,16 @@
 			(type default)
 		)
 		(uuid "e11ccc15-6279-4ee2-819e-380f11fddb36")
+	)
+	(wire
+		(pts
+			(xy 19.05 146.05) (xy 20.32 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e273df9e-2975-40b1-8a47-9b8ad25d9992")
 	)
 	(wire
 		(pts
@@ -2417,6 +2570,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 142.24) (xy 21.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94328f2-190b-4b62-99d8-d86d14e39f40")
+	)
+	(wire
+		(pts
 			(xy 177.8 105.41) (xy 177.8 118.11)
 		)
 		(stroke
@@ -2424,6 +2587,75 @@
 			(type default)
 		)
 		(uuid "f3efca01-7fbf-4cf2-b697-2b2a53b0d96b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0895dc16-a990-4b11-ae1b-e99b4d85065b")
+		(property "Reference" "C26"
+			(at 22.352 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 22.352 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 20.32 147.0152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ebce923-65ee-483c-acf5-9503bc1181b9")
+		)
+		(pin "1"
+			(uuid "f5559441-7c33-4294-836d-894498958631")
+		)
+		(instances
+			(project "sipm-carrier"
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:-2V5")
@@ -2695,6 +2927,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 19.05 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "562aec5b-1f6b-45bb-a451-397127a99552")
+		(property "Reference" "#PWR020"
+			(at 19.05 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c048dd0-7648-457b-854b-89ee76b4685f")
+		)
+		(instances
+			(project "sipm-carrier"
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 184.15 113.03 0)
 		(unit 1)
@@ -2901,72 +3199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 17.78 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "733c2c0a-1220-4f33-8589-9abcd5a4b9d0")
-		(property "Reference" "#PWR055"
-			(at 17.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 17.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4c3cf6f-7382-4e1f-90c3-6c5a72900cd3")
-		)
-		(instances
-			(project ""
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 74.93 102.87 0)
 		(unit 1)
@@ -3025,6 +3257,70 @@
 			(project "10sipm-for-angled"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 95.25 109.22 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b33d6fd-0c49-4937-9071-c425922f39b9")
+		(property "Reference" "H12"
+			(at 97.79 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 97.79 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sipm-carrier"
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -3372,6 +3668,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 25.4 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95d7617d-03ac-474a-a990-eabbe7f271a5")
+		(property "Reference" "R4"
+			(at 25.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 25.4 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 25.654 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3a5e561-a00b-4e51-bfae-6558c156b6aa")
+		)
+		(pin "1"
+			(uuid "e3fe37d5-3519-4378-8cb6-36dfc09906ac")
+		)
+		(instances
+			(project ""
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 95.25 115.57 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9fc4cb4-642a-4cc9-a012-442b3b9a7c08")
+		(property "Reference" "H13"
+			(at 97.79 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 97.79 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sipm-carrier"
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 31.75 118.11 270)
 		(unit 1)
@@ -3433,6 +3860,70 @@
 			(project ""
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 95.25 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa674a55-d3ef-4030-8b87-d3fdf477c3aa")
+		(property "Reference" "H3"
+			(at 97.79 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 97.79 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sipm-carrier"
+				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3636,76 +4127,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 24.13 148.59 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b738a15d-610e-4602-b645-3aceed467382")
-		(property "Reference" "C26"
-			(at 25.908 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 25.908 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 27.94 149.5552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 24.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f413081-48cf-412f-b906-c34785bceb4f")
-		)
-		(pin "1"
-			(uuid "8032f853-0f98-4093-829a-b814e3512d37")
-		)
-		(instances
-			(project ""
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 132.08 0)
 		(unit 1)
@@ -3733,7 +4154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:TE_CONSMA020.062-G"
+		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_1.6mm-PCB"
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -3834,74 +4255,6 @@
 			(project "10sipm-for-angled"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c88608c9-c428-4d01-8c2b-d87b43b20b46")
-		(property "Reference" "R4"
-			(at 24.13 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5Meg"
-			(at 24.13 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 24.13 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d1ebc2a-540f-4bf3-a346-2cd7257e6bc1")
-		)
-		(pin "2"
-			(uuid "7480e318-a4db-4cc9-aa84-97df1a75f69e")
-		)
-		(instances
-			(project ""
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4038,17 +4391,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 96.52 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 31.75 142.24 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d792886b-a664-4493-9af8-8cd6b120444b")
+		(uuid "d6d44be9-0b34-49f3-810f-7b3904cbb857")
 		(property "Reference" "H1"
-			(at 19.05 95.2499 0)
+			(at 35.56 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,8 +4409,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 19.05 97.7899 0)
+		(property "Value" "MountingHole_Pad"
+			(at 35.56 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,8 +4418,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 16.51 96.52 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 31.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 96.52 0)
+			(at 31.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,17 +4436,20 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 16.51 96.52 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 31.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "9d921e64-dcaa-4f1d-8209-fdb970efa89a")
 		)
 		(instances
-			(project "10sipm-for-angled"
+			(project "sipm-carrier"
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "H1")
 					(unit 1)
@@ -4365,137 +4721,6 @@
 			(project ""
 				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 95.25 102.87 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f16a9b72-15ba-40af-91a0-b1ef14373da1")
-		(property "Reference" "H12"
-			(at 97.79 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 97.79 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "10sipm-for-angled"
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "H12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 30.48 146.05 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f34a19c6-fbbf-4077-bccd-5f9afa1bb59f")
-		(property "Reference" "H3"
-			(at 34.29 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 34.29 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 30.48 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 30.48 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1550ed34-fed9-4487-96cb-b3ed74cb3ba1")
-		)
-		(instances
-			(project ""
-				(path "/0ea1ec1f-35e4-4e8d-a06b-0b5fbc621c37"
-					(reference "H3")
 					(unit 1)
 				)
 			)
