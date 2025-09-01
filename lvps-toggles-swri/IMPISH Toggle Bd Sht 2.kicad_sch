@@ -1,0 +1,776 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3474ccc8-a80d-4598-aa4d-3d84cabf74f0")
+	(paper "B")
+	(title_block
+		(title "IMPISH POWER SUPPLY TOGGLES BOARD")
+		(rev "-")
+		(company "SOUTHWEST RESEARCH INSTITUTE")
+	)
+	(lib_symbols
+		(symbol "IMPISH Toggles Library:BCS-110-L-D-TE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.12 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BCS-110-L-D-TE"
+				(at -7.62 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "IMPISH Toggles Library:SAMTEC_BCS-110-L-D-TE"
+				(at 0 -19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 -22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BCS-110-L-D-TE_0_0"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "IMPISH Toggles Library:BCS-110-L-D-TE")
+		(at 330.2 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d55180a2-d376-48c7-8075-b431d69ebbea")
+		(property "Reference" "J5"
+			(at 330.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BCS-110-L-D-TE"
+			(at 330.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IMPISH Toggles Library:SAMTEC_BCS-110-L-D-TE"
+			(at 330.2 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle 3"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 330.2 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 330.2 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 330.2 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "17c980f2-0fac-409c-b098-fb1c7e7b6d6a")
+		)
+		(pin "03"
+			(uuid "19acfdfb-1a71-49e8-bcfc-c8b1619d721e")
+		)
+		(pin "07"
+			(uuid "6e8625cb-5fa0-40bc-bd98-8b1f7d10b3ac")
+		)
+		(pin "05"
+			(uuid "5832842f-a22d-4da5-91f8-88cc78753cbd")
+		)
+		(pin "09"
+			(uuid "fde4703d-b51b-4912-b16e-3e895686fd4c")
+		)
+		(pin "01"
+			(uuid "5d63ba98-b21f-4d4d-8c9f-edf5d316e467")
+		)
+		(pin "11"
+			(uuid "465a330c-4901-4a6f-895e-3ff35ca963d6")
+		)
+		(pin "15"
+			(uuid "2baf88b9-d7af-4f6a-b15b-66c8e1fdc6f3")
+		)
+		(pin "17"
+			(uuid "6ac8ef3e-3996-42b1-9302-b6b446de3642")
+		)
+		(pin "02"
+			(uuid "66200704-c433-4993-b489-b1b2126f54a6")
+		)
+		(pin "04"
+			(uuid "bb840737-3b6f-4c12-9ddf-c434990b88bf")
+		)
+		(pin "06"
+			(uuid "fc850582-46ca-443b-87c9-f730bd72a054")
+		)
+		(pin "10"
+			(uuid "a694a3be-02a2-4277-b6cb-e0e4e54d9668")
+		)
+		(pin "12"
+			(uuid "0cd1d80c-a9b0-4cf4-bddf-af8cf1c1df1c")
+		)
+		(pin "14"
+			(uuid "ddbb54d0-7b39-4838-8786-30f0cdc8db55")
+		)
+		(pin "16"
+			(uuid "828d4f67-b6db-46ed-b4a5-456939e83d51")
+		)
+		(pin "19"
+			(uuid "deaaec15-8b17-4891-9720-48f96fa076b5")
+		)
+		(pin "18"
+			(uuid "b9b6b5e8-aaa6-4bcc-91fd-04bf703873ea")
+		)
+		(pin "20"
+			(uuid "056e93ce-0b4b-48c3-8476-277335783cd3")
+		)
+		(pin "08"
+			(uuid "0377018f-e948-4c12-b91f-f7207bb06935")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/45db729b-f96e-4684-bc67-080c16614f23"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IMPISH Toggles Library:BCS-110-L-D-TE")
+		(at 330.2 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee778eab-3317-462d-b66f-c0aac5ce339d")
+		(property "Reference" "J6"
+			(at 330.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BCS-110-L-D-TE"
+			(at 330.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IMPISH Toggles Library:SAMTEC_BCS-110-L-D-TE"
+			(at 330.2 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle 4"
+			(at 330.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 330.2 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 330.2 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 330.2 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "5d2cec95-e00e-4263-b486-c5b79dda68bf")
+		)
+		(pin "02"
+			(uuid "7405e69c-aacc-4874-b672-6a43d6717fdc")
+		)
+		(pin "01"
+			(uuid "7a5242b9-5399-4e3a-aec2-40dee429604f")
+		)
+		(pin "03"
+			(uuid "78c20316-da29-454f-bd4c-db6074ff819b")
+		)
+		(pin "09"
+			(uuid "3aa021c2-be16-4c09-b76c-65a963465b60")
+		)
+		(pin "05"
+			(uuid "2035e8b9-bc99-4e41-a557-7a97246619ec")
+		)
+		(pin "11"
+			(uuid "70347b5d-23cb-4cea-972d-ce2e573891e0")
+		)
+		(pin "07"
+			(uuid "3502fbbb-b560-4544-8045-fa6817aa4395")
+		)
+		(pin "13"
+			(uuid "74fdb05b-d466-4243-9dcf-7ab0b3698a69")
+		)
+		(pin "17"
+			(uuid "55dbb35d-799b-4520-8b4a-95df86b073c0")
+		)
+		(pin "19"
+			(uuid "35b42aec-34a7-474d-9b89-488da585e2ca")
+		)
+		(pin "04"
+			(uuid "f9a438d2-5e80-4fa7-9495-6baaac938ef5")
+		)
+		(pin "06"
+			(uuid "a864179a-c13e-4d68-935f-357c80c57a2c")
+		)
+		(pin "08"
+			(uuid "0064646d-c17b-44f3-a4cc-5e004895ad3f")
+		)
+		(pin "10"
+			(uuid "73c74b66-f188-41ab-9fcb-0f0c2fa90894")
+		)
+		(pin "12"
+			(uuid "be196da8-2b16-4acc-84ea-db1c40a8c27b")
+		)
+		(pin "14"
+			(uuid "04f277e0-0c9d-4245-a50d-0d883ad5142e")
+		)
+		(pin "16"
+			(uuid "52664137-8c89-4165-875a-7cb495aa7924")
+		)
+		(pin "18"
+			(uuid "73d848b0-4d91-4dc6-99b6-29920e05f67f")
+		)
+		(pin "20"
+			(uuid "918aaa92-986d-46ba-b1a0-5caf4296694a")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/45db729b-f96e-4684-bc67-080c16614f23"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
