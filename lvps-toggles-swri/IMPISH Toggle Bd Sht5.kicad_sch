@@ -1864,7 +1864,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND1"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1885,7 +1885,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND1"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1911,7 +1911,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1929,7 +1929,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND1_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1943,7 +1943,7 @@
 					)
 				)
 			)
-			(symbol "GND1_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1970,19 +1970,7 @@
 		(at 172.72 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05e0c195-97d8-4e13-9478-9797586b2bcd")
-	)
-	(junction
-		(at 167.64 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05e5571d-2799-469a-93a0-0dc72d7bb803")
-	)
-	(junction
-		(at 255.27 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "145e155e-c875-42c5-a77d-a48857e59262")
+		(uuid "05c9ee25-3871-4898-be01-656f03024a09")
 	)
 	(junction
 		(at 120.65 162.56)
@@ -2003,6 +1991,12 @@
 		(uuid "2a0d8b8f-1f36-4fe7-bf94-60a369c66280")
 	)
 	(junction
+		(at 172.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d6799b-2dc0-4aca-a95c-d7ec1f4558d6")
+	)
+	(junction
 		(at 146.05 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2013,12 +2007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d0cea2-4fdd-4fc7-b603-5c09a8589633")
-	)
-	(junction
-		(at 167.64 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "392604ac-879b-4017-ab12-b2aa24cc6069")
 	)
 	(junction
 		(at 181.61 196.85)
@@ -2033,10 +2021,10 @@
 		(uuid "533d791b-7405-4c6f-a94f-c22ec55c0698")
 	)
 	(junction
-		(at 250.19 172.72)
+		(at 251.46 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5912abf5-8a2d-4dbc-9003-4180a9e1f69e")
+		(uuid "55da9d2e-d0da-436c-bb5f-9f011e8ab0f0")
 	)
 	(junction
 		(at 172.72 76.2)
@@ -2051,6 +2039,12 @@
 		(uuid "644aeecc-7702-47d7-887c-bf111c62e534")
 	)
 	(junction
+		(at 255.27 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "846545c0-69df-4f31-acde-8f279c5f594f")
+	)
+	(junction
 		(at 255.27 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2063,22 +2057,28 @@
 		(uuid "8dbead10-a4ae-42fd-b577-b5105ada4253")
 	)
 	(junction
+		(at 172.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a304fe5-d703-43f7-8ce3-2bcf4926502d")
+	)
+	(junction
 		(at 172.72 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a007c6a7-bb07-45a2-90a7-b591371a54a9")
 	)
 	(junction
+		(at 172.72 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4295b47-0937-4cd2-84ef-9181b9c5ba09")
+	)
+	(junction
 		(at 118.11 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af9f1b5b-d494-4f98-90b5-de64a038029e")
-	)
-	(junction
-		(at 255.27 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b53197c4-3de3-424f-8651-46fc5d3fa381")
 	)
 	(junction
 		(at 214.63 180.34)
@@ -2093,6 +2093,12 @@
 		(uuid "ba0af60f-5e9a-4e34-83f4-d3a524ac496d")
 	)
 	(junction
+		(at 251.46 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6bbe0df-2154-415d-8712-11321989c6ed")
+	)
+	(junction
 		(at 214.63 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2105,16 +2111,16 @@
 		(uuid "de8d6b76-dc4c-4705-9039-526b58087fbe")
 	)
 	(junction
-		(at 172.72 81.28)
+		(at 255.27 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4859fc5-4642-4232-82dd-1d05e429adf0")
+		(uuid "e408cea5-d014-49b4-a699-2cfe6f9be6ba")
 	)
 	(junction
-		(at 172.72 86.36)
+		(at 255.27 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb062332-116f-478f-992b-bf786e9d4662")
+		(uuid "e42a6b69-c798-42fd-ad59-4296613ed852")
 	)
 	(wire
 		(pts
@@ -2128,16 +2134,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 165.1) (xy 280.67 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ec52d4-3932-40b8-95e9-c68ff4f66769")
-	)
-	(wire
-		(pts
 			(xy 181.61 196.85) (xy 162.56 196.85)
 		)
 		(stroke
@@ -2145,6 +2141,26 @@
 			(type default)
 		)
 		(uuid "0ba5afb9-082a-41be-8050-caa635853012")
+	)
+	(wire
+		(pts
+			(xy 251.46 170.18) (xy 251.46 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1120d7e9-a712-4031-9731-2e0c267f7622")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14202695-18bb-4e44-8e81-223b78eb2b00")
 	)
 	(wire
 		(pts
@@ -2258,13 +2274,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 170.18) (xy 280.67 170.18)
+			(xy 172.72 86.36) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32adba47-e5dc-4eab-9dd1-dc1c7c3a35dd")
+		(uuid "332cf1d2-24e8-4015-ae38-921a8815b65b")
 	)
 	(wire
 		(pts
@@ -2278,13 +2294,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 167.64 86.36)
+			(xy 251.46 172.72) (xy 255.27 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d0db0e4-97f7-41b2-aed7-eb9f29b5370f")
+		(uuid "3bb92c4c-3da0-493c-9734-0c920ce6aa69")
 	)
 	(wire
 		(pts
@@ -2298,13 +2314,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 170.18) (xy 250.19 172.72)
+			(xy 172.72 83.82) (xy 172.72 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d8764ab-34b5-410a-a08c-e042e594a583")
+		(uuid "41cc3eca-78e0-497f-bd83-7a4264691f60")
 	)
 	(wire
 		(pts
@@ -2315,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "57522f7d-9c62-4038-bb5b-731c917e6d65")
+	)
+	(wire
+		(pts
+			(xy 255.27 165.1) (xy 280.67 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5960c569-a655-448a-ad1c-b053af069ff2")
 	)
 	(wire
 		(pts
@@ -2335,6 +2361,16 @@
 			(type default)
 		)
 		(uuid "5f45feed-5394-4cc0-80f2-4b334cca643c")
+	)
+	(wire
+		(pts
+			(xy 251.46 165.1) (xy 255.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fde8683-26fc-4082-bddb-63f80f946ee5")
 	)
 	(wire
 		(pts
@@ -2398,16 +2434,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 167.64 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807e4dc5-9e65-4829-9e9c-918f335803bc")
-	)
-	(wire
-		(pts
 			(xy 118.11 76.2) (xy 118.11 80.01)
 		)
 		(stroke
@@ -2428,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 172.72) (xy 250.19 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6c0c44-3fee-4ac4-868c-8bc58e6b42e5")
-	)
-	(wire
-		(pts
 			(xy 148.59 157.48) (xy 148.59 149.86)
 		)
 		(stroke
@@ -2445,16 +2461,6 @@
 			(type default)
 		)
 		(uuid "91afc816-0eca-443f-a654-ea9d905d00c0")
-	)
-	(wire
-		(pts
-			(xy 167.64 81.28) (xy 167.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990eafcb-213c-4187-99d9-c3a21703324c")
 	)
 	(wire
 		(pts
@@ -2468,23 +2474,23 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 170.18) (xy 280.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d121619-ebf7-4f2c-a62c-2232d7630448")
+	)
+	(wire
+		(pts
 			(xy 172.72 78.74) (xy 198.12 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1cdcd8d-145d-4b33-a30d-9c8c7085ba44")
-	)
-	(wire
-		(pts
-			(xy 255.27 172.72) (xy 280.67 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a6d0c9-8dcb-4ec3-9140-8efb52c5f96e")
+		(uuid "a5da68e2-9e2e-42e6-b162-5a403208d0d8")
 	)
 	(wire
 		(pts
@@ -2565,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "bcdc4bc8-2fa3-44d4-9799-8a40a88fc376")
+	)
+	(wire
+		(pts
+			(xy 251.46 170.18) (xy 255.27 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0211e1e-b6a6-4e31-8f0f-a3b24c13fafc")
 	)
 	(wire
 		(pts
@@ -2678,6 +2694,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 172.72) (xy 251.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc1a170-3579-4475-8dbe-ea8b486658d4")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de04a645-f42b-436f-975d-1452cd74c1bd")
+	)
+	(wire
+		(pts
 			(xy 107.95 76.2) (xy 118.11 76.2)
 		)
 		(stroke
@@ -2726,6 +2762,16 @@
 		)
 		(uuid "f946d384-1e46-48e7-b7e2-466bea086093")
 	)
+	(wire
+		(pts
+			(xy 255.27 172.72) (xy 280.67 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc905b0a-e4ce-47e1-880a-fc2b57f6113e")
+	)
 	(global_label "Toggle 5"
 		(shape input)
 		(at 118.11 63.5 180)
@@ -2748,28 +2794,6 @@
 			)
 		)
 	)
-	(global_label "Bias GND"
-		(shape input)
-		(at 204.47 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43fc08e9-8add-430e-bc8a-a57501eb5f8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.6847 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Heater 12V"
 		(shape input)
 		(at 142.24 54.61 180)
@@ -2783,28 +2807,6 @@
 		(uuid "5adc5e11-ed6f-4e85-a3a5-b96330378b65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.2374 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bias GND"
-		(shape input)
-		(at 255.27 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "858eda3c-8e26-409c-9d20-a4cc0fdae16a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0553 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,28 +2851,6 @@
 		(uuid "956eb2f6-831a-4097-adfe-2c1a836207c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.645 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heater GND"
-		(shape input)
-		(at 172.72 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bab06a60-5e1c-4741-aac6-1540c58113e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.9283 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,6 +3113,72 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1729d9fb-3ea5-47a2-a7bd-1b1aa5dafa83")
+		(property "Reference" "#PWR026"
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc63699-4069-4a3e-821f-75397b0c68b5")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3483,122 +3529,6 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
 					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 252.73 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2106d15e-0391-4e3c-90b9-64c86219d610")
-		(property "Reference" "R90"
-			(at 244.856 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 247.904 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 252.73 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "75cc4bc2-e25c-461d-bd91-72f9b6c77572")
-		)
-		(pin "1"
-			(uuid "b6320f4d-8f3f-402f-8267-c305b2b8d0e0")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -3971,72 +3901,6 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
 					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 118.11 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d4910f5-bb5a-47a0-9c5e-bac68a0fba79")
-		(property "Reference" "#PWR051"
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c7364e1-1070-4818-852b-f42034cac28d")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4515,17 +4379,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 167.64 90.17 0)
+		(lib_id "power:GND")
+		(at 204.47 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65173b29-2f2a-4711-a200-5cf11f4e80b2")
-		(property "Reference" "#PWR025"
-			(at 167.64 96.52 0)
+		(uuid "73f346ed-e5dc-4978-9944-bfae05c4122e")
+		(property "Reference" "#PWR024"
+			(at 204.47 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,8 +4397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 167.64 95.25 0)
+		(property "Value" "GND"
+			(at 204.47 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 90.17 0)
+			(at 204.47 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 90.17 0)
+			(at 204.47 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,8 +4423,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 167.64 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,12 +4433,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6ed629a-41ff-489a-9dd9-a6091f626314")
+			(uuid "8322dc8f-975c-403a-beaf-e4b6d6b710aa")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4814,6 +4678,72 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
 					(reference "Q27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7af04633-d11a-4cac-a216-4898dda9049c")
+		(property "Reference" "#PWR067"
+			(at 251.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86ca32b9-0fd9-4bae-b5b5-5e50209397b3")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5160,17 +5090,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 250.19 177.8 0)
+		(lib_id "power:GND")
+		(at 172.72 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ed63135-7f44-49c0-8c69-ab256ff27e72")
-		(property "Reference" "#PWR024"
-			(at 250.19 184.15 0)
+		(uuid "a23dca9a-2ea2-4e98-8b00-b6a2cfad1676")
+		(property "Reference" "#PWR025"
+			(at 172.72 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,8 +5108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 250.19 182.88 0)
+		(property "Value" "GND"
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 177.8 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 177.8 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,8 +5134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 250.19 177.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,145 +5144,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f76b085-fdf2-47d9-8f4c-ddfb93160e19")
+			(uuid "691f5c67-fc0f-4b71-a665-2873126be13a")
 		)
 		(instances
-			(project "IMPISH PS Toggles Board"
+			(project ""
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 170.18 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aaf123a1-74a3-4dcd-b1e1-08d852d742ba")
-		(property "Reference" "R92"
-			(at 162.306 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 165.354 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 170.18 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4c2c371e-9435-4653-bc3b-4dd8ab895675")
-		)
-		(pin "1"
-			(uuid "d16dabdb-b73c-44ef-9eb2-dabfbbe51cf5")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "R92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 120.65 167.64 0)
+		(lib_id "power:GND")
+		(at 118.11 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4cdafeb-eca1-4259-936a-935669cb2b1f")
-		(property "Reference" "#PWR026"
-			(at 120.65 173.99 0)
+		(uuid "bf32f4de-3529-41ca-a008-ce78f56c69aa")
+		(property "Reference" "#PWR051"
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,8 +5174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 120.65 172.72 0)
+		(property "Value" "GND"
+			(at 118.11 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 167.64 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 167.64 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,8 +5200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 120.65 167.64 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,360 +5210,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fab802ab-dba7-4ed5-83b2-3868e2705f71")
+			(uuid "ba64d89e-6cbb-4344-8e33-09abf75b462f")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 170.18 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b72d937a-5b07-4a03-96c5-1252121be51b")
-		(property "Reference" "R91"
-			(at 162.306 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 165.354 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 170.18 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 170.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a59e1a5f-fd70-4b19-9419-ae164546d3f5")
-		)
-		(pin "1"
-			(uuid "880028c7-5ea3-47e0-a751-d88d64335956")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 170.18 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c947abff-ae79-4408-a811-a49971b858cb")
-		(property "Reference" "R93"
-			(at 162.306 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 165.354 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 170.18 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b6e0b65e-99dd-4208-9a11-9126891dd932")
-		)
-		(pin "1"
-			(uuid "b8bea836-f669-484c-bf00-644050f2fcb7")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "R93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 252.73 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce8c57af-b835-49cd-9559-d3df2f10fdac")
-		(property "Reference" "R89"
-			(at 244.856 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 247.904 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 252.73 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 252.73 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d7c85736-d1ff-47a0-955e-1b615dfb37d5")
-		)
-		(pin "1"
-			(uuid "a8322d03-fdec-4f09-aa56-0ed7e0e50043")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "R89")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
