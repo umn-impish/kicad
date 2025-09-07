@@ -1608,7 +1608,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "MountingHole_Pad_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1619,23 +1619,25 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "H1"
+				(at 2.54 2.5401 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+				(at 2.54 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1680,7 +1682,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_Pad_1_0_1"
 				(circle
 					(center 0 1.27)
 					(radius 1.27)
@@ -1693,8 +1695,8 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
+			(symbol "MountingHole_Pad_1_1_1"
+				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
@@ -1943,22 +1945,28 @@
 		(uuid "1d83705d-15f9-49c4-af67-2fb577bb3967")
 	)
 	(junction
+		(at 115.57 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2045093c-a182-4276-9615-344c178dbd69")
+	)
+	(junction
 		(at 62.23 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22904d27-466d-4e5f-b18d-ec234fb54386")
 	)
 	(junction
+		(at 82.55 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "233fcc15-f390-46b7-8295-f6ce976ce8ff")
+	)
+	(junction
 		(at 82.55 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23556608-e061-4da0-b87c-35b0a5fc160e")
-	)
-	(junction
-		(at 115.57 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25043348-ee82-4d93-bcf2-9aab728d872f")
 	)
 	(junction
 		(at 55.88 181.61)
@@ -1983,6 +1991,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472ade9a-5a06-4cbf-a671-901e10aea030")
+	)
+	(junction
+		(at 82.55 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a980968-9795-4120-9b76-f766fa30eb88")
 	)
 	(junction
 		(at 82.55 38.1)
@@ -2033,6 +2047,12 @@
 		(uuid "67830bc9-c8a4-456a-95fa-b64403f97709")
 	)
 	(junction
+		(at 82.55 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af05f96-fb10-4d9e-8673-694d90729800")
+	)
+	(junction
 		(at 55.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,6 +2081,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ed960d2-6bfc-49c9-a353-ce0c87e01052")
+	)
+	(junction
+		(at 82.55 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f200ab7-e8ff-413b-b948-64962d41671f")
 	)
 	(junction
 		(at 55.88 96.52)
@@ -2141,6 +2167,12 @@
 		(uuid "bba4be80-733d-4637-ad52-bfd13f9c48f8")
 	)
 	(junction
+		(at 82.55 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0520cbc-da9b-4e11-ae97-8fa8dff0bd70")
+	)
+	(junction
 		(at 55.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2163,6 +2195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c92e14af-8d63-4e94-a5f3-30eb11d8be19")
+	)
+	(junction
+		(at 82.55 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2b7ab03-b19f-49f7-9e5f-4f3be647f8c0")
 	)
 	(junction
 		(at 55.88 168.91)
@@ -2330,6 +2368,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 173.99) (xy 82.55 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dc3a9c-0cf2-4c16-b152-573d16758c42")
+	)
+	(wire
+		(pts
 			(xy 82.55 88.9) (xy 82.55 91.44)
 		)
 		(stroke
@@ -2397,16 +2445,6 @@
 			(type default)
 		)
 		(uuid "2341afa1-d231-4c11-90bf-d355ca69b71a")
-	)
-	(wire
-		(pts
-			(xy 82.55 38.1) (xy 82.55 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ed459b-a159-40f8-9e55-046c24fc349c")
 	)
 	(wire
 		(pts
@@ -2580,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 43.18) (xy 82.55 45.72)
+			(xy 82.55 38.1) (xy 82.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2607,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "45ce36e2-302f-4453-ba7d-d5d692684a12")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463beb28-c6b4-4088-abfa-74d11576d70e")
 	)
 	(wire
 		(pts
@@ -2800,6 +2848,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 132.08) (xy 82.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638d22bb-d175-4b6c-9b85-c27a620949cf")
+	)
+	(wire
+		(pts
 			(xy 52.07 86.36) (xy 55.88 86.36)
 		)
 		(stroke
@@ -2897,6 +2955,16 @@
 			(type default)
 		)
 		(uuid "6d6e163d-9f3e-425b-a54d-8dfa91c335bc")
+	)
+	(wire
+		(pts
+			(xy 115.57 34.29) (xy 138.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f5ae29-9c0b-4e46-8de3-870ab6c76364")
 	)
 	(wire
 		(pts
@@ -3027,26 +3095,6 @@
 			(type default)
 		)
 		(uuid "87ef1c7a-f38e-45b2-b3b8-d970f105ff97")
-	)
-	(wire
-		(pts
-			(xy 115.57 34.29) (xy 138.43 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7beb5d-b92a-441d-8a23-324a76f54bee")
-	)
-	(wire
-		(pts
-			(xy 82.55 132.08) (xy 82.55 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f90ffb2-4398-41fb-938f-19da8389e6b4")
 	)
 	(wire
 		(pts
@@ -3280,6 +3328,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 134.62) (xy 82.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1490c0-1d6f-4fa2-8abb-d93ebabd125a")
+	)
+	(wire
+		(pts
 			(xy 50.8 208.28) (xy 66.04 208.28)
 		)
 		(stroke
@@ -3477,6 +3535,16 @@
 			(type default)
 		)
 		(uuid "eef21dde-2d39-4977-aa58-62fb9ae7fff8")
+	)
+	(wire
+		(pts
+			(xy 82.55 43.18) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6798e9c-c6c9-4de5-a976-be709d35cbdf")
 	)
 	(wire
 		(pts
@@ -4109,6 +4177,74 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a288ed-85a2-4f3d-b80e-cbcb03699fb8")
+		(property "Reference" "H3"
+			(at 118.11 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7a7ad6d-c5fe-4791-8c80-98ddc711a791")
+		)
+		(instances
+			(project "lvps-toggles-adapter"
+				(path "/9aae70b1-c824-40af-90b0-d6f6f0f08810"
+					(reference "H3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4957,73 +5093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 115.57 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d11e7ef-d255-4236-a10f-a66da29e4204")
-		(property "Reference" "H3"
-			(at 118.11 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 115.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 115.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc13fa5c-8b87-48b7-ba3f-c9101611bd5b")
-		)
-		(instances
-			(project ""
-				(path "/9aae70b1-c824-40af-90b0-d6f6f0f08810"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
 		(at 149.86 73.66 0)
 		(unit 1)
@@ -5191,6 +5260,74 @@
 			(project ""
 				(path "/9aae70b1-c824-40af-90b0-d6f6f0f08810"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 138.43 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "500a58d7-309f-4706-a998-35c5bc98db22")
+		(property "Reference" "H2"
+			(at 140.97 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 140.97 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b587bf04-9860-48d1-b470-fec577fc7e7c")
+		)
+		(instances
+			(project "lvps-toggles-adapter"
+				(path "/9aae70b1-c824-40af-90b0-d6f6f0f08810"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5999,17 +6136,18 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_Pad_1")
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 138.43 40.64 0)
+		(at 138.43 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97e411f6-65b4-4a47-a846-be7f62e5ffb0")
-		(property "Reference" "H2"
-			(at 140.97 38.0999 0)
+		(uuid "b8d2d586-c166-4a2b-ac5c-78d515f5c0a7")
+		(property "Reference" "H4"
+			(at 140.97 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6156,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 140.97 40.6399 0)
+			(at 140.97 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6165,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 138.43 40.64 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 40.64 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6183,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 138.43 40.64 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,12 +6192,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ef31488-2596-4d0a-bf7a-f92cd98d9c8f")
+			(uuid "89531c2b-6f90-42e2-86a7-f3c9160523f0")
 		)
 		(instances
 			(project "lvps-toggles-adapter"
 				(path "/9aae70b1-c824-40af-90b0-d6f6f0f08810"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -6466,73 +6604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 138.43 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f057bd75-9010-4ff7-9f5d-c850e75a7584")
-		(property "Reference" "H4"
-			(at 140.97 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 140.97 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 138.43 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 138.43 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f3ceafb-d179-4801-88c6-3a747c715a3f")
-		)
-		(instances
-			(project "lvps-toggles-adapter"
-				(path "/9aae70b1-c824-40af-90b0-d6f6f0f08810"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "MountingHole_Pad_1")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 115.57 40.64 0)
 		(unit 1)
