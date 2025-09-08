@@ -499,15 +499,4 @@
 		(uuid "1db20e51-92c6-4908-b9e6-14d22f6986f1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3D Models/MTSW-117-12-L-D-840.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
 )

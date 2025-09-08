@@ -265,10 +265,6 @@
       [
         "pin_not_connected|3505200|1168400|0bb52b6c-0f1b-46dd-a889-83491cf8bc16|00000000-0000-0000-0000-000000000000|/385e4cab-4577-43a4-bbbd-3e29a0bed824|/385e4cab-4577-43a4-bbbd-3e29a0bed824|",
         ""
-      ],
-      [
-        "pin_to_pin|1765300|2235200|525d2965-c0af-4a08-be45-ab7d1f535c39|46f5b99a-4ac4-4334-92b9-4d3f95716d36|/385e4cab-4577-43a4-bbbd-3e29a0bed824|/385e4cab-4577-43a4-bbbd-3e29a0bed824|/385e4cab-4577-43a4-bbbd-3e29a0bed824",
-        ""
       ]
     ],
     "meta": {
@@ -484,13 +480,16 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "IMPISH Library"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -501,7 +500,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.35,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -512,7 +511,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -527,7 +526,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -541,6 +540,30 @@
       {
         "netclass": "Default",
         "pattern": "CHASSIS"
+      },
+      {
+        "netclass": "IMPISH1",
+        "pattern": "SiPM*"
+      },
+      {
+        "netclass": "IMPISH1",
+        "pattern": "Cremat*"
+      },
+      {
+        "netclass": "IMPISH1",
+        "pattern": "CM*"
+      },
+      {
+        "netclass": "IMPISH1",
+        "pattern": "Heater*"
+      },
+      {
+        "netclass": "IMPISH1",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "IMPISH1",
+        "pattern": "Bias*"
       }
     ]
   },
@@ -725,7 +748,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://SWRI B Size Landscape.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,

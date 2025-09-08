@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -0.555 -3.889 0)
 		(layer "F.SilkS")
-		(uuid "f894083c-64af-41d3-a69e-3b486695b141")
+		(uuid "f0452512-0a51-4121-9601-a72128d5477a")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -17,7 +17,7 @@
 	(property "Value" "CAP_DE2B3SA101KN3AY02F"
 		(at 14.558 4.111 0)
 		(layer "F.Fab")
-		(uuid "c6bc700e-6bdf-4b91-92db-afda255ec3c0")
+		(uuid "cc6367ac-e01f-4d32-bb8f-fb71ef45aef0")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f4ebd4c0-2a25-4f5a-a9fb-8e5bb69a268e")
+		(uuid "271ef10b-46b4-4d49-a89d-b0425ae85dc1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0da5390-88f4-4a4e-b32d-69a0a4459d46")
+		(uuid "37a9907d-ccc9-48c8-ad0e-df166375bbbc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "48688428-6d1b-4031-918b-db98cbd53b28")
+		(uuid "c9aec801-8674-4150-9189-5c5609493f37")
 	)
 	(fp_line
 		(start -3 -0.6)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "34ebeeff-07ec-4621-95e2-ac82779f004e")
+		(uuid "15944cf8-b82b-4c94-807f-ba65d77e972c")
 	)
 	(fp_line
 		(start -3 2.5)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c9d59a65-4afc-42fd-a618-17f365af9c8e")
+		(uuid "ea042f37-1202-47b9-8620-48f4b24d109e")
 	)
 	(fp_line
 		(start 3 -2.5)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5003da3e-27c6-4067-8f26-7e338087a655")
+		(uuid "effe42fd-1d01-4f02-80b1-1f02e09f85ed")
 	)
 	(fp_line
 		(start 3 0.6)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "28900cea-5b1d-4a59-8a32-cfcfd8f514ed")
+		(uuid "56944840-c642-4b3f-935e-bec34967152b")
 	)
 	(fp_line
 		(start 3 2.5)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "01e3ba48-386f-4dee-a8da-3551ff7f084f")
+		(uuid "4204c477-9506-4eda-b14e-406b8ff47032")
 	)
 	(fp_line
 		(start -4.64 -2.75)
@@ -118,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "95b6ad76-5931-48b5-985c-899e10d5b128")
+		(uuid "306cc0a4-eee3-4a24-8515-2ff56c1bdbb6")
 	)
 	(fp_line
 		(start -4.64 2.75)
@@ -128,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3094ded7-8def-4547-a3a3-d2b7dba34db8")
+		(uuid "c5e78acc-1be8-4417-985d-0ef680881d31")
 	)
 	(fp_line
 		(start 4.64 -2.75)
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0d7791e0-8627-420d-9d0e-cf9fc5f00026")
+		(uuid "8fe5868b-8209-422d-93f8-eec267fdf2ce")
 	)
 	(fp_line
 		(start 4.64 2.75)
@@ -148,7 +148,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4c7129ae-6476-4ac7-b2f5-75fdcbbf03b9")
+		(uuid "d0c1885c-0254-47ae-9e69-45386f69150e")
 	)
 	(fp_line
 		(start -3 -2.5)
@@ -158,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "051715cf-cec3-40ca-88f9-c44b548aa011")
+		(uuid "658402b0-b275-4a4f-b154-fce1fb0ff25b")
 	)
 	(fp_line
 		(start -3 2.5)
@@ -168,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a7cef3a4-775e-4ad0-b9d4-8a448cecf964")
+		(uuid "ac26934b-a9c7-4caf-81e6-1f4342b681c1")
 	)
 	(fp_line
 		(start 3 -2.5)
@@ -178,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "44c1790c-9fde-4b73-8307-58c4ae8a1f35")
+		(uuid "385c46b0-eb0b-454d-b54e-bb1f8fbbefd6")
 	)
 	(fp_line
 		(start 3 2.5)
@@ -188,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f4129a2a-d569-4209-9db2-9c9ab3cbf71d")
+		(uuid "994e94a4-30cf-4aa1-ba4a-5fd9ca18a025")
 	)
 	(pad "1" thru_hole circle
 		(at -3.75 0)
@@ -197,7 +197,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "0362c339-c5c7-48bf-9cff-807f3dc134de")
+		(uuid "3f255246-f6fe-4c59-8765-3e5d6fa333ab")
 	)
 	(pad "2" thru_hole circle
 		(at 3.75 0)
@@ -206,7 +206,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "89956ad2-1851-4420-b12f-05223958ff12")
+		(uuid "d21a7359-621c-4413-87c5-5974edfe5dd5")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D Models/DE2B3SA101KN3AY02F.step"

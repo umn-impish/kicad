@@ -2316,7 +2316,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND1"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2337,7 +2337,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND1"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2363,7 +2363,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2381,7 +2381,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND1_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -2395,7 +2395,7 @@
 					)
 				)
 			)
-			(symbol "GND1_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2425,6 +2425,12 @@
 		(uuid "04922caa-64f6-4b11-b627-bf8440b3f70a")
 	)
 	(junction
+		(at 361.95 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e3e02e8-d657-4d4d-b7c4-1cc3208ffad2")
+	)
+	(junction
 		(at 361.95 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2446,13 +2452,19 @@
 		(at 171.45 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d07e58c-2da1-44d1-aed6-4bccfa3bc476")
+		(uuid "16bdece6-fa8c-49bd-9356-5a9e069aec59")
 	)
 	(junction
 		(at 114.3 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ea147e7-b9a2-4f13-8d97-4fa04c1b23bc")
+	)
+	(junction
+		(at 361.95 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22162b84-7cb9-447d-9fd1-798b701561e8")
 	)
 	(junction
 		(at 321.31 80.01)
@@ -2485,12 +2497,6 @@
 		(uuid "374577d3-46b3-4f8f-87bf-1e4606fa069c")
 	)
 	(junction
-		(at 166.37 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39f5c478-d789-44c9-ab4a-63721956197e")
-	)
-	(junction
 		(at 171.45 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2513,12 +2519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "477b9b08-562f-457d-9a0b-d93e8ddb15cb")
-	)
-	(junction
-		(at 361.95 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48e39214-7b24-454d-acdc-8085e8c5265f")
 	)
 	(junction
 		(at 283.21 111.76)
@@ -2549,6 +2549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f8ad8c8-d426-46e7-a89b-60da73c751c1")
+	)
+	(junction
+		(at 361.95 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5545c532-9fc2-42a0-a8b9-f3bd53b45076")
 	)
 	(junction
 		(at 91.44 139.7)
@@ -2587,22 +2593,10 @@
 		(uuid "62018069-32a9-43b4-bbde-cd97092d031d")
 	)
 	(junction
-		(at 171.45 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67e81fce-f4ac-484c-a016-76512307d7db")
-	)
-	(junction
 		(at 320.04 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68233959-a386-48e1-b3cf-0681826f7c74")
-	)
-	(junction
-		(at 361.95 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a7b34fb-59e0-4772-bb3a-c1261db693e8")
 	)
 	(junction
 		(at 97.79 92.71)
@@ -2621,6 +2615,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7558b15d-f699-4b2c-babf-1cd7fada52f3")
+	)
+	(junction
+		(at 171.45 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79435c84-4dad-4780-9ddf-cd57525660e1")
 	)
 	(junction
 		(at 233.68 115.57)
@@ -2645,6 +2645,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84dda7df-5999-4259-8847-e84b1facf0d9")
+	)
+	(junction
+		(at 171.45 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b13bb2-10c7-4915-888e-d50cc6b0ecf2")
 	)
 	(junction
 		(at 279.4 72.39)
@@ -2713,22 +2719,10 @@
 		(uuid "ab77edee-cf98-406e-bb69-936b771847b8")
 	)
 	(junction
-		(at 356.87 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2a58610-4640-4bc8-b714-cfb3f6028cbb")
-	)
-	(junction
 		(at 60.96 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74ac796-60c0-4db1-aa15-a8d505e2b7c1")
-	)
-	(junction
-		(at 361.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7deda40-f1d9-47c7-b4a1-e129ee30b10d")
 	)
 	(junction
 		(at 97.79 105.41)
@@ -2773,6 +2767,12 @@
 		(uuid "cc2a30f0-3084-43b8-bf04-9d494f3b0364")
 	)
 	(junction
+		(at 171.45 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce3a67cd-2506-4387-a23f-d0043ae06ebb")
+	)
+	(junction
 		(at 88.9 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2791,22 +2791,16 @@
 		(uuid "d407443b-4a37-4227-89cf-cca8ef31a3b2")
 	)
 	(junction
-		(at 171.45 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d94c2113-c785-4519-8451-dd053d0ad8e1")
-	)
-	(junction
-		(at 171.45 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d95cee0e-30fa-47ce-808d-534d4bebc2cc")
-	)
-	(junction
 		(at 279.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dab64b23-9078-4d04-bf6f-cf15bf34af8c")
+	)
+	(junction
+		(at 361.95 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd55d792-dd4b-430b-97d1-3e750828a6b2")
 	)
 	(junction
 		(at 321.31 88.9)
@@ -2839,12 +2833,6 @@
 		(uuid "ece34672-19b4-41fc-b987-1db9517e4eef")
 	)
 	(junction
-		(at 361.95 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efff4499-8410-4842-a8ff-af9c0bde7e88")
-	)
-	(junction
 		(at 303.53 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2863,6 +2851,12 @@
 		(uuid "f7031488-5400-4f15-9c90-6494def1fa3c")
 	)
 	(junction
+		(at 361.95 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb133a06-e89d-4fa7-9234-fd3996ab4b94")
+	)
+	(junction
 		(at 269.24 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2875,20 +2869,10 @@
 		(uuid "fdea1edf-c1e9-4e29-9204-abdf5d8e8af5")
 	)
 	(junction
-		(at 361.95 138.43)
+		(at 171.45 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ffaf4d87-386f-4d7d-bdfd-0cc2db2229a2")
-	)
-	(wire
-		(pts
-			(xy 360.68 125.73) (xy 361.95 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "008d699b-889d-47a9-91c1-9394ea01a050")
+		(uuid "ff1f4bbf-b50f-4188-b394-64f4c39c6599")
 	)
 	(wire
 		(pts
@@ -3069,16 +3053,6 @@
 			(type default)
 		)
 		(uuid "1a0af7fb-de38-475c-8910-b850de9ca4e6")
-	)
-	(wire
-		(pts
-			(xy 166.37 135.89) (xy 166.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a912c1a-8aec-4ac4-98cc-240c76b1ae5d")
 	)
 	(wire
 		(pts
@@ -3282,16 +3256,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 138.43) (xy 166.37 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f6f37b-0cd3-476a-9012-6959601d1e2d")
-	)
-	(wire
-		(pts
 			(xy 304.8 104.14) (xy 304.8 105.41)
 		)
 		(stroke
@@ -3389,16 +3353,6 @@
 			(type default)
 		)
 		(uuid "404cd1b5-e4d1-4012-bb9d-55afee03fe14")
-	)
-	(wire
-		(pts
-			(xy 356.87 135.89) (xy 356.87 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4267a3eb-f14b-4907-98a6-b0eade646930")
 	)
 	(wire
 		(pts
@@ -3579,16 +3533,6 @@
 			(type default)
 		)
 		(uuid "50b0f309-7994-4c43-847d-684795accbb2")
-	)
-	(wire
-		(pts
-			(xy 356.87 138.43) (xy 356.87 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f09d75-8f7e-46f5-b83f-8867fef8f3e9")
 	)
 	(wire
 		(pts
@@ -3842,16 +3786,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 130.81) (xy 361.95 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7356ba2c-cd86-47b3-9f43-e7007256eb35")
-	)
-	(wire
-		(pts
 			(xy 171.45 128.27) (xy 196.85 128.27)
 		)
 		(stroke
@@ -4072,13 +4006,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 118.11) (xy 171.45 118.11)
+			(xy 171.45 135.89) (xy 171.45 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a70f5d3-b6fb-4f3a-8d60-28c89373f145")
+		(uuid "8a9ab55f-e2b6-43ee-8609-28c3ba4a949e")
 	)
 	(wire
 		(pts
@@ -4642,16 +4576,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 118.11) (xy 361.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0b35f3-601b-4cf7-9fdf-55009c21c244")
-	)
-	(wire
-		(pts
 			(xy 279.4 72.39) (xy 279.4 83.82)
 		)
 		(stroke
@@ -4912,16 +4836,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 171.45 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21e91c6-faab-4c25-8ddf-b0ed59b766ad")
-	)
-	(wire
-		(pts
 			(xy 91.44 139.7) (xy 86.36 139.7)
 		)
 		(stroke
@@ -4929,6 +4843,16 @@
 			(type default)
 		)
 		(uuid "f323666e-abc2-4a0a-9725-75fb309ab19a")
+	)
+	(wire
+		(pts
+			(xy 361.95 135.89) (xy 361.95 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4aabeb4-46a0-496c-b616-308f78976b8b")
 	)
 	(wire
 		(pts
@@ -4989,50 +4913,6 @@
 			(type default)
 		)
 		(uuid "ff07137b-c04d-4168-9239-ab6818eb3655")
-	)
-	(global_label "Bridgeport GND"
-		(shape input)
-		(at 360.68 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02d1558a-6e63-4d05-aabb-3249e5e3608b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.9254 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cremat GND"
-		(shape input)
-		(at 120.65 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "053cfb35-3719-4faa-a848-c9e83870c739")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.9368 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "SiPM +5V"
 		(shape input)
@@ -5100,116 +4980,6 @@
 			)
 		)
 	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 360.68 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20c17fac-149f-410e-8e57-3973089c5184")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.5744 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cremat GND"
-		(shape input)
-		(at 170.18 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "257dab8e-2e71-4a5c-b08b-38990e539d85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8932 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bridgeport GND"
-		(shape input)
-		(at 101.6 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2acf4088-4c82-4927-9e19-a2f04fc989b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3546 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cremat GND"
-		(shape input)
-		(at 360.68 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "373e6dc1-206d-43c6-82f5-7d824e344ad2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.3932 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cremat GND"
-		(shape input)
-		(at 311.15 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39c5cb7f-3bfd-423e-93e4-a8a52eb342ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.4368 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Toggle 4"
 		(shape input)
 		(at 231.14 67.31 180)
@@ -5228,50 +4998,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bridgeport GND"
-		(shape input)
-		(at 170.18 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "548de646-2550-4987-aa96-722d3c5cb001")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4254 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 288.29 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62d715c4-6a8f-463f-97d8-8a76428b6c7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.3956 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5311,50 +5037,6 @@
 		(uuid "65aeb78b-05b5-4aa3-b11b-27d9fdeeead0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 292.3444 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 283.21 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69383889-a923-4336-9b62-03b2e5a7200e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.3156 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 92.71 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ccb0c16-83f5-4275-a707-691d0e1063aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8156 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,94 +5090,6 @@
 			)
 		)
 	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 120.65 189.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d6eb377-2511-4ede-bddc-4a5813dda334")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7556 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bridgeport GND"
-		(shape input)
-		(at 95.25 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "906ba4cc-256e-42fc-b808-e34e65b6efeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.0046 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bridgeport GND"
-		(shape input)
-		(at 288.29 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97ca5618-727e-4a38-988d-3607d437ecc2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.0446 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 316.23 189.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bff8598-1916-4c08-b694-5525f974caa2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.3356 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Cremat -7.2V"
 		(shape input)
 		(at 127 80.01 180)
@@ -5540,28 +5134,6 @@
 			)
 		)
 	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 101.6 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "daf52d74-7894-44d1-8b13-243f027aad17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.7056 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SiPM +5V"
 		(shape input)
 		(at 101.6 139.7 0)
@@ -5584,28 +5156,6 @@
 			)
 		)
 	)
-	(global_label "SiPM GND"
-		(shape input)
-		(at 171.45 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ede70411-fe6a-4d9f-93ea-651073c02971")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.3444 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Cremat +7.2V"
 		(shape input)
 		(at 88.9 67.31 0)
@@ -5619,28 +5169,6 @@
 		(uuid "f1605726-5903-4ae6-848a-308cb79e326d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.8444 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bridgeport GND"
-		(shape input)
-		(at 283.21 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f90d0a3a-caed-42ab-9589-69d635f8b36c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.9646 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,6 +5292,72 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0177b4ab-7969-4276-abe8-ef9133ce62a8")
+		(property "Reference" "#PWR054"
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07476fad-7eed-4cb1-ba0f-c07f7b0a876a")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6014,6 +5608,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b187eb5-08b3-4f45-9f73-7a57628d1de2")
+		(property "Reference" "#PWR048"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76131e49-5cb6-4291-ac38-5217238b566e")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3906")
 		(at 124.46 91.44 270)
 		(mirror x)
@@ -6131,72 +5791,6 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 60.96 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "175f2de5-0207-48cf-832b-e618a77657bf")
-		(property "Reference" "#PWR054"
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 60.96 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "002042b0-4ce5-4e3e-94a1-bcffd5c440c3")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6326,17 +5920,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 251.46 125.73 0)
+		(lib_id "power:GND")
+		(at 60.96 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29442910-5294-496d-87f3-9c42604720b3")
-		(property "Reference" "#PWR058"
-			(at 251.46 132.08 0)
+		(uuid "215fff2a-57c4-4aae-b81f-f64dd6fa2f75")
+		(property "Reference" "#PWR046"
+			(at 60.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,8 +5938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 251.46 130.81 0)
+		(property "Value" "GND"
+			(at 60.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 125.73 0)
+			(at 60.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 125.73 0)
+			(at 60.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,8 +5964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 251.46 125.73 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,12 +5974,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd803ffc-ff84-4db5-8b63-d2244699e746")
+			(uuid "2943c8de-4880-4018-8823-376a0fdf59d7")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR058")
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 311.15 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a15613-65db-4d91-93d6-351ddb2ffc9e")
+		(property "Reference" "#PWR063"
+			(at 317.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07025965-732b-4795-b46c-c6de1af1f797")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258b493d-0fad-46ec-bdd3-25f126acac6c")
+		(property "Reference" "#PWR047"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e71aef4c-390e-414d-be24-6d8336853ebc")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6812,6 +6539,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 361.95 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "401fba08-540e-4d0c-8aa8-7ba023cfdbca")
+		(property "Reference" "#PWR064"
+			(at 355.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5165c940-2cd9-470f-9139-fa9d8b994884")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 114.3 185.42 0)
 		(unit 1)
@@ -7050,6 +6844,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 250.19 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4701b354-cd03-4bfb-a727-e84760cdf02e")
+		(property "Reference" "#PWR056"
+			(at 250.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be9c1c2a-88f2-458a-8e26-4cb0bb322ce7")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ff7529-9f8b-4b90-bf58-2d2ce29589ae")
+		(property "Reference" "#PWR059"
+			(at 294.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a1f964a-f6f2-48fb-9793-5ac29a1ebf19")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 130.81 167.64 180)
 		(unit 1)
@@ -7160,72 +7087,6 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 60.96 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f038664-d545-401c-99cb-a5c8e1d217bb")
-		(property "Reference" "#PWR053"
-			(at 60.96 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f37f627-05a6-43fc-9ff5-0788af641170")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7348,7 +7209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
+		(lib_id "power:GND")
 		(at 60.96 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7356,8 +7217,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5216c97e-f7a2-487d-a32a-0852a5901651")
-		(property "Reference" "#PWR055"
+		(uuid "50d7a712-88eb-4f93-aba9-a744eed9bac7")
+		(property "Reference" "#PWR037"
 			(at 60.96 81.28 0)
 			(effects
 				(font
@@ -7366,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 60.96 80.01 0)
 			(effects
 				(font
@@ -7392,7 +7253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -7402,12 +7263,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f25126b-727f-4a30-8b9e-85b38ce5f937")
+			(uuid "41270be4-87b3-4128-a635-c74c9004ad41")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR055")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7966,6 +7827,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f1a233b-bfaa-4a0c-afed-185a4331c533")
+		(property "Reference" "#PWR055"
+			(at 251.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2867574-f5d6-498d-b72a-433c6967579d")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IMPISH Toggles Library:1uF")
 		(at 91.44 143.51 0)
 		(unit 1)
@@ -8177,6 +8104,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 288.29 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742c8635-cfce-4c35-9189-ea35bd811345")
+		(property "Reference" "#PWR062"
+			(at 294.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6e3aae8-edc2-40b6-83f6-cfbef3789d4c")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3906")
 		(at 314.96 91.44 270)
 		(mirror x)
@@ -8294,122 +8288,6 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 168.91 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "774bdb68-a85d-4456-906d-12b1554eeb3c")
-		(property "Reference" "R49"
-			(at 161.036 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 164.084 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 168.91 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5c08b61-09e5-451e-b1c1-f9b546701255")
-		)
-		(pin "1"
-			(uuid "7beedc3d-1ef0-4219-9e7c-a3e3ed275a98")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -8883,6 +8761,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 361.95 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd29331-95ef-4669-bd14-01fc8821fb53")
+		(property "Reference" "#PWR060"
+			(at 361.95 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38b3411a-3f24-40c5-b77c-a2e137d7bf31")
+		)
+		(instances
+			(project ""
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 285.75 97.79 0)
 		(unit 1)
@@ -9255,6 +9199,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 361.95 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "884e8e8e-bf9d-47f4-8547-c5997f86f36a")
+		(property "Reference" "#PWR065"
+			(at 355.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0e4b63-f403-4d00-90f7-52bf3baca758")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IMPISH Toggles Library:CHASSIS")
 		(at 241.3 80.01 0)
 		(unit 1)
@@ -9315,6 +9326,72 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b718c83-a6e5-4b64-b370-3a3ed57d5266")
+		(property "Reference" "#PWR045"
+			(at 120.65 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "352cc858-43a6-4b0b-878a-397d9b4c3a71")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9403,6 +9480,138 @@
 			(project ""
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d9b4897-8d3c-406b-b75a-d7dc44ed00f2")
+		(property "Reference" "#PWR044"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42b46619-2635-4208-bcf4-6d5acf6f0df5")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.21 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f137360-a86f-4305-a806-4789b2c33654")
+		(property "Reference" "#PWR058"
+			(at 283.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf6ab4f8-27a2-41d0-90bf-8fe7858c1dea")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10242,32 +10451,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 359.41 138.43 90)
+		(lib_id "power:GND")
+		(at 171.45 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a1714e0e-ac21-4f1f-9435-5b110aadd980")
-		(property "Reference" "R70"
-			(at 351.536 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 354.584 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 359.41 138.43 0)
+		(fields_autoplaced yes)
+		(uuid "a3386ca3-6436-4a08-b032-04f6703317d3")
+		(property "Reference" "#PWR041"
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,8 +10469,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 359.41 138.43 0)
+		(property "Value" "GND"
+			(at 167.64 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,8 +10487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 359.41 138.43 0)
+		(property "Datasheet" ""
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,65 +10496,22 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 359.41 138.43 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 359.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 359.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 359.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 359.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 359.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ea09b8d-b53d-416a-9156-01c3b4520db8")
 		)
 		(pin "1"
-			(uuid "cc433373-8c2a-4fa1-81b5-db9d85386fcd")
+			(uuid "5ceb95a0-cf66-45f0-a804-b9169a88f3d8")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "R70")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10934,17 +11094,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 356.87 142.24 0)
+		(lib_id "power:GND")
+		(at 101.6 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9ed5d71-604c-4348-b0ed-22a74d31556e")
-		(property "Reference" "#PWR060"
-			(at 356.87 148.59 0)
+		(uuid "acc3460f-cec9-4b7b-86a5-95033632c1df")
+		(property "Reference" "#PWR049"
+			(at 107.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,16 +11112,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 356.87 147.32 0)
+		(property "Value" "GND"
+			(at 105.41 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 142.24 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +11131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 142.24 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,8 +11139,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 356.87 142.24 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,12 +11149,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "29ad09e7-b91a-4308-a65f-de9f529b7ccc")
+			(uuid "da316644-5578-46b3-b37d-54331ac9d779")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR060")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae2e7cf9-c578-45a8-ad37-000a2d34c19b")
+		(property "Reference" "#PWR043"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f93c88c-e747-47e2-8205-72067faf8ff2")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11246,6 +11473,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 283.21 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d6d4cc-2d46-43f6-a834-85fb17efdf3d")
+		(property "Reference" "#PWR061"
+			(at 289.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c7bbfd-7898-41d8-a89f-05c74a294bc3")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 137.16 172.72 90)
 		(unit 1)
@@ -11478,32 +11772,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 359.41 135.89 90)
+		(lib_id "power:GND")
+		(at 171.45 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd97daa3-0dae-4a3b-929b-58289553b993")
-		(property "Reference" "R69"
-			(at 351.536 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 354.584 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 359.41 135.89 0)
+		(fields_autoplaced yes)
+		(uuid "be902f36-c7ec-43e8-870c-70ef4951ff64")
+		(property "Reference" "#PWR040"
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,8 +11790,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 359.41 135.89 0)
+		(property "Value" "GND"
+			(at 167.64 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,8 +11808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 359.41 135.89 0)
+		(property "Datasheet" ""
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,181 +11817,22 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 359.41 135.89 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 359.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 359.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 359.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 359.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 359.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ebfd29a5-1f44-4e38-84ff-d81f7274cf9b")
 		)
 		(pin "1"
-			(uuid "067440a5-4387-4097-ab4f-e0ab6b17db44")
+			(uuid "e3003634-98a0-4589-ae8b-00acef8463d3")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 168.91 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf327949-f659-4e0a-9e86-f33f5ab1f885")
-		(property "Reference" "R50"
-			(at 161.036 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 164.084 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "PAT0805E10R0BST1 "
-			(at 168.91 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c7339b17-0ec5-4103-88bf-c07540db9234")
-		)
-		(pin "1"
-			(uuid "513b4ac8-f9b9-4884-98ef-e137cb636012")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "R50")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12625,72 +12754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 166.37 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5e90ffc-5176-4fc3-af2a-992b0f11fbbe")
-		(property "Reference" "#PWR056"
-			(at 166.37 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 166.37 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 166.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fef7b4d-37db-4049-abc7-9043acceab64")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 137.16 88.9 90)
 		(unit 1)
@@ -12801,6 +12864,73 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a2174c-af86-484b-a65a-7928cf697ae2")
+		(property "Reference" "#PWR042"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cebc860-f5f0-4350-91cf-5942e151ecbd")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13042,72 +13172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 251.46 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5b7f187-2be7-4a0c-a7e9-e56b3b87377e")
-		(property "Reference" "#PWR059"
-			(at 251.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 251.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 251.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a5efc1d-e1ad-4b53-ab73-d81142ec146b")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IMPISH Toggles Library:.1uF")
 		(at 86.36 154.94 0)
 		(unit 1)
@@ -13190,6 +13254,73 @@
 			(project ""
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb9b622-f45a-4513-adbb-2c2608dfd9fc")
+		(property "Reference" "#PWR053"
+			(at 107.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ecfcac4-de5f-454e-8259-dce20446c24b")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13577,6 +13708,72 @@
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 316.23 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0078e1d-633c-4c59-a7ab-6be02d7492ce")
+		(property "Reference" "#PWR057"
+			(at 316.23 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26b32759-2c39-444a-9200-f0736e5758b7")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13999,17 +14196,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 250.19 154.94 0)
+		(lib_id "power:GND")
+		(at 361.95 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7d39c98-ee75-43ee-ac94-33f7aa5d8283")
-		(property "Reference" "#PWR057"
-			(at 250.19 161.29 0)
+		(uuid "fa15cb89-a884-44fa-b623-b4e8082d7f88")
+		(property "Reference" "#PWR066"
+			(at 355.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14017,16 +14214,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 250.19 160.02 0)
+		(property "Value" "GND"
+			(at 358.14 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 154.94 0)
+			(at 361.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +14233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 154.94 0)
+			(at 361.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14043,8 +14241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 250.19 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,12 +14251,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a97ea51-f434-462a-b19b-8e774e11d951")
+			(uuid "11814197-abde-4d92-ba3d-09d20e8aefc2")
 		)
 		(instances
 			(project "IMPISH PS Toggles Board"
 				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
-					(reference "#PWR057")
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0c2fe6-eabd-43d3-8f42-923c3654cda5")
+		(property "Reference" "#PWR050"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b069283-a9c1-44fc-b371-35a0cc32dc8a")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/9cb1225d-a813-4d60-9c74-be95d600aa33"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

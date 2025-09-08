@@ -472,7 +472,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "IMPISH Toggles Library"
+      "IMPISH Toggles Library",
+      "IMPISH Library"
     ],
     "pinned_symbol_libs": [
       "IMPISH Toggles Library",
@@ -498,7 +499,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
