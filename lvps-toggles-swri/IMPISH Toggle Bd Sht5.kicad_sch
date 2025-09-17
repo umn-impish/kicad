@@ -2122,6 +2122,10 @@
 		(color 0 0 0 0)
 		(uuid "e42a6b69-c798-42fd-ad59-4296613ed852")
 	)
+	(no_connect
+		(at 118.11 68.58)
+		(uuid "55c6997e-210d-4e55-a579-fc3728d71c44")
+	)
 	(wire
 		(pts
 			(xy 172.72 162.56) (xy 172.72 175.26)
@@ -2591,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "c09f3d2a-cfa1-433c-a100-9a80cff68a5b")
-	)
-	(wire
-		(pts
-			(xy 118.11 68.58) (xy 118.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1995451-df97-4c14-8036-42068472a1de")
 	)
 	(wire
 		(pts
