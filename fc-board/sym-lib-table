@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "fc-board")(type "KiCad")(uri "${KIPRJMOD}/fc-board.kicad_sym")(options "")(descr ""))
-  (lib (name "altium-import")(type "KiCad")(uri "${KIPRJMOD}/UNG8125_B_-altium-import.kicad_sym")(options "")(descr ""))
 )

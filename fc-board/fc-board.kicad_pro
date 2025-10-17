@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|47319800|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|a1db9b77-d188-4061-84a0-b8ec1f44af69",
+          ""
+        ],
+        [
+          "silk_edge_clearance|60680200|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|25787f7f-197d-484b-8324-98ec19dfdfbf",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -124,9 +133,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
@@ -136,8 +145,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
@@ -503,11 +512,21 @@
       },
       {
         "clearance": 0.1,
+        "name": "CH17-20",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.15,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.3,
@@ -517,7 +536,7 @@
         "clearance": 0.1,
         "name": "PWR/GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -527,7 +546,7 @@
         "clearance": 0.1,
         "name": "SDIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.3,
@@ -537,7 +556,7 @@
         "clearance": 0.1,
         "name": "SDPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -545,9 +564,20 @@
       },
       {
         "clearance": 0.1,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1554,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1,
         "name": "VDD_SWOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5
       },
@@ -556,7 +586,17 @@
         "diff_pair_width": 0.1217,
         "name": "coplanar-ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1067,
+        "name": "coplanar-ethernet-L2_L4_REF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "via_diameter": 0.3,
         "via_drill": 0.15
@@ -566,7 +606,7 @@
         "diff_pair_width": 0.1359,
         "name": "coplanar-pcie-L2_L4_REF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "via_diameter": 0.3,
         "via_drill": 0.15
@@ -579,19 +619,19 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "coplanar-ethernet",
+        "netclass": "coplanar-ethernet-L2_L4_REF",
         "pattern": "/gpio/D*+"
       },
       {
-        "netclass": "coplanar-ethernet",
+        "netclass": "coplanar-ethernet-L2_L4_REF",
         "pattern": "/gpio/D*-"
       },
       {
-        "netclass": "coplanar-ethernet",
+        "netclass": "coplanar-ethernet-L2_L4_REF",
         "pattern": "/X*+"
       },
       {
-        "netclass": "coplanar-ethernet",
+        "netclass": "coplanar-ethernet-L2_L4_REF",
         "pattern": "/X*-"
       },
       {
@@ -641,6 +681,34 @@
       {
         "netclass": "VDD_SWOUT",
         "pattern": "*VDD12_SW_OUT"
+      },
+      {
+        "netclass": "coplanar-ethernet",
+        "pattern": "/Y*+"
+      },
+      {
+        "netclass": "coplanar-ethernet",
+        "pattern": "/Y*-"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "CH17-20",
+        "pattern": "*spi*CH17*"
+      },
+      {
+        "netclass": "CH17-20",
+        "pattern": "*spi*CH18*"
+      },
+      {
+        "netclass": "CH17-20",
+        "pattern": "*spi*CH20*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_*"
       }
     ]
   },
@@ -889,6 +957,24 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
           "show": false
         }
       ],

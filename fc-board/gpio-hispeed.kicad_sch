@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CM4 Hi-speed Serial")
-		(date "2024-09-12")
+		(date "2025-10-17")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -4281,10 +4281,6 @@
 		(uuid "40c104b0-cf31-4f77-85a1-4e4a181600d6")
 	)
 	(no_connect
-		(at 110.49 43.18)
-		(uuid "43673e0f-de9b-4edc-84bf-f97a757c6efc")
-	)
-	(no_connect
 		(at 110.49 66.04)
 		(uuid "456c2541-e8a1-4de8-951a-21e9a9de4ace")
 	)
@@ -4468,10 +4464,6 @@
 		(at 49.53 142.24)
 		(uuid "e8265af4-5552-433f-8614-cb817b984658")
 	)
-	(no_connect
-		(at 110.49 40.64)
-		(uuid "e9610f7d-adf9-4919-bc7b-502bbd32d68f")
-	)
 	(wire
 		(pts
 			(xy 110.49 152.4) (xy 111.76 152.4)
@@ -4491,6 +4483,16 @@
 			(type default)
 		)
 		(uuid "034ebaf8-45b8-4445-bcaa-428e4786208c")
+	)
+	(wire
+		(pts
+			(xy 110.49 43.18) (xy 130.81 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e87f17-34d7-48b6-9ef2-3fcc786d1e92")
 	)
 	(wire
 		(pts
@@ -5384,6 +5386,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 40.64) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff22b11a-ecf8-4880-97ca-b0c749efa24b")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 111.76 83.82)
 		)
 		(stroke
@@ -5563,6 +5575,17 @@
 		)
 		(uuid "12046382-145d-4960-a7e2-f3088a32762e")
 	)
+	(hierarchical_label "USB_N"
+		(shape output)
+		(at 130.81 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1342ec39-25eb-4e57-a486-44ee6b027ede")
+	)
 	(hierarchical_label "Y4-"
 		(shape output)
 		(at 199.39 86.36 0)
@@ -5584,6 +5607,17 @@
 			(justify left)
 		)
 		(uuid "43861213-ddc4-47d1-aa8c-5ba29be551d6")
+	)
+	(hierarchical_label "USB_P"
+		(shape output)
+		(at 130.81 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47d7847c-4038-4c49-86ee-015885006c14")
 	)
 	(hierarchical_label "Y1-"
 		(shape output)
@@ -5683,7 +5717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc41689-633a-4ad5-a1ff-d5bc5e6c4d52")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 116.84 21.59 0)
 			(effects
 				(font
@@ -5733,7 +5767,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5749,7 +5783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24bf4c5f-d6a2-4f5c-94e5-c9bf33d0c64b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 48.26 179.07 0)
 			(effects
 				(font
@@ -5799,7 +5833,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5815,7 +5849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85511861-9c50-477c-9121-d60b9771b55c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 111.76 179.07 0)
 			(effects
 				(font
@@ -5865,7 +5899,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e9cc85-8728-41d2-8da5-93b068b32101")
-		(property "Reference" "JP5"
+		(property "Reference" "JP7"
 			(at 119.38 30.4799 90)
 			(effects
 				(font
@@ -5935,7 +5969,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "JP5")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -6713,16 +6747,6 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE_RX_M" output
-			(at 162.56 78.74 180)
-			(uuid "9ca90376-6fd3-4b82-b659-cda5451eeac8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TRD-" output
 			(at 196.85 86.36 0)
 			(uuid "86eca158-5ed1-4527-a81a-01137d2994e2")
@@ -6746,16 +6770,6 @@
 		(pin "PCIE_nPERST" output
 			(at 162.56 91.44 180)
 			(uuid "defac25d-238c-4287-b706-88ec8bb6876c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_TX_M" output
-			(at 162.56 73.66 180)
-			(uuid "0c955962-89b0-4560-aac8-9aee8160f5a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,9 +6867,29 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE_CLK_M" output
+		(pin "PCIE_RX_N" output
+			(at 162.56 78.74 180)
+			(uuid "dd3cdc16-0c15-48fb-b225-2f8e081d5a08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_N" output
+			(at 162.56 73.66 180)
+			(uuid "4f044942-d34b-41e9-818d-26f475026050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_CLK_N" output
 			(at 162.56 85.09 180)
-			(uuid "e4e87541-760c-42a1-9d0e-3e988db7bba1")
+			(uuid "7eababc2-9513-48c3-b5e6-be521d9119ed")
 			(effects
 				(font
 					(size 1.27 1.27)
