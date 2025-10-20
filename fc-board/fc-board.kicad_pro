@@ -254,7 +254,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|444500|1308100|b7a229a8-d443-41c7-ad2c-58146aacc1e6|b7993446-7a60-486f-bbbc-1de1f3989c6f|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2",
+        ""
+      ],
+      [
+        "pin_to_pin|444500|1358900|b82f1074-f457-41d1-9c8d-f82c9a2d4bbf|b8475e3a-b57e-40d4-bd6d-423aa8349c91|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -720,7 +729,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "fc-board.stp",
       "svg": "",
       "vrml": ""
     },
@@ -728,7 +737,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "fc-bom",
+    "bom_export_filename": "fc-bom-new.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

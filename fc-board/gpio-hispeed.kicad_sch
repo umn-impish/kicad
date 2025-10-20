@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CM4 Hi-speed Serial")
-		(date "2025-10-18")
+		(date "2025-10-20")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -5915,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e9cc85-8728-41d2-8da5-93b068b32101")
-		(property "Reference" "JP7"
+		(property "Reference" "JP6"
 			(at 119.38 30.4799 90)
 			(effects
 				(font
@@ -6050,6 +6050,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44b8623f-c84e-4a4d-bcae-d4fed5a699ad")
 		)
@@ -6059,7 +6113,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "JP7")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -6216,6 +6270,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at -59.69 99.06 0)
 			(effects
 				(font

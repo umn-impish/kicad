@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SPI Hub")
-		(date "2025-10-18")
+		(date "2025-10-20")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -4338,6 +4338,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 44.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "d0680e60-ff25-490d-9fa9-d1c7d18a0d31")
 		)
@@ -4634,6 +4688,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1799da79-a0bd-4f1a-9e7d-fc6a37c688c7")
 		)
@@ -4792,6 +4900,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fa7f27d-3c65-4f60-88fd-b6f5e9cbead2")
 		)
@@ -4817,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "178ccc5c-1727-4ea0-bed1-2b13967e7c4b")
-		(property "Reference" "JP16"
+		(property "Reference" "JP15"
 			(at 160.02 130.81 0)
 			(effects
 				(font
@@ -4950,6 +5112,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df9b9f30-c572-465d-83ef-55021fc89213")
 		)
@@ -4959,7 +5175,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP16")
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -5042,7 +5258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f17b02c-a308-4e87-b425-865fd730adc1")
-		(property "Reference" "JP12"
+		(property "Reference" "JP11"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5175,6 +5391,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ddfe383-5005-42bf-944e-4ae3d195e882")
 		)
@@ -5184,7 +5454,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP12")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -5227,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -5236,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C1206C103J3RACAUTO"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -5327,6 +5597,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -5386,7 +5710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 148.59 73.66 0)
 			(effects
 				(font
@@ -5494,6 +5818,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd9db451-1fa8-4777-9239-bb5dd87a067f")
 		)
@@ -5519,7 +5897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f604950-193a-4079-8677-571da4042abc")
-		(property "Reference" "JP15"
+		(property "Reference" "JP14"
 			(at 160.02 120.65 0)
 			(effects
 				(font
@@ -5652,6 +6030,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec896fc6-315e-43d0-af49-627266a32ab3")
 		)
@@ -5661,7 +6093,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP15")
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -5803,6 +6235,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 35.56 35.56 0)
 			(effects
 				(font
@@ -5970,6 +6456,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "052e0c56-8014-4529-b4ab-eac306fb6eb4")
 		)
@@ -5995,7 +6535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "427e6e07-1361-4d7e-8a20-f5b3c8fb5527")
-		(property "Reference" "JP14"
+		(property "Reference" "JP13"
 			(at 160.02 110.49 0)
 			(effects
 				(font
@@ -6128,6 +6668,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a08d041-9b20-425d-aefa-2ba9240a2566")
 		)
@@ -6137,7 +6731,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP14")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d61adff-d7e8-4a4d-8d89-646b3fb4bacc")
-		(property "Reference" "JP10"
+		(property "Reference" "JP9"
 			(at 133.35 110.49 0)
 			(effects
 				(font
@@ -6286,6 +6880,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91bf86ac-235a-4ae4-b8f4-7eda2d4dc082")
 		)
@@ -6295,7 +6943,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP10")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -6376,7 +7024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854f610e-b15d-43cf-a148-a3988cd6e623")
-		(property "Reference" "JP13"
+		(property "Reference" "JP12"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -6509,6 +7157,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8481ac2-3cf5-4dcf-b55b-acdf3407b89b")
 		)
@@ -6518,7 +7220,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP13")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -6561,7 +7263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -6570,7 +7272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C1206C103J3RACAUTO"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -6661,6 +7363,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -6721,7 +7477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 124.46 57.15 0)
 			(effects
 				(font
@@ -6730,7 +7486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "C1206C103J3RACAUTO"
 			(at 124.46 57.15 0)
 			(effects
 				(font
@@ -6829,6 +7585,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f42400c-55ac-40d2-856d-f61e36d087ba")
 		)
@@ -6854,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "930a8d0c-5bee-493f-9c97-baa93be25137")
-		(property "Reference" "J14"
+		(property "Reference" "J15"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -7018,6 +7828,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "93ed03da-fb38-4bdd-80a1-b36ecf71471c")
 		)
@@ -7081,7 +7945,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "J14")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -7163,7 +8027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97a5e411-beff-411b-9d5c-aeab2397cd53")
-		(property "Reference" "JP11"
+		(property "Reference" "JP10"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -7296,6 +8160,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76e8d1f0-09da-47d6-aa30-99ca13e95988")
 		)
@@ -7305,7 +8223,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP11")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -7321,7 +8239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99937646-840f-479d-a6e9-883561d751af")
-		(property "Reference" "JP9"
+		(property "Reference" "JP8"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -7454,6 +8372,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f78872b-434e-4dfc-bc83-b7870c7c80d0")
 		)
@@ -7463,7 +8435,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/11d9cd03-29fa-40fa-a963-f5f11b91a482"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -7670,6 +8642,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 110.49 34.29 90)
 			(effects
 				(font
@@ -7894,6 +8920,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 26.67 54.61 90)
 			(effects
 				(font
@@ -8460,6 +9540,60 @@
 				(hide yes)
 			)
 		)
+		(property "CREATOR" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81bcc99e-1962-4322-ace5-d2544512b63a")
 		)
@@ -8492,7 +9626,7 @@
 				)
 			)
 		)
-		(property "Value" "5k, temp stable"
+		(property "Value" "5.1k"
 			(at 137.16 61.722 90)
 			(effects
 				(font
@@ -8509,7 +9643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 125.73 64.77 0)
 			(effects
 				(font
@@ -8518,7 +9652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "ERA-8ARW512V, ultra temp. stable"
 			(at 125.73 64.77 0)
 			(effects
 				(font
@@ -8609,6 +9743,60 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 125.73 64.77 90)
 			(effects
 				(font
