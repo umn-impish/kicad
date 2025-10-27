@@ -192,7 +192,7 @@
 		(layer "F.Fab")
 		(uuid "7b9b444b-ac2e-4d24-b3fc-006629d9e80a")
 	)
-	(pad "01" thru_hole rect
+	(pad "1" thru_hole rect
 		(at 11.43 1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -200,7 +200,7 @@
 		(remove_unused_layers no)
 		(uuid "b22ce6c5-c331-4dc9-b44c-bcc860f74d44")
 	)
-	(pad "02" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 11.43 -1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -208,7 +208,7 @@
 		(remove_unused_layers no)
 		(uuid "7a88dede-c3a6-4cc4-9783-bb906d35b066")
 	)
-	(pad "03" thru_hole circle
+	(pad "3" thru_hole circle
 		(at 8.89 1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -216,7 +216,7 @@
 		(remove_unused_layers no)
 		(uuid "a88d17bc-8916-4de8-8084-4f54ef61decc")
 	)
-	(pad "04" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 8.89 -1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -224,7 +224,7 @@
 		(remove_unused_layers no)
 		(uuid "8609df8b-ea9d-41ec-acf7-0a234665903a")
 	)
-	(pad "05" thru_hole circle
+	(pad "5" thru_hole circle
 		(at 6.35 1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -232,7 +232,7 @@
 		(remove_unused_layers no)
 		(uuid "d8864c40-f3c9-431c-a976-bec797e1a133")
 	)
-	(pad "06" thru_hole circle
+	(pad "6" thru_hole circle
 		(at 6.35 -1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -240,7 +240,7 @@
 		(remove_unused_layers no)
 		(uuid "5da4ee08-a96a-4b0c-8658-e0cfe0ea4c90")
 	)
-	(pad "07" thru_hole circle
+	(pad "7" thru_hole circle
 		(at 3.81 1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -248,7 +248,7 @@
 		(remove_unused_layers no)
 		(uuid "29bf325c-edcc-4108-a23a-7908877d20d3")
 	)
-	(pad "08" thru_hole circle
+	(pad "8" thru_hole circle
 		(at 3.81 -1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -256,7 +256,7 @@
 		(remove_unused_layers no)
 		(uuid "7a52eebe-b3de-433d-896d-b4c7e038a33f")
 	)
-	(pad "09" thru_hole circle
+	(pad "9" thru_hole circle
 		(at 1.27 1.27)
 		(size 1.37 1.37)
 		(drill 1.02)
@@ -354,6 +354,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/BCS-110-L-D-TE.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -362,6 +363,18 @@
 		)
 		(rotate
 			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/models/MTSW-110-13-L-D-1060.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
 		)
 	)
 )
