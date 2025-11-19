@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.1,
+        "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -30,22 +30,22 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|47319800|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|a1db9b77-d188-4061-84a0-b8ec1f44af69",
+          ""
+        ],
+        [
+          "silk_edge_clearance|60680200|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|25787f7f-197d-484b-8324-98ec19dfdfbf",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -68,7 +77,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -102,8 +111,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -124,9 +133,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
@@ -136,8 +145,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
@@ -188,7 +197,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,6 +230,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false
@@ -455,6 +469,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -466,7 +481,9 @@
     ],
     "pinned_symbol_libs": [
       "fc-board",
-      "microsd"
+      "microsd",
+      "microsd-card",
+      "altium-import"
     ]
   },
   "meta": {
@@ -477,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -489,164 +506,209 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.399999,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.120904,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "ethernet",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.120904,
-        "via_diameter": 0.399999,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.016,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.284,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "sd_pwr",
+        "clearance": 0.1,
+        "name": "CH17-20",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
+        "track_width": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.154686,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "usb",
+        "diff_pair_width": 0.15,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1,
+        "name": "PWR/GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.1,
+        "name": "SDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1,
+        "name": "SDPWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1554,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1,
+        "name": "VDD_SWOUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.154686,
-        "via_diameter": 0.399999,
-        "via_drill": 0.2,
-        "wire_width": 6
+        "track_width": 0.5
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1217,
+        "name": "coplanar-ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1067,
+        "name": "coplanar-ethernet-L2_L4_REF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1359,
+        "name": "coplanar-pcie-L2_L4_REF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.3,
+        "via_drill": 0.15
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/gpio/SD_PWR": [
-        "sd_pwr"
-      ],
-      "/usb-hub/DWN1_N": [
-        "usb"
-      ],
-      "/usb-hub/DWN1_P": [
-        "usb"
-      ],
-      "/usb-hub/DWN2_N": [
-        "usb"
-      ],
-      "/usb-hub/DWN2_P": [
-        "usb"
-      ],
-      "/usb-hub/DWN3_N": [
-        "usb"
-      ],
-      "/usb-hub/DWN3_P": [
-        "usb"
-      ],
-      "/usb-hub/DWN4_N": [
-        "usb"
-      ],
-      "/usb-hub/DWN4_P": [
-        "usb"
-      ],
-      "/usb-hub/DWN5_N": [
-        "usb"
-      ],
-      "/usb-hub/DWN5_P": [
-        "usb"
-      ],
-      "/usb-hub/DWN6_N": [
-        "usb"
-      ],
-      "/usb-hub/DWN6_P": [
-        "usb"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "usb",
-        "pattern": "*DWN*"
-      },
-      {
-        "netclass": "usb",
-        "pattern": "*USB*"
-      },
-      {
-        "netclass": "sd_pwr",
-        "pattern": "*SD_PWR"
-      },
-      {
-        "netclass": "power",
-        "pattern": "/gpio/3.3V"
-      },
-      {
-        "netclass": "ethernet",
+        "netclass": "coplanar-ethernet-L2_L4_REF",
         "pattern": "/gpio/D*+"
       },
       {
-        "netclass": "ethernet",
+        "netclass": "coplanar-ethernet-L2_L4_REF",
         "pattern": "/gpio/D*-"
       },
       {
-        "netclass": "ethernet",
-        "pattern": "/gpio/X*+"
+        "netclass": "coplanar-ethernet-L2_L4_REF",
+        "pattern": "/X*+"
       },
       {
-        "netclass": "ethernet",
-        "pattern": "/gpio/X*-"
+        "netclass": "coplanar-ethernet-L2_L4_REF",
+        "pattern": "/X*-"
       },
       {
-        "netclass": "power",
-        "pattern": "*5V*"
+        "netclass": "I2C",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "PWR/GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "SDIO",
+        "pattern": "/gpio/SD*_DAT*"
+      },
+      {
+        "netclass": "SDIO",
+        "pattern": "/gpio/SD*_C*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*TGL"
+      },
+      {
+        "netclass": "PWR/GND",
+        "pattern": "/+5V_CM4"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/gpio/*LED*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/GPIO*"
+      },
+      {
+        "netclass": "SDPWR",
+        "pattern": "/gpio/SD_PWR"
+      },
+      {
+        "netclass": "coplanar-pcie-L2_L4_REF",
+        "pattern": "*PCIE*_N"
+      },
+      {
+        "netclass": "coplanar-pcie-L2_L4_REF",
+        "pattern": "*PCIE*_P"
+      },
+      {
+        "netclass": "VDD_SWOUT",
+        "pattern": "*VDD12_SW_OUT"
+      },
+      {
+        "netclass": "coplanar-ethernet",
+        "pattern": "/Y*+"
+      },
+      {
+        "netclass": "coplanar-ethernet",
+        "pattern": "/Y*-"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "CH17-20",
+        "pattern": "*spi*CH17*"
+      },
+      {
+        "netclass": "CH17-20",
+        "pattern": "*spi*CH18*"
+      },
+      {
+        "netclass": "CH17-20",
+        "pattern": "*spi*CH20*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_*"
       }
     ]
   },
@@ -655,10 +717,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "flight-computer-board-hifi.step",
       "svg": "",
       "vrml": ""
     },
@@ -666,7 +728,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "fc-bom",
+    "bom_export_filename": "fc-bom-new.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -896,6 +958,24 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -975,8 +1055,8 @@
       "spi-hub"
     ],
     [
-      "8fd07369-1c3f-41cf-a32e-88b0d98439a9",
-      "usb-hub"
+      "39ada011-5e2b-4e01-950b-3cc6cc5801c0",
+      "pcie-ethernet"
     ]
   ],
   "text_variables": {}

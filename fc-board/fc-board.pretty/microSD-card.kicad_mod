@@ -1,0 +1,214 @@
+(footprint "microSD-card"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "microSD_Card")
+	(property "Reference" "X1"
+		(at -6.7 6 0)
+		(layer "F.SilkS")
+		(uuid "fb1658ab-4ea1-495f-a597-eda41f625392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "microSD_Card"
+		(at 0.1 6.1 0)
+		(layer "F.Fab")
+		(uuid "b4778865-5512-4985-bdd7-d0a629672c5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ad6918e-4373-4a5a-a365-0737e6ad1397")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a56e495-e862-4876-a942-d50b18ed3b73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.5 -4.8)
+		(end -7.5 4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "718f672c-7fc0-4962-a81c-cf6b4dafdbfc")
+	)
+	(fp_line
+		(start -2.7 -4.8)
+		(end -7.5 -4.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f987158-759c-4c75-abbb-da5dd0991bc3")
+	)
+	(fp_line
+		(start -2.7 -4.8)
+		(end -1.6 -5.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ee87e50-1935-438b-bb6c-ffeabd96cdc9")
+	)
+	(fp_line
+		(start -0.1 -5.9)
+		(end -1.6 -5.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01265d2d-3100-4e02-a30d-1d269ffb80db")
+	)
+	(fp_line
+		(start -0.1 -5.9)
+		(end -0.1 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "358c428f-a2b9-4b3d-a4a0-8c196f40eb24")
+	)
+	(fp_line
+		(start 1.1 -5.3)
+		(end -0.1 -5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "904ea924-d716-4760-8c43-6d5c5b1604c4")
+	)
+	(fp_line
+		(start 1.1 -5.3)
+		(end 1.9 -6.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36e638f7-371f-4fc6-9dca-e0e8f64b3395")
+	)
+	(fp_line
+		(start 1.9 -6.1)
+		(end 7.5 -6.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66e2578b-32b1-4113-8371-4cae274e7646")
+	)
+	(fp_line
+		(start 7.5 -6.1)
+		(end 7.5 4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6f1eee1-ad30-470b-8353-2a160d57e4e3")
+	)
+	(fp_line
+		(start 7.5 4.9)
+		(end -7.5 4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04cfda78-1851-499e-9909-fce79cb9ac6e")
+	)
+	(pad "1" smd rect
+		(at -4.95 -3.8 270)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "429cb543-358e-4f30-b04f-760e600ccccd")
+	)
+	(pad "2" smd rect
+		(at -4.95 -2.7 270)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3fb777c3-edd4-4931-b778-3477798d438c")
+	)
+	(pad "3" smd rect
+		(at -5.1 -1.6 270)
+		(size 0.8 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02449e94-9c12-4d33-ba9e-3b1cb13ce280")
+	)
+	(pad "4" smd rect
+		(at -4.95 -0.5 270)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a57c4a3-e81c-4ba8-a17a-23d7a49874b2")
+	)
+	(pad "5" smd rect
+		(at -5.1 0.6 270)
+		(size 0.8 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf681db9-cd5e-4449-ba67-7193a51e0a53")
+	)
+	(pad "6" smd rect
+		(at -4.95 1.7 270)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0edba7a8-970f-4a2b-b050-ae71d5f9b5f2")
+	)
+	(pad "7" smd rect
+		(at -4.95 2.8 270)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92bcf0b4-e59f-46ac-aaa6-011793e64c01")
+	)
+	(pad "8" smd rect
+		(at -4.95 3.9 270)
+		(size 0.8 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1daf2ed6-7af6-465c-9880-05963a468f44")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/microsd-card.stp"
+		(offset
+			(xyz 7.5 6 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 90)
+		)
+	)
+)

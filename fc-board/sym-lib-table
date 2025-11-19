@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "fc-board")(type "KiCad")(uri "${KIPRJMOD}/fc-board.kicad_sym")(options "")(descr ""))
-  (lib (name "microsd")(type "Legacy")(uri "${KIPRJMOD}/microSD_Card.lib")(options "")(descr ""))
 )
