@@ -3851,16 +3851,6 @@
 		)
 		(uuid "92899a9d-650c-404d-9ae5-ead6eb53408b")
 	)
-	(label "CH20"
-		(at 163.83 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "93e580f7-3471-40d0-960d-b74e723ec3e6")
-	)
 	(label "CH8"
 		(at 91.44 120.65 180)
 		(effects
