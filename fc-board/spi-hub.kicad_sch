@@ -3662,6 +3662,16 @@
 		(uuid "5d6dfaeb-3d22-4085-ada2-e4e3809580a5")
 	)
 	(label "CH20"
+		(at 163.83 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5dbd9f46-576e-4112-8220-c5426ddcd80f")
+	)
+	(label "CH20"
 		(at 143.51 116.84 180)
 		(effects
 			(font

@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|47319800|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|a1db9b77-d188-4061-84a0-b8ec1f44af69",
-          ""
-        ],
-        [
-          "silk_edge_clearance|60680200|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|25787f7f-197d-484b-8324-98ec19dfdfbf",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -583,18 +574,8 @@
       },
       {
         "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1217,
-        "name": "coplanar-ethernet",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "via_diameter": 0.3,
-        "via_drill": 0.15
-      },
-      {
-        "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1067,
-        "name": "coplanar-ethernet-L2_L4_REF",
+        "name": "coplanar-ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -619,20 +600,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "coplanar-ethernet-L2_L4_REF",
-        "pattern": "/gpio/D*+"
+        "netclass": "coplanar-ethernet",
+        "pattern": "/gpio/Pi*"
       },
       {
-        "netclass": "coplanar-ethernet-L2_L4_REF",
-        "pattern": "/gpio/D*-"
+        "netclass": "coplanar-ethernet",
+        "pattern": "/T*"
       },
       {
-        "netclass": "coplanar-ethernet-L2_L4_REF",
-        "pattern": "/X*+"
-      },
-      {
-        "netclass": "coplanar-ethernet-L2_L4_REF",
-        "pattern": "/X*-"
+        "netclass": "coplanar-ethernet",
+        "pattern": "/R+"
       },
       {
         "netclass": "I2C",
@@ -683,11 +660,11 @@
         "pattern": "*VDD12_SW_OUT"
       },
       {
-        "netclass": "coplanar-ethernet",
+        "netclass": "Default",
         "pattern": "/Y*+"
       },
       {
-        "netclass": "coplanar-ethernet",
+        "netclass": "Default",
         "pattern": "/Y*-"
       },
       {
@@ -709,6 +686,10 @@
       {
         "netclass": "USB",
         "pattern": "*USB_*"
+      },
+      {
+        "netclass": "coplanar-ethernet",
+        "pattern": "/R-"
       }
     ]
   },
