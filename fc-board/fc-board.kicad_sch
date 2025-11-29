@@ -3513,7 +3513,7 @@
 	)
 	(rectangle
 		(start 228.6 96.52)
-		(end 257.81 119.38)
+		(end 281.94 130.81)
 		(stroke
 			(width 0.75)
 			(type dash)
@@ -3585,6 +3585,20 @@
 		)
 		(uuid "41b9c8fc-6024-4e5f-925e-002bf77b3868")
 	)
+	(text "W note: putting a big RC\nbetween chassis/gnd is\nstandard practice i think"
+		(exclude_from_sim no)
+		(at 231.14 128.016 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "623550bc-d4c6-4649-afdf-6f2968cb579d")
+	)
 	(text "Gondola ethernet"
 		(exclude_from_sim no)
 		(at 18.542 160.02 0)
@@ -3642,7 +3656,7 @@
 	)
 	(text "The LAN7340 schematic shows\na ferrite bead connecting\nGND and CHASSIS"
 		(exclude_from_sim no)
-		(at 232.41 134.874 0)
+		(at 230.886 115.824 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4307,16 +4321,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 237.49 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ffab68d-6af0-4c26-a103-3717370d31fa")
-	)
-	(wire
-		(pts
 			(xy 91.44 76.2) (xy 116.84 76.2)
 		)
 		(stroke
@@ -4777,16 +4781,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 109.22) (xy 251.46 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb558e0-cd29-438a-a642-e40d1e4bdcc0")
-	)
-	(wire
-		(pts
 			(xy 116.84 119.38) (xy 99.06 119.38)
 		)
 		(stroke
@@ -5054,16 +5048,6 @@
 			(type default)
 		)
 		(uuid "a59179b9-86a3-4ac8-9469-85904efa9b93")
-	)
-	(wire
-		(pts
-			(xy 251.46 109.22) (xy 251.46 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7882158-cd48-4b1e-a55b-cffffc8d40e6")
 	)
 	(wire
 		(pts
@@ -6434,16 +6418,6 @@
 			(justify left bottom)
 		)
 		(uuid "97c334f1-be42-45bc-9751-4fc306de002c")
-	)
-	(label "CHASSIS"
-		(at 231.14 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98ee1c38-f915-4933-8d0c-dc87f84c94b2")
 	)
 	(label "GPIO19"
 		(at 77.47 140.97 270)
@@ -9110,72 +9084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 251.46 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c4e7de-dba1-40f5-8686-b8196333cd1f")
-		(property "Reference" "#PWR012"
-			(at 251.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46f962d1-4df8-4733-a956-2f8b2abdca26")
-		)
-		(instances
-			(project ""
-				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MountingHole_Pad_1")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 36.83 193.04 0)
@@ -11198,127 +11106,6 @@
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 241.3 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9eff4cb7-9b88-4f2e-8bb2-0fac4247cd47")
-		(property "Reference" "JP2"
-			(at 241.3 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CHASSIS_GND"
-			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d5dba9b-2b0a-41c9-85c2-26df43778ae3")
-		)
-		(pin "1"
-			(uuid "7c9bdd0a-0037-4074-8dad-35d748ea5736")
-		)
-		(instances
-			(project ""
-				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4"
-					(reference "JP2")
 					(unit 1)
 				)
 			)

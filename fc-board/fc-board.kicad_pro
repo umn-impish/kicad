@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -201,20 +201,20 @@
           "spacing": 1.0
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 40,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 2.0,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.2
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 10,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.05,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.2
         }
       },
       "via_dimensions": [
@@ -573,12 +573,13 @@
         "track_width": 0.5
       },
       {
-        "diff_pair_gap": 0.2032,
+        "diff_pair_gap": 0.2,
         "diff_pair_width": 0.1067,
         "name": "coplanar-ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.36,
         "via_diameter": 0.3,
         "via_drill": 0.15
       },
@@ -660,11 +661,11 @@
         "pattern": "*VDD12_SW_OUT"
       },
       {
-        "netclass": "Default",
+        "netclass": "coplanar-ethernet",
         "pattern": "/Y*+"
       },
       {
-        "netclass": "Default",
+        "netclass": "coplanar-ethernet",
         "pattern": "/Y*-"
       },
       {

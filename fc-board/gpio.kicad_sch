@@ -2995,7 +2995,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -33.02 -40.64 0)
 					(length 2.54)
 					(name "GPIO_VREF(1.8v/3.3v_Input)"
@@ -3067,7 +3067,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -33.02 -50.8 0)
 					(length 2.54)
 					(name "+3.3v_(Output)"
@@ -3103,7 +3103,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -33.02 -55.88 0)
 					(length 2.54)
 					(name "+1.8v_(Output)"
