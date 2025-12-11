@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CM4 Hi-speed Serial")
-		(date "2025-10-20")
+		(date "2025-12-08")
 		(rev "0.1")
 	)
 	(lib_symbols
@@ -5404,7 +5404,7 @@
 		)
 		(uuid "ffa597be-a907-47f4-bc0a-637852418744")
 	)
-	(label "PCIE_CLK_N"
+	(label "PI_PCIE_CLK_N"
 		(at 142.24 85.09 0)
 		(effects
 			(font
@@ -5424,7 +5424,7 @@
 		)
 		(uuid "0d72a4f3-6a73-468f-a20b-97b0af351210")
 	)
-	(label "PCIE_TX_P"
+	(label "PI_PCIE_TX_P"
 		(at 29.21 63.5 0)
 		(effects
 			(font
@@ -5434,7 +5434,7 @@
 		)
 		(uuid "20345ef3-6b5e-4f4c-8ef0-e79049785aa8")
 	)
-	(label "PCIE_RX_N"
+	(label "PI_PCIE_RX_N"
 		(at 29.21 58.42 0)
 		(effects
 			(font
@@ -5444,7 +5444,7 @@
 		)
 		(uuid "3ec30bab-ae27-4bb1-aede-b874d33dd929")
 	)
-	(label "PCIE_CLK_P"
+	(label "PI_PCIE_CLK_P"
 		(at 142.24 82.55 0)
 		(effects
 			(font
@@ -5454,8 +5454,8 @@
 		)
 		(uuid "3f816747-70a3-4e82-bd39-139841109937")
 	)
-	(label "PCIE_RX_N"
-		(at 142.24 78.74 0)
+	(label "PI_PCIE_RX_N"
+		(at 142.24 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5474,8 +5474,8 @@
 		)
 		(uuid "5f979101-dbc2-4625-af0c-5ce597407446")
 	)
-	(label "PCIE_RX_P"
-		(at 142.24 76.2 0)
+	(label "PI_PCIE_RX_P"
+		(at 142.24 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5484,7 +5484,7 @@
 		)
 		(uuid "663d309a-ad48-46ee-91e5-b0224579be04")
 	)
-	(label "PCIE_CLK_P"
+	(label "PI_PCIE_CLK_P"
 		(at 29.21 48.26 0)
 		(effects
 			(font
@@ -5494,8 +5494,8 @@
 		)
 		(uuid "726b2c1f-2346-45aa-9e3c-721bcfad810e")
 	)
-	(label "PCIE_TX_N"
-		(at 142.24 73.66 0)
+	(label "PI_PCIE_TX_N"
+		(at 142.24 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5524,7 +5524,7 @@
 		)
 		(uuid "afd548b4-a6ba-4b9e-a6c3-964c06ef0cb5")
 	)
-	(label "PCIE_TX_N"
+	(label "PI_PCIE_TX_N"
 		(at 29.21 66.04 0)
 		(effects
 			(font
@@ -5534,7 +5534,7 @@
 		)
 		(uuid "b6883f5d-3802-419c-90d7-db8d06ab7494")
 	)
-	(label "PCIE_RX_P"
+	(label "PI_PCIE_RX_P"
 		(at 29.21 55.88 0)
 		(effects
 			(font
@@ -5544,7 +5544,7 @@
 		)
 		(uuid "c4032cd3-9fc2-40aa-bb3f-869f85f74c02")
 	)
-	(label "PCIE_CLK_N"
+	(label "PI_PCIE_CLK_N"
 		(at 29.21 50.8 0)
 		(effects
 			(font
@@ -5554,8 +5554,8 @@
 		)
 		(uuid "e46e0819-ef96-4a60-b3f1-78facc03d6e0")
 	)
-	(label "PCIE_TX_P"
-		(at 142.24 71.12 0)
+	(label "PI_PCIE_TX_P"
+		(at 142.24 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5717,7 +5717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc41689-633a-4ad5-a1ff-d5bc5e6c4d52")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR024"
 			(at 116.84 21.59 0)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5783,7 +5783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24bf4c5f-d6a2-4f5c-94e5-c9bf33d0c64b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 48.26 179.07 0)
 			(effects
 				(font
@@ -5833,7 +5833,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5849,7 +5849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85511861-9c50-477c-9121-d60b9771b55c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 111.76 179.07 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5915,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e9cc85-8728-41d2-8da5-93b068b32101")
-		(property "Reference" "JP6"
+		(property "Reference" "JP9"
 			(at 119.38 30.4799 90)
 			(effects
 				(font
@@ -6113,7 +6113,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/edd7e4f6-7524-424d-ae74-0eda33819a09"
-					(reference "JP6")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
