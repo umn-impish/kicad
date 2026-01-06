@@ -8790,6 +8790,17 @@
 		)
 		(uuid "2e8f3425-9e89-4a4c-9794-a21ce4dbf7b8")
 	)
+	(hierarchical_label "LTC_INTERRUPT"
+		(shape bidirectional)
+		(at 118.11 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3516e08c-bb46-4ffe-bf64-0ab024c10dcb")
+	)
 	(hierarchical_label "DET3_TGL"
 		(shape output)
 		(at 31.75 62.23 180)
@@ -9010,6 +9021,17 @@
 		)
 		(uuid "99f80a24-2467-4b4d-9e72-371cd1734b62")
 	)
+	(hierarchical_label "LTC_RESET"
+		(shape bidirectional)
+		(at 118.11 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a681ab91-257a-44de-a305-0618342714b0")
+	)
 	(hierarchical_label "PPS_SENSE"
 		(shape input)
 		(at 118.11 62.23 0)
@@ -9020,17 +9042,6 @@
 			(justify left)
 		)
 		(uuid "a7344ba0-b767-4a3f-8d5f-055abc91d151")
-	)
-	(hierarchical_label "GPIO20"
-		(shape bidirectional)
-		(at 118.11 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab9af967-c722-4688-a283-57e16516eaa9")
 	)
 	(hierarchical_label "ETH_LEDG"
 		(shape output)
@@ -9109,8 +9120,8 @@
 		)
 		(uuid "f0368d02-84cc-43ed-93ee-45b6b540526d")
 	)
-	(hierarchical_label "GPIO17"
-		(shape bidirectional)
+	(hierarchical_label "DAQ_TGL"
+		(shape output)
 		(at 31.75 87.63 180)
 		(effects
 			(font
@@ -9119,17 +9130,6 @@
 			(justify right)
 		)
 		(uuid "f95d6754-2806-4da4-a305-347c1bdfa2cf")
-	)
-	(hierarchical_label "GPIO21"
-		(shape bidirectional)
-		(at 118.11 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb307124-f4eb-4636-bddb-84cad7a36267")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9631,7 +9631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eeae676-bac8-46d5-9fd3-e3f679a477b3")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 252.73 80.01 90)
 			(effects
 				(font
@@ -9827,7 +9827,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9973,7 +9973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14990a85-bda7-4971-ac56-6b4e7a1c3a3b")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 246.38 102.8699 0)
 			(effects
 				(font
@@ -10171,7 +10171,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10187,7 +10187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15edb1a2-26f5-4c12-b119-18bf0d6fa049")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 234.95 46.9899 0)
 			(effects
 				(font
@@ -10241,7 +10241,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10924,7 +10924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33edf41e-e898-40a9-a721-f4049483dc6f")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 227.33 46.9899 0)
 			(effects
 				(font
@@ -10978,7 +10978,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10994,7 +10994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c24977d-d97e-4780-9f94-dde8216c49f1")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 231.14 134.62 90)
 			(effects
 				(font
@@ -11190,7 +11190,7 @@
 		(instances
 			(project "fc-board"
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11998,7 +11998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce497f1-210e-4bf4-9e87-e16219f710d3")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 252.73 64.77 90)
 			(effects
 				(font
@@ -12194,7 +12194,7 @@
 		(instances
 			(project ""
 				(path "/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
