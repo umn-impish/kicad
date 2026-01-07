@@ -512,11 +512,18 @@
         "microvia_drill": 0.1,
         "name": "IMPISH1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3
+      },
+      {
+        "name": "big",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0
       }
     ],
     "meta": {
@@ -526,7 +533,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "big",
         "pattern": "CHASSIS"
       }
     ]
@@ -809,7 +816,7 @@
     ],
     [
       "5ebaf967-2b0e-4e92-afa2-b2491894fdcd",
-      "Toggles 5  & 6"
+      "Toggles 5, 6, DAQBOX"
     ]
   ],
   "text_variables": {}

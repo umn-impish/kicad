@@ -148,154 +148,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IMPISH Toggles Library:.01uF"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ".01uF"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10000 pF ±10% 200V Ceramic Capacitor X7R 0805 (2012 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PN" "C0805C103K2RECAUTO"
-				(at 0 -10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol ".01uF_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol ".01uF_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "IMPISH Toggles Library:BCS-105-L-D-TE"
 			(pin_names
 				(offset 1.016)
@@ -998,155 +850,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IMPISH Toggles Library:CHASSIS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "CHASSIS"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND_Chassis\" , global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CHASSIS_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CHASSIS_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "IMPISH Toggles Library:ZXM61N02F"
 			(pin_names
 				(hide yes)
@@ -1510,6 +1213,24 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
@@ -1707,6 +1428,24 @@
 				)
 			)
 			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1967,168 +1706,178 @@
 		)
 	)
 	(junction
-		(at 172.72 83.82)
+		(at 116.84 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02df2407-817b-486b-8ba8-22d2310278a7")
+	)
+	(junction
+		(at 91.44 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c9ee25-3871-4898-be01-656f03024a09")
 	)
 	(junction
-		(at 120.65 162.56)
+		(at 128.27 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20267e09-09f4-4965-9c44-583663f074d7")
+		(uuid "1facea60-e041-4a1e-ba6e-b3442fe1ba26")
 	)
 	(junction
-		(at 146.05 66.04)
+		(at 64.77 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "279c267f-8aac-4fe3-a7d1-3afc5b78bed1")
 	)
 	(junction
-		(at 181.61 184.15)
+		(at 95.25 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a0d8b8f-1f36-4fe7-bf94-60a369c66280")
 	)
 	(junction
-		(at 172.72 86.36)
+		(at 128.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c02da80-091e-490f-84f5-2028b7955ce6")
+	)
+	(junction
+		(at 91.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35d6799b-2dc0-4aca-a95c-d7ec1f4558d6")
 	)
 	(junction
-		(at 146.05 68.58)
+		(at 64.77 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "362c0f0e-fb29-4465-99d2-4be9a339bc62")
 	)
 	(junction
-		(at 198.12 196.85)
+		(at 111.76 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d0cea2-4fdd-4fc7-b603-5c09a8589633")
 	)
 	(junction
-		(at 181.61 196.85)
+		(at 95.25 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4795573b-4199-45d1-843a-ae336d2bb266")
 	)
 	(junction
-		(at 162.56 189.23)
+		(at 76.2 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "533d791b-7405-4c6f-a94f-c22ec55c0698")
 	)
 	(junction
-		(at 251.46 170.18)
+		(at 165.1 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55da9d2e-d0da-436c-bb5f-9f011e8ab0f0")
 	)
 	(junction
-		(at 172.72 76.2)
+		(at 91.44 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d37b3d8-f895-4129-a8e9-97d40e4deafb")
 	)
 	(junction
-		(at 198.12 180.34)
+		(at 128.27 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608fdb16-8754-4666-9236-cc64893ec61a")
+	)
+	(junction
+		(at 111.76 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "644aeecc-7702-47d7-887c-bf111c62e534")
 	)
 	(junction
-		(at 255.27 165.1)
+		(at 168.91 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "846545c0-69df-4f31-acde-8f279c5f594f")
 	)
 	(junction
-		(at 255.27 162.56)
+		(at 168.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a7e9fef-e6bb-456d-aeaf-8381502fcb1a")
 	)
 	(junction
-		(at 255.27 167.64)
+		(at 168.91 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dbead10-a4ae-42fd-b577-b5105ada4253")
 	)
 	(junction
-		(at 172.72 81.28)
+		(at 91.44 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a304fe5-d703-43f7-8ce3-2bcf4926502d")
 	)
 	(junction
-		(at 172.72 162.56)
+		(at 86.36 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a007c6a7-bb07-45a2-90a7-b591371a54a9")
 	)
 	(junction
-		(at 172.72 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4295b47-0937-4cd2-84ef-9181b9c5ba09")
-	)
-	(junction
-		(at 118.11 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af9f1b5b-d494-4f98-90b5-de64a038029e")
-	)
-	(junction
-		(at 214.63 180.34)
+		(at 128.27 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b93e42b9-c495-44b5-ae8b-3f28889c7c70")
 	)
 	(junction
-		(at 172.72 175.26)
+		(at 86.36 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba0af60f-5e9a-4e34-83f4-d3a524ac496d")
 	)
 	(junction
-		(at 251.46 172.72)
+		(at 165.1 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6bbe0df-2154-415d-8712-11321989c6ed")
 	)
 	(junction
-		(at 214.63 171.45)
+		(at 128.27 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c829f621-78c6-47da-af50-e59b1feb6631")
 	)
 	(junction
-		(at 146.05 63.5)
+		(at 64.77 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de8d6b76-dc4c-4705-9039-526b58087fbe")
 	)
 	(junction
-		(at 255.27 172.72)
+		(at 168.91 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e408cea5-d014-49b4-a699-2cfe6f9be6ba")
 	)
 	(junction
-		(at 255.27 170.18)
+		(at 168.91 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e42a6b69-c798-42fd-ad59-4296613ed852")
 	)
 	(no_connect
-		(at 118.11 68.58)
+		(at 156.21 60.96)
+		(uuid "0a58b246-5e5f-4216-a235-a2dc753773df")
+	)
+	(no_connect
+		(at 36.83 58.42)
 		(uuid "55c6997e-210d-4e55-a579-fc3728d71c44")
 	)
 	(wire
 		(pts
-			(xy 172.72 162.56) (xy 172.72 175.26)
+			(xy 86.36 110.49) (xy 86.36 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2138,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 196.85) (xy 162.56 196.85)
+			(xy 95.25 144.78) (xy 76.2 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 170.18) (xy 251.46 165.1)
+			(xy 165.1 118.11) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2158,17 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 81.28) (xy 172.72 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14202695-18bb-4e44-8e81-223b78eb2b00")
-	)
-	(wire
-		(pts
-			(xy 214.63 171.45) (xy 214.63 172.72)
+			(xy 128.27 119.38) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2178,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 184.15) (xy 184.15 184.15)
+			(xy 95.25 132.08) (xy 97.79 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 167.64) (xy 280.67 167.64)
+			(xy 168.91 115.57) (xy 194.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 180.34) (xy 214.63 180.34)
+			(xy 127 128.27) (xy 128.27 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2208,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 146.05 71.12)
+			(xy 64.77 58.42) (xy 64.77 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 195.58) (xy 162.56 196.85)
+			(xy 76.2 143.51) (xy 76.2 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 171.45) (xy 232.41 167.64)
+			(xy 146.05 119.38) (xy 146.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2238,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 180.34) (xy 218.44 180.34)
+			(xy 128.27 128.27) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 171.45) (xy 220.98 171.45)
+			(xy 128.27 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2258,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 187.96) (xy 208.28 187.96)
+			(xy 105.41 135.89) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 198.12 83.82)
+			(xy 91.44 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 86.36) (xy 172.72 83.82)
+			(xy 91.44 76.2) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2027,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 196.85) (xy 198.12 196.85)
+			(xy 128.27 60.96) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363489e0-9ccb-4a62-9753-f1abb84ff4ba")
+	)
+	(wire
+		(pts
+			(xy 118.11 144.78) (xy 111.76 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2298,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 172.72) (xy 255.27 172.72)
+			(xy 165.1 120.65) (xy 168.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2308,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 180.34) (xy 203.2 180.34)
+			(xy 111.76 128.27) (xy 116.84 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2318,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 172.72 81.28)
+			(xy 91.44 73.66) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 175.26) (xy 172.72 175.26)
+			(xy 76.2 123.19) (xy 86.36 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 165.1) (xy 280.67 165.1)
+			(xy 168.91 113.03) (xy 194.31 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2348,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 198.12 76.2)
+			(xy 91.44 66.04) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 175.26) (xy 198.12 175.26)
+			(xy 86.36 123.19) (xy 111.76 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 165.1) (xy 255.27 165.1)
+			(xy 165.1 113.03) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2378,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 189.23) (xy 162.56 190.5)
+			(xy 76.2 137.16) (xy 76.2 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 184.15) (xy 189.23 184.15)
+			(xy 105.41 132.08) (xy 102.87 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2398,7 +2147,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 194.31) (xy 181.61 196.85)
+			(xy 132.08 46.99) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c291fb-979a-408a-918c-80261afd849c")
+	)
+	(wire
+		(pts
+			(xy 95.25 142.24) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2408,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 167.64) (xy 255.27 167.64)
+			(xy 146.05 115.57) (xy 168.91 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 177.8) (xy 214.63 180.34)
+			(xy 128.27 125.73) (xy 128.27 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2428,7 +2187,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 171.45) (xy 232.41 171.45)
+			(xy 116.84 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caf813c-c26f-4ba5-8022-9bf8b8ce9581")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 146.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2438,7 +2207,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 118.11 80.01)
+			(xy 128.27 46.99) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c3291e-cc3d-48fb-a301-55bbe8f19ee3")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 128.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7dcf40-2ba9-461c-bf13-4a29a1268b97")
+	)
+	(wire
+		(pts
+			(xy 36.83 66.04) (xy 36.83 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 175.26) (xy 162.56 189.23)
+			(xy 76.2 123.19) (xy 76.2 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2458,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 157.48) (xy 148.59 149.86)
+			(xy 62.23 105.41) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2257,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 162.56) (xy 255.27 162.56)
+			(xy 156.21 68.58) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b445ce-ace1-4383-a8e9-aabc6766d218")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 168.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 170.18) (xy 280.67 170.18)
+			(xy 168.91 118.11) (xy 194.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 78.74) (xy 198.12 78.74)
+			(xy 91.44 68.58) (xy 116.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 196.85) (xy 181.61 196.85)
+			(xy 111.76 144.78) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2508,17 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 162.56) (xy 120.65 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8774cc9-fead-49b5-8e9c-909320f14141")
-	)
-	(wire
-		(pts
-			(xy 198.12 195.58) (xy 198.12 196.85)
+			(xy 111.76 143.51) (xy 111.76 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 171.45) (xy 214.63 171.45)
+			(xy 124.46 119.38) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 81.28) (xy 198.12 81.28)
+			(xy 91.44 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 180.34) (xy 172.72 184.15)
+			(xy 86.36 128.27) (xy 86.36 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2347,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 146.05 68.58)
+			(xy 128.27 55.88) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e72fe2-91b9-493a-94e2-c1dc110651e3")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 64.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 162.56) (xy 280.67 162.56)
+			(xy 168.91 110.49) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2578,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 170.18) (xy 255.27 170.18)
+			(xy 165.1 118.11) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 180.34) (xy 223.52 180.34)
+			(xy 139.7 128.27) (xy 137.16 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2598,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 149.86) (xy 147.32 149.86)
+			(xy 62.23 97.79) (xy 60.96 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2608,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 63.5) (xy 146.05 66.04)
+			(xy 64.77 53.34) (xy 64.77 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 86.36) (xy 198.12 86.36)
+			(xy 91.44 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 184.15) (xy 191.77 187.96)
+			(xy 105.41 132.08) (xy 105.41 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 180.34) (xy 198.12 190.5)
+			(xy 111.76 128.27) (xy 111.76 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 162.56) (xy 172.72 162.56)
+			(xy 62.23 110.49) (xy 86.36 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 146.05 54.61)
+			(xy 60.96 44.45) (xy 64.77 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 189.23) (xy 168.91 189.23)
+			(xy 76.2 137.16) (xy 82.55 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 179.07) (xy 226.06 180.34)
+			(xy 139.7 127) (xy 139.7 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 172.72) (xy 251.46 170.18)
+			(xy 165.1 120.65) (xy 165.1 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 172.72 86.36)
+			(xy 91.44 78.74) (xy 91.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2708,17 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 118.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33fcb2f-89ed-494b-915a-17e693d543b5")
-	)
-	(wire
-		(pts
-			(xy 120.65 162.56) (xy 120.65 167.64)
+			(xy 34.29 110.49) (xy 34.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2728,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 76.2) (xy 172.72 76.2)
+			(xy 64.77 66.04) (xy 91.44 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2738,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 54.61) (xy 146.05 63.5)
+			(xy 64.77 44.45) (xy 64.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2748,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 184.15) (xy 181.61 184.15)
+			(xy 86.36 132.08) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2758,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 172.72) (xy 280.67 172.72)
+			(xy 168.91 120.65) (xy 194.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2557,7 @@
 	)
 	(global_label "Toggle 5"
 		(shape input)
-		(at 118.11 63.5 180)
+		(at 36.83 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2778,7 +2567,7 @@
 		)
 		(uuid "2c892341-830e-4f1f-8722-12b6b74ec4f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.105 63.5 0)
+			(at 27.825 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,9 +2577,31 @@
 			)
 		)
 	)
+	(global_label "DAQBOX +5"
+		(shape input)
+		(at 132.08 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5417cdd0-0984-4abd-b225-8e9f12312748")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.3138 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Heater 12V"
 		(shape input)
-		(at 142.24 54.61 180)
+		(at 60.96 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2800,7 +2611,7 @@
 		)
 		(uuid "5adc5e11-ed6f-4e85-a3a5-b96330378b65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.2374 54.61 0)
+			(at 49.9574 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2623,7 @@
 	)
 	(global_label "Bias +15V"
 		(shape input)
-		(at 147.32 149.86 180)
+		(at 60.96 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2822,7 +2633,7 @@
 		)
 		(uuid "89d75ade-76f9-446d-b5c3-8fd4b3c4e6db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8919 149.86 0)
+			(at 50.5319 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2645,7 @@
 	)
 	(global_label "Toggle 6"
 		(shape input)
-		(at 120.65 157.48 180)
+		(at 34.29 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2844,7 +2655,7 @@
 		)
 		(uuid "956eb2f6-831a-4097-adfe-2c1a836207c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.645 157.48 0)
+			(at 25.285 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,9 +2665,31 @@
 			)
 		)
 	)
+	(global_label "DAQBOX toggle"
+		(shape input)
+		(at 156.21 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3728f79-9745-4cf4-acbb-48a501fcd221")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.5884 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Bias -15V"
 		(shape input)
-		(at 210.82 171.45 180)
+		(at 124.46 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2866,255 +2699,19 @@
 		)
 		(uuid "c88ea698-172e-4588-8342-d34af5f5a993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8026 171.45 0)
+			(at 114.4426 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IMPISH Toggles Library:.01uF")
-		(at 111.76 166.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ff68ac4-636c-4c09-be41-25952dd39272")
-		(property "Reference" "C6"
-			(at 115.57 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".01uF"
-			(at 115.062 167.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 110.49 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10000 pF ±10% 200V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "C0805C103K2RECAUTO"
-			(at 111.76 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 111.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e13b8b62-7203-4f6b-8fc3-59c2532b9481")
-		)
-		(pin "1"
-			(uuid "4ecdd6ce-932f-49d2-bb65-366322c45de2")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IMPISH Toggles Library:.01uF")
-		(at 107.95 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12e15111-553c-4937-a863-e8cf5637a58f")
-		(property "Reference" "C5"
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ".01uF"
-			(at 111.252 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 106.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10000 pF ±10% 200V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "C0805C103K2RECAUTO"
-			(at 107.95 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output Voltage" ""
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Outputs" ""
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Used on" ""
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value 2" ""
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f97cd546-cf23-4c76-b917-17463a2be14f")
-		)
-		(pin "1"
-			(uuid "2dbd2c9e-d477-4754-a2dc-ceb73de61dc7")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "C5")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 167.64 0)
+		(at 34.29 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3123,7 +2720,7 @@
 		(fields_autoplaced yes)
 		(uuid "1729d9fb-3ea5-47a2-a7bd-1b1aa5dafa83")
 		(property "Reference" "#PWR026"
-			(at 120.65 173.99 0)
+			(at 34.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +2729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 172.72 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +2737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 167.64 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +2746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 167.64 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +2755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 167.64 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +2777,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 172.72 177.8 0)
+		(at 86.36 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3188,7 +2785,7 @@
 		(dnp no)
 		(uuid "1a2a3abf-91e7-4df9-90a3-ea7e929dab9e")
 		(property "Reference" "R83"
-			(at 175.006 176.784 0)
+			(at 88.646 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +2794,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 175.26 179.07 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +2803,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +2812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,8 +2820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/5W 0805"
-			(at 172.72 177.8 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +2830,7 @@
 			)
 		)
 		(property "PN" "PAT0805E1002BST1"
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +2839,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +2847,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +2855,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +2863,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +2871,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 172.72 177.8 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +2895,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 171.45 189.23 270)
+		(at 85.09 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3306,7 +2903,7 @@
 		(dnp no)
 		(uuid "1ffad4e1-61f4-447c-a6d8-4b13cdd81cb3")
 		(property "Reference" "R82"
-			(at 168.91 185.928 90)
+			(at 82.55 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +2911,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 172.72 185.928 90)
+			(at 86.36 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +2919,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +2928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,8 +2936,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 0.1% 1/5W 0805"
-			(at 171.45 189.23 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +2946,7 @@
 			)
 		)
 		(property "PN" "PAT0805E4701BST1"
-			(at 171.45 189.23 90)
+			(at 85.09 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +2955,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +2963,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +2971,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +2979,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +2987,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 171.45 189.23 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3011,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 186.69 184.15 270)
+		(at 100.33 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3422,7 +3019,7 @@
 		(dnp no)
 		(uuid "20b36b91-92db-43b2-9c6f-4ca42d10dd7c")
 		(property "Reference" "R84"
-			(at 185.166 180.848 90)
+			(at 98.806 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3027,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 187.96 180.848 90)
+			(at 101.6 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3035,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,8 +3052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10 OHM 0.1% 1/5W 0805"
-			(at 186.69 184.15 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3062,7 @@
 			)
 		)
 		(property "PN" "PAT0805E10R0BST1"
-			(at 186.69 184.15 90)
+			(at 100.33 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3071,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3079,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3087,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3095,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3103,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 186.69 184.15 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,74 +3126,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IMPISH Toggles Library:CHASSIS")
-		(at 111.76 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21f81ef1-1617-47ce-bd6d-1c6a776de81a")
-		(property "Reference" "#PWR038"
-			(at 111.76 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 111.633 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_Chassis\" , global ground"
-			(at 111.76 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec2b3ce9-487e-4805-9426-8468afd9650f")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IMPISH Toggles Library:BCS-105-L-D-TE")
-		(at 267.97 167.64 0)
+		(at 181.61 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3604,7 +3135,7 @@
 		(dnp no)
 		(uuid "2699fd6c-8e56-42f8-858c-046e31e86e1f")
 		(property "Reference" "J8"
-			(at 267.97 154.94 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3143,7 @@
 			)
 		)
 		(property "Value" "BCS-105-L-D-TE"
-			(at 267.97 157.48 0)
+			(at 181.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3151,7 @@
 			)
 		)
 		(property "Footprint" "IMPISH Toggles Library:SAMTEC_BCS-105-L-D-TE"
-			(at 267.97 184.912 0)
+			(at 181.61 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3170,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT 10POS 0.1 GOLD PCB"
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3179,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 267.97 188.976 0)
+			(at 181.61 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3189,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec Inc."
-			(at 267.97 187.198 0)
+			(at 181.61 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3199,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 267.97 182.88 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3209,7 @@
 			)
 		)
 		(property "Desc2" "Bias"
-			(at 267.97 176.784 0)
+			(at 181.61 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3217,7 @@
 			)
 		)
 		(property "PN" "BCS-105-L-D-TE"
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3226,7 @@
 			)
 		)
 		(property "Function" "Toggle 6"
-			(at 267.97 166.624 0)
+			(at 181.61 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3234,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3242,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3250,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3258,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3266,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 267.97 167.64 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3314,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 198.12 193.04 0)
+		(at 111.76 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3792,7 +3323,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d00ebbe-c56a-4ff0-a70e-63fd322508e1")
 		(property "Reference" "R86"
-			(at 200.66 191.77 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3332,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 200.66 194.31 0)
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3341,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,8 +3358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2K OHM 0.1% 1/5W 0805"
-			(at 198.12 193.04 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3368,7 @@
 			)
 		)
 		(property "PN" "PAT0805E2001BST1"
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3377,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3385,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3393,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3401,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3409,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 198.12 193.04 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3433,7 @@
 	)
 	(symbol
 		(lib_id "IMPISH Toggles Library:BSP742T")
-		(at 123.19 60.96 0)
+		(at 41.91 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3910,7 +3441,7 @@
 		(dnp no)
 		(uuid "3424c163-00e8-4268-b4ce-e09972439658")
 		(property "Reference" "U13"
-			(at 124.714 58.674 0)
+			(at 43.434 48.514 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3918,7 +3449,7 @@
 			)
 		)
 		(property "Value" "BSP742T"
-			(at 123.19 82.042 0)
+			(at 41.91 71.882 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3927,7 +3458,7 @@
 			)
 		)
 		(property "Footprint" "IMPISH Toggles Library:SOIC127P600X175-8N-21"
-			(at 131.064 87.63 0)
+			(at 49.784 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3476,7 @@
 			)
 		)
 		(property "Description" "Smart Power High-Side-Switch, VBB 41V, R(ON) 350mOhm"
-			(at 132.588 83.82 0)
+			(at 51.308 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3485,7 @@
 			)
 		)
 		(property "ManufacturerPartNumber" "BSP742T"
-			(at 123.19 82.042 0)
+			(at 41.91 71.882 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3964,7 +3495,7 @@
 			)
 		)
 		(property "PackageReference" "PG-DSO-8-24"
-			(at 123.19 92.71 0)
+			(at 41.91 82.55 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3974,7 +3505,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 123.19 95.758 0)
+			(at 41.91 85.598 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3984,7 +3515,7 @@
 			)
 		)
 		(property "PN" "BSP742TXUMA1"
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3524,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +3532,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +3540,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +3548,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +3556,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 123.19 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,74 +3597,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IMPISH Toggles Library:CHASSIS")
-		(at 107.95 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38530d04-7bd9-430b-8793-5553296fd0cb")
-		(property "Reference" "#PWR039"
-			(at 107.95 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 107.823 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_Chassis\" , global ground"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "029bc224-bedc-4e97-84c7-7186e19a8612")
-		)
-		(instances
-			(project "IMPISH PS Toggles Board"
-				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 214.63 175.26 180)
+		(at 128.27 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4141,7 +3606,7 @@
 		(dnp no)
 		(uuid "4607d477-b64b-41a9-accd-40cb5d0bc645")
 		(property "Reference" "R87"
-			(at 217.678 173.99 0)
+			(at 131.318 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +3614,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 217.424 175.768 0)
+			(at 131.064 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +3622,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +3631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,8 +3639,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 0.1% 1/5W 0805"
-			(at 214.63 175.26 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +3649,7 @@
 			)
 		)
 		(property "PN" "PAT0805E1001BST1"
-			(at 214.63 175.26 90)
+			(at 128.27 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +3658,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +3666,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +3674,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +3682,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +3690,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 214.63 175.26 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +3714,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
-		(at 179.07 189.23 0)
+		(at 92.71 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4258,7 +3723,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b200da5-7c38-461d-af0b-40ca0e6e0b20")
 		(property "Reference" "Q25"
-			(at 184.15 187.96 0)
+			(at 97.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +3732,7 @@
 			)
 		)
 		(property "Value" "MMBT3904Q"
-			(at 184.15 190.5 0)
+			(at 97.79 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +3741,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.15 191.135 0)
+			(at 97.79 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +3752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +3762,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +3771,7 @@
 			)
 		)
 		(property "PN" "MMBT3904Q-7-F"
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +3780,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +3788,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +3796,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +3804,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,11 +3812,29 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 179.07 189.23 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 92.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 92.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4374,7 +3857,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 196.85 0)
+		(at 118.11 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4383,7 +3866,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f346ed-e5dc-4978-9944-bfae05c4122e")
 		(property "Reference" "#PWR024"
-			(at 204.47 203.2 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +3875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 201.93 0)
+			(at 118.11 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +3883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 196.85 0)
+			(at 118.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +3892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 196.85 0)
+			(at 118.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +3901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 196.85 0)
+			(at 118.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +3923,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 220.98 180.34 90)
+		(at 134.62 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4448,7 +3931,7 @@
 		(dnp no)
 		(uuid "77072806-630b-4db0-bf82-419b54a9ebb0")
 		(property "Reference" "R88"
-			(at 220.218 183.134 90)
+			(at 133.858 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +3939,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 223.012 183.134 90)
+			(at 136.652 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +3947,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +3956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,8 +3964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 0.1% 1/5W 0805"
-			(at 220.98 180.34 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +3974,7 @@
 			)
 		)
 		(property "PN" "PAT0805E1001BST1"
-			(at 220.98 180.34 90)
+			(at 134.62 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +3983,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +3991,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +3999,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4007,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,7 +4015,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 220.98 180.34 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4039,7 @@
 	)
 	(symbol
 		(lib_id "IMPISH Toggles Library:ZXM61N02F")
-		(at 226.06 173.99 270)
+		(at 139.7 121.92 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4565,7 +4048,7 @@
 		(dnp no)
 		(uuid "785564f1-582a-41ed-92fe-2cc4b71709ef")
 		(property "Reference" "Q27"
-			(at 226.06 165.1 90)
+			(at 139.7 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4056,7 @@
 			)
 		)
 		(property "Value" "ZXM61N02F"
-			(at 226.06 167.64 90)
+			(at 139.7 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 224.155 168.91 0)
+			(at 137.795 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXM61N02F.pdf"
-			(at 222.25 168.91 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4085,7 @@
 			)
 		)
 		(property "Description" "1.7A Id, 20V Vds, N-Channel MOSFET, SOT-23"
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4094,7 @@
 			)
 		)
 		(property "PN" "ZXM61N02FTA"
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4103,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4111,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4119,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +4127,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4135,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 226.06 173.99 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 172.72 0)
+		(at 165.1 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4688,7 +4171,7 @@
 		(fields_autoplaced yes)
 		(uuid "7af04633-d11a-4cac-a216-4898dda9049c")
 		(property "Reference" "#PWR067"
-			(at 251.46 179.07 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 177.8 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 172.72 0)
+			(at 165.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 172.72 0)
+			(at 165.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 172.72 0)
+			(at 165.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,33 +4227,35 @@
 		)
 	)
 	(symbol
-		(lib_id "IMPISH Toggles Library:BSP452")
-		(at 125.73 154.94 0)
+		(lib_id "power:GND")
+		(at 156.21 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "92ef2f10-d64e-4514-a808-1200bf5ea5cc")
-		(property "Reference" "U14"
-			(at 128.27 151.638 0)
+		(fields_autoplaced yes)
+		(uuid "89466fa1-f972-4706-8637-2238c766a252")
+		(property "Reference" "#PWR06"
+			(at 156.21 78.74 0)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BSP452"
-			(at 125.73 168.402 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "IMPISH Toggles Library:SOT230P700X180-4N-3-V"
-			(at 134.366 172.212 0)
+		(property "Footprint" ""
+			(at 156.21 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4264,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 154.94 0)
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0157ee06-4bf6-4679-8d3d-26d89ef21398")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IMPISH Toggles Library:BSP452")
+		(at 39.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92ef2f10-d64e-4514-a808-1200bf5ea5cc")
+		(property "Reference" "U14"
+			(at 41.91 99.568 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "BSP452"
+			(at 39.37 116.332 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "IMPISH Toggles Library:SOT230P700X180-4N-3-V"
+			(at 48.006 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4338,7 @@
 			)
 		)
 		(property "Description" "Smart High-Side Power Switch, VBB 40V"
-			(at 134.112 170.18 0)
+			(at 47.752 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4347,7 @@
 			)
 		)
 		(property "ManufacturerPartNumber" "BSP452"
-			(at 125.73 176.53 0)
+			(at 39.37 124.46 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4807,7 +4357,7 @@
 			)
 		)
 		(property "PackageReference" "PG-SOT-223"
-			(at 125.73 179.324 0)
+			(at 39.37 127.254 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4817,7 +4367,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 125.73 182.118 0)
+			(at 39.37 130.048 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -4827,7 +4377,7 @@
 			)
 		)
 		(property "PN" "BSP452HUMA1"
-			(at 125.73 154.94 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4386,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 125.73 154.94 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4394,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 125.73 154.94 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4402,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 125.73 154.94 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4410,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 125.73 154.94 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4418,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 125.73 154.94 0)
+			(at 39.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4448,7 @@
 	)
 	(symbol
 		(lib_id "IMPISH Toggles Library:BCS-105-L-D-TE")
-		(at 185.42 81.28 0)
+		(at 104.14 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4906,7 +4456,7 @@
 		(dnp no)
 		(uuid "96d92e05-542c-4cc0-8dd6-541866e890e5")
 		(property "Reference" "J7"
-			(at 185.42 68.58 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +4464,7 @@
 			)
 		)
 		(property "Value" "BCS-105-L-D-TE"
-			(at 185.42 71.12 0)
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4472,7 @@
 			)
 		)
 		(property "Footprint" "IMPISH Toggles Library:SAMTEC_BCS-105-L-D-TE"
-			(at 185.42 98.552 0)
+			(at 104.14 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4491,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT 10POS 0.1 GOLD PCB"
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4500,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 185.42 102.616 0)
+			(at 104.14 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4510,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec Inc."
-			(at 185.42 100.838 0)
+			(at 104.14 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4520,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 185.42 96.52 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,8 +4529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Desc2" "Heater"
-			(at 185.42 90.424 0)
+		(property "Desc2" "Heater + DAQBOX"
+			(at 104.14 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4538,7 @@
 			)
 		)
 		(property "PN" "BCS-105-L-D-TE"
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4547,7 @@
 			)
 		)
 		(property "Function" "Toggle 5"
-			(at 185.42 82.55 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,15 +4555,16 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Output Voltage" ""
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +4572,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +4580,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +4588,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 185.42 81.28 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +4636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 88.9 0)
+		(at 91.44 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5094,7 +4645,7 @@
 		(fields_autoplaced yes)
 		(uuid "a23dca9a-2ea2-4e98-8b00-b6a2cfad1676")
 		(property "Reference" "#PWR025"
-			(at 172.72 95.25 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +4654,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 93.98 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +4662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 88.9 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +4671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 88.9 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +4680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 88.9 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +4702,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 80.01 0)
+		(at 36.83 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5160,7 +4711,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf32f4de-3529-41ca-a008-ce78f56c69aa")
 		(property "Reference" "#PWR051"
-			(at 118.11 86.36 0)
+			(at 36.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +4720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 85.09 0)
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +4728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 80.01 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +4737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 80.01 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +4746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 80.01 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,8 +4767,174 @@
 		)
 	)
 	(symbol
+		(lib_id "IMPISH Toggles Library:BSP742T")
+		(at 151.13 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e29c1511-3da4-4749-9403-c20053e661c7")
+		(property "Reference" "U1"
+			(at 149.606 51.054 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "BSP742T"
+			(at 151.13 74.422 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "IMPISH Toggles Library:SOIC127P600X175-8N-21"
+			(at 143.256 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Smart Power High-Side-Switch, VBB 41V, R(ON) 350mOhm"
+			(at 141.732 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "BSP742T"
+			(at 151.13 74.422 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PackageReference" "PG-DSO-8-24"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 151.13 88.138 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PN" "BSP742TXUMA1"
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Outputs" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Used on" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value 2" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78e8ad46-03a4-45e1-8927-677a642f3d5a")
+		)
+		(pin "7"
+			(uuid "8682ecd0-9687-498d-9651-08656b85e60a")
+		)
+		(pin "6"
+			(uuid "1abbca91-892e-4d82-8233-b4de25492e64")
+		)
+		(pin "3"
+			(uuid "833b7549-9545-4872-84f6-958eaffbe672")
+		)
+		(pin "8"
+			(uuid "8d8e0b28-a324-4bcf-91bb-fddedd251c6b")
+		)
+		(pin "1"
+			(uuid "c49865f8-cafb-4061-bb3d-d25a343f6607")
+		)
+		(pin "4"
+			(uuid "39049fc4-21fe-4e36-9a6f-ecd0420dd54c")
+		)
+		(pin "5"
+			(uuid "6e4d1648-bb33-45a7-9581-5fb4fe48c7da")
+		)
+		(instances
+			(project "IMPISH PS Toggles Board"
+				(path "/385e4cab-4577-43a4-bbbd-3e29a0bed824/5ebaf967-2b0e-4e92-afa2-b2491894fdcd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3906")
-		(at 208.28 182.88 270)
+		(at 121.92 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5226,7 +4943,7 @@
 		(dnp no)
 		(uuid "e5705f54-ebf9-4bde-ab4a-1a91b1a8ed2d")
 		(property "Reference" "Q26"
-			(at 212.344 184.912 90)
+			(at 125.984 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +4951,7 @@
 			)
 		)
 		(property "Value" "MMBT3906Q"
-			(at 216.154 186.944 90)
+			(at 129.794 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +4959,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 206.375 177.8 0)
+			(at 120.015 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +4970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +4980,7 @@
 			)
 		)
 		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +4989,7 @@
 			)
 		)
 		(property "PN" "MMBT3906Q-7-F"
-			(at 208.28 182.88 90)
+			(at 121.92 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +4998,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5006,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5014,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5022,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,11 +5030,29 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 208.28 182.88 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5340,7 +5075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 198.12 177.8 180)
+		(at 111.76 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5348,7 +5083,7 @@
 		(dnp no)
 		(uuid "e977270c-4274-4812-adbd-e64a9d56b3bf")
 		(property "Reference" "R85"
-			(at 200.914 176.276 0)
+			(at 114.554 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5091,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 200.914 178.308 0)
+			(at 114.554 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,8 +5116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2K OHM 0.1% 1/5W 0805"
-			(at 198.12 177.8 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5126,7 @@
 			)
 		)
 		(property "PN" "PAT0805E2001BST1"
-			(at 198.12 177.8 90)
+			(at 111.76 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5135,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5143,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5151,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5159,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5167,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 198.12 177.8 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5191,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 162.56 193.04 0)
+		(at 76.2 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5465,7 +5200,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdbd32d6-3e04-48fa-a905-a2bb100bd459")
 		(property "Reference" "R81"
-			(at 165.1 191.77 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5209,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 165.1 194.31 0)
+			(at 78.74 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5218,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5227,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,8 +5235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/5W 0805"
-			(at 162.56 193.04 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5245,7 @@
 			)
 		)
 		(property "PN" "PAT0805E1002BST1"
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5254,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5262,7 @@
 			)
 		)
 		(property "Output Voltage" ""
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5270,7 @@
 			)
 		)
 		(property "Outputs" ""
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5278,7 @@
 			)
 		)
 		(property "Used on" ""
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5286,7 @@
 			)
 		)
 		(property "Value 2" ""
-			(at 162.56 193.04 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
