@@ -10475,9 +10475,9 @@
 		(at 176.53 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1e279bed-a2a8-480a-a06f-77ebaaef6996")
 		(property "Reference" "J14"
@@ -11555,9 +11555,9 @@
 		(at 194.31 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7e0fb657-d3f1-426e-a184-dff84837fd69")
 		(property "Reference" "JP8"
 			(at 201.676 62.992 0)

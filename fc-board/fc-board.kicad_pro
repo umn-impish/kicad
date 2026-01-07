@@ -138,8 +138,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.3,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.1778,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -582,8 +582,8 @@
         "track_width": 0.5
       },
       {
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1217,
+        "diff_pair_gap": 0.33,
+        "diff_pair_width": 0.1293,
         "name": "coplanar-ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 9,

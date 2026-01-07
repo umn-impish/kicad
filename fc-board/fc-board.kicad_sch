@@ -4776,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 170.18) (xy 19.05 170.18)
+			(xy 22.86 167.64) (xy 19.05 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5136,7 +5136,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 172.72) (xy 19.05 172.72)
+			(xy 22.86 165.1) (xy 19.05 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5976,7 +5976,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 104.14) (xy 228.6 104.14)
+			(xy 234.95 101.6) (xy 228.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6316,7 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 167.64) (xy 22.86 167.64)
+			(xy 19.05 170.18) (xy 22.86 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6436,7 +6436,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 165.1) (xy 22.86 165.1)
+			(xy 19.05 172.72) (xy 22.86 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6905,7 +6905,7 @@
 		(uuid "21b00567-517c-4a34-a0a3-92a899500e2a")
 	)
 	(label "X1+"
-		(at 19.05 170.18 0)
+		(at 19.05 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7165,7 +7165,7 @@
 		(uuid "566f079b-9e69-4857-92f4-f26f4e115af5")
 	)
 	(label "X1-"
-		(at 19.05 165.1 0)
+		(at 19.05 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7265,7 +7265,7 @@
 		(uuid "6841fbfa-b7aa-4cb7-a015-7c66f0cd50c4")
 	)
 	(label "3.3V"
-		(at 228.6 104.14 0)
+		(at 228.6 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7765,7 +7765,7 @@
 		(uuid "ccf98ca6-4611-44d6-a0d3-585a62940b10")
 	)
 	(label "X2-"
-		(at 19.05 167.64 0)
+		(at 19.05 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7845,7 +7845,7 @@
 		(uuid "d739c644-7f13-4abb-8478-8a7436bf8f69")
 	)
 	(label "X2+"
-		(at 19.05 172.72 0)
+		(at 19.05 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8750,7 +8750,7 @@
 		(at 273.05 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "1b2644fa-5052-4506-915a-ee07826775ba")
@@ -10090,9 +10090,9 @@
 		(at 77.47 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "524720de-dbf2-4aa0-ac66-a40bc97944d4")
 		(property "Reference" "J7"
@@ -11056,7 +11056,7 @@
 		(at 273.05 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "635dca0f-f2f0-47ee-9f92-388e166df13a")
@@ -13627,9 +13627,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c3af5245-baba-49ad-af00-952ec2bb173f")
 		(property "Reference" "J9"
 			(at 74.168 108.204 0)
@@ -13840,7 +13840,7 @@
 		(at 261.62 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -16073,7 +16073,7 @@
 			)
 		)
 		(pin "3.3V" input
-			(at 234.95 104.14 180)
+			(at 234.95 101.6 180)
 			(uuid "a9fd0d7c-1294-4320-8aa3-0b1a154d0e64")
 			(effects
 				(font
