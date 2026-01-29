@@ -828,7 +828,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain"
+			(property "Description" "74LVC1G07SE-7"
 				(at 0 18.288 0)
 				(effects
 					(font
@@ -1021,7 +1021,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Telecom Transformer 1:1 1.2Ohm Prim. DCR 1.2Ohm Sec. DCR 12 Terminal Gull Wing SMD Automotive"
+			(property "Description" "SM91509AL-E"
 				(at 0 14.986 0)
 				(effects
 					(font
@@ -6101,6 +6101,17 @@
 		)
 		(uuid "dce30d12-40f1-4860-a2a5-4fc0cb3db00c")
 	)
+	(text "Marked as DNP for AdvancedPCB"
+		(exclude_from_sim no)
+		(at 233.426 55.118 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "fa2209a8-a2c2-42de-a8af-5cca59b36414")
+	)
 	(junction
 		(at 105.41 123.19)
 		(diameter 0)
@@ -9322,6 +9333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1427beee-3bac-4761-90c7-1d211b9ad51c")
 		)
@@ -9598,6 +9618,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddae1b3e-054f-46fb-b0aa-0c5b2dde24b6")
 		)
@@ -9802,6 +9831,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 252.73 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 252.73 74.93 90)
 			(effects
 				(font
@@ -10154,6 +10192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0b75c92-5db7-4d18-b2c9-a3cce811bfb0")
 		)
@@ -10216,6 +10263,15 @@
 			)
 		)
 		(property "Description" "ERA-8AEB750V"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 232.41 48.26 0)
 			(effects
 				(font
@@ -10303,6 +10359,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 243.84 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04898a9b-2df5-4d08-a796-5ec515edfe12")
 		)
@@ -10366,6 +10431,15 @@
 		)
 		(property "Description" "SD card card"
 			(at 176.53 0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,6 +10611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcf77fd0-d484-429f-8404-603836273b25")
 		)
@@ -10665,6 +10748,15 @@
 			)
 		)
 		(property "Description" "ERA-8AEB750V"
+			(at 229.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 229.87 48.26 0)
 			(effects
 				(font
@@ -10885,6 +10977,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 231.14 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bdc712e8-93ac-4795-8704-9e3b9ac94c48")
 		)
@@ -10945,152 +11046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain"
+		(property "Description" "74LVC1G07SE-7"
 			(at 234.95 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 234.95 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 234.95 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,6 +11407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 194.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "6d6e52b6-1e86-4c0c-830c-7a9a37a8dd31")
 		)
@@ -11538,6 +11504,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 269.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5585b36b-ea96-41ea-b544-5f95d4f3c066")
 		)
@@ -11561,7 +11536,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8c46d591-74b2-4122-b694-c0f7a1d7c658")
 		(property "Reference" "C3"
 			(at 227.33 54.6162 0)
@@ -11600,6 +11575,15 @@
 			)
 		)
 		(property "Description" "C1206C101J5GACAUTO"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 229.87 55.88 0)
 			(effects
 				(font
@@ -11669,6 +11653,15 @@
 			)
 		)
 		(property "Description" "C1206C103J3RACAUTO"
+			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -11889,6 +11882,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 252.73 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "14a61e05-0f33-43f5-ab09-456a66e60ed9")
 		)
@@ -11962,6 +11964,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field5" ""
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "70"
@@ -12769,6 +12780,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 31.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "372311ce-37de-47db-94c2-dcc548482eaf")
 		)
@@ -12829,6 +12849,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 189.23 107.95 0)
 			(effects
 				(font
@@ -12962,6 +12991,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 189.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 189.23 111.76 0)
 			(effects
 				(font
@@ -13181,6 +13219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "536bede5-1de3-4ab6-8dac-8fc56078d9b1")
 		)
@@ -13249,6 +13296,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 265.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 265.43 74.93 0)
 			(effects
 				(font
@@ -13537,6 +13593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28e1643c-3781-46a5-bc0d-09fa85fda49e")
 		)
@@ -13598,7 +13663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Telecom Transformer 1:1 1.2Ohm Prim. DCR 1.2Ohm Sec. DCR 12 Terminal Gull Wing SMD Automotive"
+		(property "Description" "SM91509AL-E"
 			(at 248.92 19.304 0)
 			(effects
 				(font
@@ -13823,6 +13888,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 243.84 139.7 0)
 			(effects
 				(font

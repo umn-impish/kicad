@@ -2380,8 +2380,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
+				(at 0 14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2389,8 +2389,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "10103594-0001LF"
+				(at 0 28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2605,8 +2605,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "74981104402"
+				(at 0 26.416 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8294,6 +8294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 13.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab2f0bbb-3c38-4e55-83d8-1749edf6abfc")
 		)
@@ -8354,6 +8363,15 @@
 		)
 		(property "Description" "test point"
 			(at 175.26 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,6 +8663,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 273.05 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 273.05 59.69 90)
 			(effects
 				(font
@@ -9494,6 +9521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 76.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9523f9f9-775b-4769-ade7-1d337400f863")
 		)
@@ -9698,6 +9734,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 77.47 134.62 0)
 			(effects
 				(font
@@ -10089,6 +10134,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1fa5335-e6b0-459e-b977-d7a5087f0907")
 		)
@@ -10145,151 +10199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 40.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "MTSW-104-13-L-D-1060"
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -10527,6 +10437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 273.05 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5173528-9306-49e3-9cb9-5d334fa0f54e")
 		)
@@ -10590,6 +10509,15 @@
 		)
 		(property "Description" "test point"
 			(at 110.49 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,6 +10591,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc4cf2fe-67de-43c1-bdf1-24a69450d143")
 		)
@@ -10720,61 +10657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 250.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "74981104402"
 			(at 250.19 57.15 0)
 			(effects
 				(font
@@ -11042,6 +10925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 118.11 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecc688af-83a2-4d6a-bc77-a5f1e9b3b194")
 		)
@@ -11218,6 +11110,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 256.54 140.97 0)
 			(effects
 				(font
@@ -11440,6 +11341,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 22.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a1e07d3-31f5-4dda-a5b3-907af8ad9373")
 		)
@@ -11568,6 +11478,15 @@
 			)
 		)
 		(property "Description" "ERA-8AEB302V"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -11791,6 +11710,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 13.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbf77f78-a12c-4e02-8f61-a505aefca62c")
 		)
@@ -11913,7 +11841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "MTSW-110-13-L-D-1060"
 			(at 139.7 166.37 0)
 			(effects
 				(font
@@ -12028,7 +11956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
 			(at 78.74 170.18 0)
 			(effects
 				(font
@@ -12037,7 +11965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10103594-0001LF"
 			(at 78.74 170.18 0)
 			(effects
 				(font
@@ -12313,6 +12241,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 36.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19850e5f-55ca-4427-b56e-f6238481f86d")
 		)
@@ -12516,6 +12453,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -12738,6 +12684,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 261.62 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d756ac67-66c4-4627-a5b5-de759e520331")
 		)
@@ -12804,6 +12759,15 @@
 		)
 		(property "Description" "test point"
 			(at 171.196 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 161.29 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,6 +12842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 161.29 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1304387-9e3b-477e-b6db-99639c79146f")
 		)
@@ -12936,6 +12909,15 @@
 			)
 		)
 		(property "Description" "ERA-8AEB302V"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -13080,6 +13062,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 179.07 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a563f31d-2c75-4795-b94f-2662df44d326")
 		)
@@ -13136,7 +13127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MMCX"
+		(property "Description" "734151471"
 			(at 193.04 48.26 0)
 			(effects
 				(font
@@ -13289,6 +13280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 193.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a0063c1-08e7-4df5-b076-b1c602bc0ea8")
 		)
@@ -13351,6 +13351,15 @@
 		)
 		(property "Description" "test point"
 			(at 108.204 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 118.11 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)

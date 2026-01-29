@@ -6096,6 +6096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 116.84 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44b8623f-c84e-4a4d-bcae-d4fed5a699ad")
 		)
@@ -6170,6 +6179,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field5" ""
+			(at -59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "124"

@@ -496,8 +496,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads122c04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1767927434528&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fads122c04"
+				(at 0 34.29 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -505,7 +505,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "ADS122C04IPWR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1350,7 +1350,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "DS3231M+TRL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1717,7 +1717,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX11612-MAX11617.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1726,7 +1726,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "MAX11617EEE+"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2141,7 +2141,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "PCT2075TP_147"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCT2075.pdf"
 				(at 16.256 15.748 0)
 				(effects
 					(font
@@ -2151,7 +2151,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "PCT2075TP_147"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2390,7 +2390,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "TLV9004QPWRQ1"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1767997311517"
 				(at 18.034 15.24 0)
 				(effects
 					(font
@@ -2400,7 +2400,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "TLV9004QPWRQ1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6536,6 +6536,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 45.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a2d0160-ca60-43af-9758-32e480a4deae")
 		)
@@ -6810,6 +6819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 29.21 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dd3867a-1890-47ac-bd4f-46b1ce7c662c")
 		)
@@ -7015,6 +7033,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -7300,6 +7327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 264.16 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38d785dc-a3ba-4b0a-bccf-456de2f3b476")
 		)
@@ -7513,6 +7549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca2a2aa-f723-4ee3-ab9f-8a71d6b91a01")
 		)
@@ -7575,6 +7620,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 199.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 199.39 25.4 0)
 			(effects
 				(font
@@ -7798,6 +7852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dcdfbf8-8249-4a7e-af41-d1799bb40d13")
 		)
@@ -7955,6 +8018,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 111.76 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 111.76 179.07 90)
 			(effects
 				(font
@@ -8308,6 +8380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fed235f7-804c-4391-b402-196f40063541")
 		)
@@ -8521,6 +8602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86d09a3d-7400-4a1b-a99e-3e48323dcdb3")
 		)
@@ -8583,6 +8673,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 234.95 25.4 0)
 			(effects
 				(font
@@ -8660,6 +8759,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63ecc2a7-ccb3-414c-87f9-338cc9eba50a")
 		)
@@ -8720,151 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "PCT2075TP_147"
 			(at 34.29 120.65 0)
 			(effects
 				(font
@@ -9105,6 +9069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 228.6 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e276929-cc20-412c-8210-682003c4394f")
 		)
@@ -9155,7 +9128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads122c04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1767927434528&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fads122c04"
 			(at 217.17 118.11 0)
 			(effects
 				(font
@@ -9164,151 +9137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 217.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "ADS122C04IPWR"
 			(at 217.17 118.11 0)
 			(effects
 				(font
@@ -9487,6 +9316,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 269.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 269.24 25.4 0)
 			(effects
 				(font
@@ -9764,6 +9602,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 262.89 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 262.89 30.48 90)
 			(effects
 				(font
@@ -10184,6 +10031,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 105.41 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1a99902-b4b9-44bd-b675-339077e10ad3")
 		)
@@ -10387,6 +10243,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 193.04 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 193.04 30.48 90)
 			(effects
 				(font
@@ -10606,6 +10471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 39.37 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d7ea9fc-04ce-4579-9e12-87b9bb184dc7")
 		)
@@ -10811,6 +10685,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 259.08 91.44 0)
 			(effects
 				(font
@@ -11034,6 +10917,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f115b976-0264-458a-a5ea-49b782271e61")
 		)
@@ -11239,6 +11131,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 259.08 101.6 0)
 			(effects
 				(font
@@ -11461,6 +11362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00288b9c-32ef-414b-a0cb-bb7b7aba40c0")
 		)
@@ -11673,6 +11583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 161.29 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76b3496a-71d5-4e88-ac97-133865aca7a6")
 		)
@@ -11735,6 +11654,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 234.95 53.34 0)
 			(effects
 				(font
@@ -11949,6 +11877,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 78.74 54.61 0)
 			(effects
 				(font
@@ -12238,6 +12175,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cab3bfd7-4b4d-4fe4-88ce-61e273efcd3b")
 		)
@@ -12443,6 +12389,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 240.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -12657,6 +12612,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 30.48 166.37 0)
 			(effects
 				(font
@@ -12947,6 +12911,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7422bc51-81c8-4c7f-ab22-2145eabdc6b3")
 		)
@@ -13078,6 +13051,15 @@
 		)
 		(property "Description" "test point"
 			(at 34.29 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 34.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13285,6 +13267,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 97.79 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 97.79 55.88 90)
 			(effects
 				(font
@@ -13506,6 +13497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 196.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b75eb575-af9c-4d08-8ed7-174819e5e76a")
 		)
@@ -13717,6 +13717,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 105.41 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "009cd742-a4ff-4182-b144-0276ad23dce7")
 		)
@@ -13768,7 +13777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1758878813522"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1767997311517"
 			(at 129.794 27.94 0)
 			(effects
 				(font
@@ -13778,151 +13787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "TLV9004QPWRQ1"
 			(at 111.76 43.18 0)
 			(effects
 				(font
@@ -14180,6 +14045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 189.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dd21153-542e-4b75-b1b1-f389fcbdd790")
 		)
@@ -14244,6 +14118,15 @@
 		)
 		(property "Description" "test point"
 			(at 30.48 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14791,6 +14674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 193.04 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c109b8b-03ee-4ab7-b65c-1254c0cc14cf")
 		)
@@ -14919,151 +14811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "DS3231M+TRL"
 			(at 49.53 167.64 0)
 			(effects
 				(font
@@ -15251,6 +14999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a33c0c6-d39b-497b-baa8-0f57d78459b2")
 		)
@@ -15378,7 +15135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MAX11617EEE+"
 			(at 46.99 48.26 0)
 			(effects
 				(font
@@ -15454,150 +15211,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -15856,6 +15469,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b55d387e-fc86-4171-add6-1201797ab40c")
 		)
@@ -16060,6 +15682,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 39.37 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 39.37 167.64 90)
 			(effects
 				(font
@@ -16481,6 +16112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 232.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38537485-1603-418d-a883-f82607b7c906")
 		)
@@ -16543,6 +16183,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 189.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 189.23 96.52 0)
 			(effects
 				(font
@@ -16762,6 +16411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 228.6 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ab55bfe-797b-4642-94fb-9916f4b3f815")
 		)
@@ -16824,6 +16482,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 270.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 270.51 53.34 0)
 			(effects
 				(font
@@ -16902,6 +16569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10bedc7b-22e8-46be-ba72-fb9369f66608")
 		)
@@ -16964,6 +16640,15 @@
 			)
 		)
 		(property "Description" "BAS7002VH6327XTSA1"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 199.39 53.34 0)
 			(effects
 				(font
@@ -17184,6 +16869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 97.79 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "349fe3ec-9ab6-4906-aa06-99a410f972c5")
 		)
@@ -17388,6 +17082,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 153.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 153.67 58.42 90)
 			(effects
 				(font
@@ -17610,6 +17313,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 106.68 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a0b7801-db51-44eb-a7e8-6ec36b1d1c2d")
 		)
@@ -17672,6 +17384,15 @@
 		)
 		(property "Description" "test point"
 			(at 34.29 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 34.29 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

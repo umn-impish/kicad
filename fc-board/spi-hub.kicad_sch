@@ -496,8 +496,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://suddendocs.samtec.com/prints/bcs-1xx-xxx-x-xx-xxx-mkt.pdf"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -505,8 +505,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "BCS-110-L-D-TE"
+				(at 0 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -954,7 +954,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "LTC2983ILX-PBF"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/2983fc.pdf"
 				(at 20.32 20.066 0)
 				(effects
 					(font
@@ -964,7 +964,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "LTC2983ILX-PBF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4231,7 +4231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LTC2983ILX-PBF"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/2983fc.pdf"
 			(at 64.77 9.144 0)
 			(effects
 				(font
@@ -4241,151 +4241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
+		(property "Description" "LTC2983ILX-PBF"
 			(at 44.45 29.21 0)
 			(effects
 				(font
@@ -4744,6 +4600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 26.67 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1799da79-a0bd-4f1a-9e7d-fc6a37c688c7")
 		)
@@ -4956,6 +4821,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 110.49 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fa7f27d-3c65-4f60-88fd-b6f5e9cbead2")
 		)
@@ -5160,6 +5034,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 160.02 137.16 0)
 			(effects
 				(font
@@ -5447,6 +5330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 133.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ddfe383-5005-42bf-944e-4ae3d195e882")
 		)
@@ -5653,6 +5545,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -5874,6 +5775,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd9db451-1fa8-4777-9239-bb5dd87a067f")
 		)
@@ -6078,6 +5988,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -6299,6 +6218,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a595e0a8-acbd-4f3b-b25f-5df7b57f9916")
 		)
@@ -6360,6 +6288,15 @@
 			)
 		)
 		(property "Description" "PTS0805M1B500RP100"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -6580,6 +6517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a08d041-9b20-425d-aefa-2ba9240a2566")
 		)
@@ -6784,6 +6730,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -7069,6 +7024,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8481ac2-3cf5-4dcf-b55b-acdf3407b89b")
 		)
@@ -7275,6 +7239,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -7497,6 +7470,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f42400c-55ac-40d2-856d-f61e36d087ba")
 		)
@@ -7548,7 +7530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/bcs-1xx-xxx-x-xx-xxx-mkt.pdf"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -7557,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BCS-110-L-D-TE"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -7593,150 +7575,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GERDER" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RATED-CURRENT" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "WORKING-VOLTAGE" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8072,6 +7910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76e8d1f0-09da-47d6-aa30-99ca13e95988")
 		)
@@ -8276,6 +8123,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -8562,6 +8418,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 110.49 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39999338-51d4-44c7-834e-676d0b9f4fa8")
 		)
@@ -8832,6 +8697,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 26.67 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 26.67 54.61 90)
 			(effects
 				(font
@@ -9452,6 +9326,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 91.44 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81bcc99e-1962-4322-ace5-d2544512b63a")
 		)
@@ -9655,6 +9538,15 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 125.73 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
 			(at 125.73 64.77 90)
 			(effects
 				(font

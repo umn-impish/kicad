@@ -37,8 +37,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
+			(at 0 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,8 +46,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "10103594-0001LF"
+			(at 0 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,8 +779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "74981104402"
+			(at 0 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain"
+		(property "Description" "74LVC1G07SE-7"
 			(at 0 18.288 0)
 			(effects
 				(font
@@ -1493,8 +1493,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads122c04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1767927434528&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fads122c04"
+			(at 0 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADS122C04IPWR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2156,8 +2156,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/bcs-1xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 0 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,8 +2165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "BCS-110-L-D-TE"
+			(at 0 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DS3231M+TRL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3182,8 +3182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "DSC1001CI2-025.0000T"
+			(at 0 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,8 +3330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "LAN7430T-I/Y9X"
+			(at 0 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LTC2983ILX-PBF"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/2983fc.pdf"
 			(at 20.32 20.066 0)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LTC2983ILX-PBF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5838,7 +5838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX11612-MAX11617.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5847,7 +5847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MAX11617EEE+"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6702,7 +6702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PCT2075TP_147"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCT2075.pdf"
 			(at 16.256 15.748 0)
 			(effects
 				(font
@@ -6712,7 +6712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PCT2075TP_147"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7442,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Telecom Transformer 1:1 1.2Ohm Prim. DCR 1.2Ohm Sec. DCR 12 Terminal Gull Wing SMD Automotive"
+		(property "Description" "SM91509AL-E"
 			(at 0 14.986 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TLV9004QPWRQ1"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1767997311517"
 			(at 18.034 15.24 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TLV9004QPWRQ1"
 			(at 0 0 0)
 			(effects
 				(font
