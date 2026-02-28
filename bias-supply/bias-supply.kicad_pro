@@ -60,15 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|42500000|48156451|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
+          "unconnected_items|42500000|48156451|F.Cu|4|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
           "Optional jumpers allow connection"
         ],
         [
-          "unconnected_items|42500000|55748999|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
+          "unconnected_items|42500000|55748999|F.Cu|4|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
           "Optional jumpers allow connection"
         ],
         [
-          "unconnected_items|84400259|45000000|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
+          "unconnected_items|84400259|45000000|F.Cu|4|863a31be-6efe-4338-b8fb-a3673df40254|863a31be-6efe-4338-b8fb-a3673df40254",
           "Optional jumpers allow connection"
         ]
       ],
@@ -471,6 +471,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
