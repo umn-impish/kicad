@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power amp")
-		(date "2025-06-12")
-		(rev "2.0")
+		(date "2026-03-05")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -701,8 +701,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ON SEMICONDUCTOR - TCA0372BDWR2G - OP-AMP, DUAL, 1.4MHZ, 1.4V/US, WSOIC-16"
-				(at 0 0 0)
+			(property "Description" "TCA0372BDWR2G"
+				(at 20.574 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC1206FR-07100KL"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -1874,7 +1874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ON SEMICONDUCTOR - TCA0372BDWR2G - OP-AMP, DUAL, 1.4MHZ, 1.4V/US, WSOIC-16"
+		(property "Description" "TCA0372BDWR2G"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -2031,9 +2031,9 @@
 		(at 102.87 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2d7c3a2e-095a-4ece-b34f-b1cfcf1e9fef")
 		(property "Reference" "RV1"
 			(at 95.25 69.596 0)
@@ -2301,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C2A104GA01-01A.pdf"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GRM3195C2A104GA01D"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C2A104GA01-01A.pdf"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GRM3195C2A104GA01D"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -2640,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC1206FR-0710KL"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -2714,7 +2714,7 @@
 		(at 99.06 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2850,7 +2850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -2859,7 +2859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "ERA-8AEB3832V"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C2A104GA01-01A.pdf"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GRM3195C2A104GA01D"
 			(at 129.54 64.77 0)
 			(effects
 				(font

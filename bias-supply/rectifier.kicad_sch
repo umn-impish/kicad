@@ -5,8 +5,8 @@
 	(uuid "9d50a3fe-27a1-4255-abe5-020103579a1a")
 	(paper "A4")
 	(title_block
-		(date "2025-06-12")
-		(rev "2.0")
+		(date "2026-03-05")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -781,8 +781,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Audio Transformers / Signal Transformers XFMR 500CT/16CT"
-				(at 0 0 0)
+			(property "Description" "42TM026-RC"
+				(at 28.702 23.622 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1284,7 +1284,7 @@
 				)
 			)
 			(property "Footprint" "bias-supply:KMB22S"
-				(at 0 0 0)
+				(at 12.192 23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1294,7 +1294,7 @@
 				)
 			)
 			(property "Datasheet" "https://senocn.com/data/PDF/KMB22S-KMB225S.PDF"
-				(at 0 0 0)
+				(at 12.954 21.336 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1303,7 +1303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "KMB22S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2556,7 +2556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-pcm.pdf"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -2565,7 +2565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "PCM1K680MCL1GS"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -2631,9 +2631,9 @@
 		(at 167.64 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0e9ee933-eb02-494c-ad4a-47febd40386f")
 		(property "Reference" "R18"
 			(at 167.64 104.14 90)
@@ -2833,7 +2833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-pcm.pdf"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -2842,7 +2842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "PCM1K680MCL1GS"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -2908,9 +2908,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3c3a4136-a57e-4b0a-9930-fc68780ef2e6")
 		(property "Reference" "D1"
 			(at 179.07 105.41 0)
@@ -3011,7 +3011,7 @@
 		(at 127 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4071a380-0e73-47a2-9741-1a2d9a0d20d4")
@@ -3219,7 +3219,7 @@
 		(at 222.25 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3471,7 +3471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Transformers / Signal Transformers XFMR 500CT/16CT"
+		(property "Description" "42TM026-RC"
 			(at 70.485 88.265 0)
 			(effects
 				(font
@@ -3635,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-pcm.pdf"
 			(at 215.9 73.66 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "PCM1K680MCL1GS"
 			(at 215.9 73.66 0)
 			(effects
 				(font
@@ -4117,7 +4117,7 @@
 		(at 120.65 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4222,9 +4222,9 @@
 		(at 181.61 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c87e71a8-d259-456b-8704-54c54170426d")
 		(property "Reference" "R19"
 			(at 181.61 92.71 90)
@@ -4251,7 +4251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 181.61 87.63 0)
 			(effects
 				(font
@@ -4260,7 +4260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC1206FR-07100KL"
 			(at 181.61 87.63 0)
 			(effects
 				(font
@@ -4325,9 +4325,9 @@
 		(at 171.45 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c905d2de-625d-4ae5-8102-fde44142e649")
 		(property "Reference" "Q1"
@@ -4465,7 +4465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-pcm.pdf"
 			(at 205.74 73.66 0)
 			(effects
 				(font
@@ -4474,7 +4474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "PCM1K680MCL1GS"
 			(at 205.74 73.66 0)
 			(effects
 				(font
@@ -4539,7 +4539,7 @@
 		(at 120.65 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4749,7 +4749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KMB22S"
 			(at 129.54 87.63 0)
 			(effects
 				(font
