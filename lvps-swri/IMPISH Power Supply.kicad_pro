@@ -512,7 +512,9 @@
     "pinned_footprint_libs": [
       "IMPISH Library"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "IMPISH Library"
+    ]
   },
   "meta": {
     "filename": "IMPISH Power Supply.kicad_pro",
@@ -628,19 +630,19 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
+          "label": "Quantity",
           "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Value",
+          "label": "Designation",
           "name": "Value",
           "show": true
         },
@@ -648,19 +650,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -736,9 +738,21 @@
         },
         {
           "group_by": false,
-          "label": "#",
+          "label": "Id",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -797,7 +811,7 @@
         "uuid": "385e4cab-4577-43a4-bbbd-3e29a0bed824"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C6",
     "variants": []
   },
   "sheets": [
