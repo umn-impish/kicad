@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|47319800|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|a1db9b77-d188-4061-84a0-b8ec1f44af69",
-          ""
-        ],
-        [
-          "silk_edge_clearance|60680200|15000000|135291c5-3c6f-4bcd-8b42-0c2d55e09f0d|25787f7f-197d-484b-8324-98ec19dfdfbf",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -133,23 +124,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.0762,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.508,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.2,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_through_hole_diameter": 0.1524,
+        "min_track_width": 0.0762,
+        "min_via_annular_width": 0.0889,
+        "min_via_diameter": 0.1778,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -198,7 +189,7 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4064
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,8 +223,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
-          "drill": 0.15
+          "diameter": 0.3048,
+          "drill": 0.1524
         }
       ],
       "zones_allow_external_fillets": false
@@ -254,7 +245,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|444500|1308100|b7a229a8-d443-41c7-ad2c-58146aacc1e6|b7993446-7a60-486f-bbbc-1de1f3989c6f|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2",
+        ""
+      ],
+      [
+        "pin_to_pin|444500|1358900|b82f1074-f457-41d1-9c8d-f82c9a2d4bbf|b8475e3a-b57e-40d4-bd6d-423aa8349c91|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2|/14bbabed-904f-4efc-8ba4-be00e59385c4/21f70e3e-098f-47c8-b8cd-a351aace6ca2",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -494,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.0762,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,8 +506,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3556,
+        "via_drill": 0.1524,
         "wire_width": 6
       },
       {
@@ -517,11 +517,11 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.4,
-        "via_drill": 0.2
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032
       },
       {
-        "clearance": 0.1,
+        "clearance": 0.0889,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.15,
         "name": "I2C",
@@ -529,8 +529,8 @@
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.3,
-        "via_drill": 0.15
+        "via_diameter": 0.3429,
+        "via_drill": 0.1524
       },
       {
         "clearance": 0.1,
@@ -539,18 +539,18 @@
         "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.45,
-        "via_drill": 0.25
+        "via_diameter": 0.4572,
+        "via_drill": 0.254
       },
       {
-        "clearance": 0.1,
+        "clearance": 0.0889,
         "name": "SDIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.3,
-        "via_drill": 0.15
+        "track_width": 0.1397,
+        "via_diameter": 0.3556,
+        "via_drill": 0.1524
       },
       {
         "clearance": 0.1,
@@ -559,8 +559,8 @@
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048
       },
       {
         "clearance": 0.1,
@@ -570,8 +570,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "via_diameter": 0.3,
-        "via_drill": 0.15
+        "via_diameter": 0.3429,
+        "via_drill": 0.1524
       },
       {
         "clearance": 0.1,
@@ -582,14 +582,14 @@
         "track_width": 0.5
       },
       {
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1217,
+        "diff_pair_gap": 0.33,
+        "diff_pair_width": 0.1293,
         "name": "coplanar-ethernet",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "via_diameter": 0.3,
-        "via_drill": 0.15
+        "via_diameter": 0.3429,
+        "via_drill": 0.1524
       },
       {
         "diff_pair_gap": 0.2032,
@@ -598,8 +598,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "via_diameter": 0.3,
-        "via_drill": 0.15
+        "via_diameter": 0.3429,
+        "via_drill": 0.1524
       },
       {
         "diff_pair_gap": 0.2032,
@@ -608,8 +608,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "via_diameter": 0.3,
-        "via_drill": 0.15
+        "via_diameter": 0.3429,
+        "via_drill": 0.1524
       }
     ],
     "meta": {
@@ -709,6 +709,14 @@
       {
         "netclass": "USB",
         "pattern": "*USB_*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SDA0"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SCL0"
       }
     ]
   },
@@ -718,7 +726,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "flight-computer-board-hifi.step",
       "svg": "",
@@ -728,7 +736,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "fc-bom-new.csv",
+    "bom_export_filename": "fc-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -741,7 +749,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -750,7 +758,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -774,10 +782,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -951,7 +959,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -976,10 +984,40 @@
           "label": "VERIFIER",
           "name": "VERIFIER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
