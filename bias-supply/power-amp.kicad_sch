@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power amp")
-		(date "2025-06-12")
-		(rev "2.0")
+		(date "2026-03-05")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -701,8 +701,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ON SEMICONDUCTOR - TCA0372BDWR2G - OP-AMP, DUAL, 1.4MHZ, 1.4V/US, WSOIC-16"
-				(at 0 0 0)
+			(property "Description" "TCA0372BDWR2G"
+				(at 20.574 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04fe9970-a2a9-4ef1-940a-aadac6027adb")
-		(property "Reference" "R9"
+		(property "Reference" "R16"
 			(at 113.03 74.9299 0)
 			(effects
 				(font
@@ -1693,7 +1693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC1206FR-07100KL"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -1756,7 +1756,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "R9")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1771,7 +1771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f87d549-c412-4d29-8575-a2ed3723109f")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -1822,7 +1822,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1874,7 +1874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ON SEMICONDUCTOR - TCA0372BDWR2G - OP-AMP, DUAL, 1.4MHZ, 1.4V/US, WSOIC-16"
+		(property "Description" "TCA0372BDWR2G"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -2031,9 +2031,9 @@
 		(at 102.87 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2d7c3a2e-095a-4ece-b34f-b1cfcf1e9fef")
 		(property "Reference" "RV1"
 			(at 95.25 69.596 0)
@@ -2143,7 +2143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b7edf2f-0774-4d8b-9990-e70bd5b079a3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 120.65 64.77 0)
 			(effects
 				(font
@@ -2194,7 +2194,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2276,7 +2276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "596d5e94-385e-437b-98ef-07cc2af7b0d6")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 128.27 50.8 90)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C2A104GA01-01A.pdf"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GRM3195C2A104GA01D"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -2364,7 +2364,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2380,7 +2380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c56e29-f040-4563-99a2-1fa2b5a8c184")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 182.88 69.85 90)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C2A104GA01-01A.pdf"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GRM3195C2A104GA01D"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afbd18c9-2905-48fd-af0d-d89f33eb26d4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR016"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "#PWR028")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c9f746-2691-494a-8e3b-ec54edcb3aad")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 115.57 85.09 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba0b866a-d0cd-4fc8-ab41-16f1856bc1df")
-		(property "Reference" "R7"
+		(property "Reference" "R17"
 			(at 132.08 78.74 90)
 			(effects
 				(font
@@ -2640,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RC1206FR-0710KL"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -2703,7 +2703,7 @@
 		(instances
 			(project ""
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "R7")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2714,7 +2714,7 @@
 		(at 99.06 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2823,7 +2823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfc24433-6920-41a2-b700-0d282ce1cf74")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 113.03 63.4999 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -2859,7 +2859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "ERA-8AEB3832V"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 		(instances
 			(project ""
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2928,7 +2928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4732400-452b-48de-95d7-ec3aab5afe7e")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 129.54 69.85 90)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C2A104GA01-01A.pdf"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GRM3195C2A104GA01D"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -3016,7 +3016,7 @@
 		(instances
 			(project "bias-supply"
 				(path "/f3205b63-fc57-4ea3-95d4-2a447f249c30/8e2238c6-8ba6-47bd-8ae1-ac4c58bee3fb"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
